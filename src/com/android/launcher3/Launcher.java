@@ -170,7 +170,7 @@ import com.android.launcher3.popup.ArrowPopup;
 import com.android.launcher3.popup.PopupContainerWithArrow;
 import com.android.launcher3.popup.PopupDataProvider;
 import com.android.launcher3.popup.SystemShortcut;
-import com.android.launcher3.qsb.QsbContainerView;
+import com.android.launcher3.quickspace.QuickSpaceView;
 import com.android.launcher3.statemanager.StateManager;
 import com.android.launcher3.statemanager.StateManager.StateHandler;
 import com.android.launcher3.statemanager.StatefulActivity;
@@ -383,6 +383,8 @@ public class Launcher extends StatefulActivity<LauncherState>
     private boolean mTouchInProgress;
 
     private SafeCloseable mUserChangedCallbackCloseable;
+    // QuickSpace
+    private QuickSpaceView mQuickSpace;
 
     // New InstanceId is assigned to mAllAppsSessionLogId for each AllApps sessions.
     // When Launcher is not in AllApps state mAllAppsSessionLogId will be null.
@@ -516,6 +518,7 @@ public class Launcher extends StatefulActivity<LauncherState>
         // For handling default keys
         setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
 
+        mQuickSpace = findViewById(R.id.reserved_container_workspace);
         setContentView(getRootView());
         if (mOnInitialBindListener != null) {
             getRootView().getViewTreeObserver().addOnPreDrawListener(mOnInitialBindListener);
@@ -1180,6 +1183,10 @@ public class Launcher extends StatefulActivity<LauncherState>
         Object traceToken = TraceHelper.INSTANCE.beginSection(ON_RESUME_EVT,
                 TraceHelper.FLAG_UI_EVENT);
         super.onResume();
+
+        if (mQuickSpace != null) {
+            mQuickSpace.onResume();
+        }
 
         if (mDeferOverlayCallbacks) {
             scheduleDeferredCheck();
@@ -2283,11 +2290,11 @@ public class Launcher extends StatefulActivity<LauncherState>
     @Override
     public void bindScreens(IntArray orderedScreenIds) {
         int firstScreenPosition = 0;
-        if (FeatureFlags.QSB_ON_FIRST_SCREEN &&
+        if (Utilities.showQuickspace(this) &&
                 orderedScreenIds.indexOf(Workspace.FIRST_SCREEN_ID) != firstScreenPosition) {
             orderedScreenIds.removeValue(Workspace.FIRST_SCREEN_ID);
             orderedScreenIds.add(firstScreenPosition, Workspace.FIRST_SCREEN_ID);
-        } else if (!FeatureFlags.QSB_ON_FIRST_SCREEN && orderedScreenIds.isEmpty()) {
+        } else if (!Utilities.showQuickspace(this) && orderedScreenIds.isEmpty()) {
             // If there are no screens, we need to have an empty screen
             mWorkspace.addExtraEmptyScreens();
         }
@@ -2311,7 +2318,7 @@ public class Launcher extends StatefulActivity<LauncherState>
         int count = orderedScreenIds.size();
         for (int i = 0; i < count; i++) {
             int screenId = orderedScreenIds.get(i);
-            if (FeatureFlags.QSB_ON_FIRST_SCREEN && screenId == Workspace.FIRST_SCREEN_ID) {
+            if (Utilities.showQuickspace(this) && screenId == Workspace.FIRST_SCREEN_ID) {
                 // No need to bind the first screen, as its always bound.
                 continue;
             }
@@ -2513,14 +2520,6 @@ public class Launcher extends StatefulActivity<LauncherState>
     }
 
     private View inflateAppWidget(LauncherAppWidgetInfo item) {
-        if (item.hasOptionFlag(LauncherAppWidgetInfo.OPTION_SEARCH_WIDGET)) {
-            item.providerName = QsbContainerView.getSearchComponentName(this);
-            if (item.providerName == null) {
-                getModelWriter().deleteItemFromDatabase(item,
-                        "search widget removed because search component cannot be found");
-                return null;
-            }
-        }
         final AppWidgetHostView view;
         if (mIsSafeModeEnabled) {
             view = new PendingAppWidgetHostView(this, item, mIconCache, true);

@@ -422,4 +422,7 @@
 
     <!-- For Themed icon support -->
     <dimen name="theme_icon_size">24dp</dimen>
+
+    <!-- QuickSpace -->
+    <dimen name="quickspace_title_size">24dp</dimen>
 </resources>

@@ -95,7 +95,12 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
     }
 
     @Override
-    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) { }
+    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+        if (Utilities.DESKTOP_SHOW_QUICKSPACE.equals(key)) {
+                Utilities.restart(this);
+        }
+    }
+
 
     private boolean startPreference(String fragment, Bundle args, String key) {
         if (Utilities.ATLEAST_P && getSupportFragmentManager().isStateSaved()) {
