@@ -157,7 +157,21 @@
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
     <string name="quick_event_rom_intro_welcome">Welcome to Spark</string>
     <string name="quick_event_rom_intro_learn">Tap here to learn more</string>
+
     <!-- QuickSpace: QuickEvent: Ambient Play -->
     <string name="quick_event_ambient_now_playing">Now Playing</string>
     <string name="quick_event_ambient_song_artist">%1$s by %2$s</string>
+
+    <string-array translatable="false" name="welcome_message_variants">
+        <item>We are the Ravens</item>
+        <item>Gaming rom ftw!</item>
+        <item>Hello world! &#128072;</item>
+        <item>Its Game time &#127918;</item>
+        <item>#TeamRaven &#128154;</item>
+        <item>Positive thoughts only</item>
+        <item>See you at pochinki</item>
+        <item>Legends never die, They respawn</item>
+        <item>Winner winner chicken dinner</item>
+        <item>Do not disturb, am busy</item>
+    </string-array>
 </resources>
