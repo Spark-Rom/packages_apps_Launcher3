@@ -98,6 +98,8 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
         if (Utilities.DESKTOP_SHOW_QUICKSPACE.equals(key)) {
                 Utilities.restart(this);
+        } else if (Utilities.KEY_SHOW_QUICKSPACE_PSONALITY.equals(key)) {
+                Utilities.restart(this);
         }
     }
 
