@@ -22,4 +22,7 @@
     <!-- Application name -->
     <string name="spark_app_name" translatable="false">SparkLauncher</string>
 
+    <!-- Folder titles -->
+    <string name="google_folder_title" translatable="false">Google</string>
+
 </resources>
