@@ -70,7 +70,7 @@ public class LineageIconFactory extends BaseIconFactory {
         float scale = 1f;
 
         final boolean defaultIcons = mIconPackStore.isUsingSystemIcons();
-        if (shrinkNonAdaptiveIcons && ATLEAST_OREO && defaultIcons) {
+        if (shrinkNonAdaptiveIcons && defaultIcons) {
             if (mWrapperIcon == null) {
                 mWrapperIcon = mContext.getDrawable(com.android.launcher3.icons.R.drawable.adaptive_icon_drawable_wrapper)
                         .mutate();

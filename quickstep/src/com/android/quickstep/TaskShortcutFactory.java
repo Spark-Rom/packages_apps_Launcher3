@@ -371,18 +371,19 @@ public interface TaskShortcutFactory {
     };
 
     TaskShortcutFactory KILL_APP = (activity, taskContainer) -> {
-        String packageName = taskContainer.getItemInfo().getTargetComponent().getPackageName();
+        String packageName = taskContainer.getTaskView()
+                .getItemInfo().getTargetComponent().getPackageName();
         return new KillSystemShortcut(activity, taskContainer, packageName);
     };
 
-    class KillSystemShortcut extends SystemShortcut<BaseDraggingActivity> {
+    class KillSystemShortcut extends SystemShortcut {
         private static final String TAG = "KillSystemShortcut";
         private final TaskView mTaskView;
         private final BaseDraggingActivity mActivity;
         private final String mPackageName;
 
         public KillSystemShortcut(BaseDraggingActivity activity, TaskIdAttributeContainer taskContainer, String packageName) {
-            super(R.drawable.ic_kill_app, R.string.recent_task_force_stop_app, activity, taskContainer.getItemInfo());
+            super(R.drawable.ic_kill_app, R.string.recent_task_force_stop_app, activity, taskContainer.getItemInfo(), taskContainer.getTaskView());
             mTaskView = taskContainer.getTaskView();
             mActivity = activity;
             mPackageName = packageName;
