@@ -391,12 +391,9 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver,
 
     @UiThread
     protected void applyIconAndLabel(ItemInfoWithIcon info) {
+        if(mThemeAllAppsIcons) {
         boolean useTheme = mDisplay == DISPLAY_WORKSPACE || mDisplay == DISPLAY_FOLDER
                 || mDisplay == DISPLAY_TASKBAR || mDisplay == DISPLAY_ALL_APPS;
-        if(mThemeAllAppsIcons) {
-            boolean useTheme = mDisplay == DISPLAY_WORKSPACE || mDisplay == DISPLAY_FOLDER || mDisplay == DISPLAY_TASKBAR;
-        }
-
         int flags = useTheme ? FLAG_THEMED : 0;
         if (mHideBadge) {
             flags |= FLAG_NO_BADGE;
@@ -407,6 +404,19 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver,
                 .getColor(android.R.color.system_accent3_200, getContext().getTheme());
         setIcon(iconDrawable);
         applyLabel(info);
+        } else {
+        boolean useTheme = mDisplay == DISPLAY_WORKSPACE || mDisplay == DISPLAY_FOLDER || mDisplay == DISPLAY_TASKBAR;
+        int flags = useTheme ? FLAG_THEMED : 0;
+        if (mHideBadge) {
+            flags |= FLAG_NO_BADGE;
+        }
+        FastBitmapDrawable iconDrawable = info.newIcon(getContext(), flags);
+        mDotParams.appColor = iconDrawable.getIconColor();
+        mDotParams.dotColor = getContext().getResources()
+                .getColor(android.R.color.system_accent3_200, getContext().getTheme());
+        setIcon(iconDrawable);
+        applyLabel(info);
+        }
     }
 
     @UiThread
