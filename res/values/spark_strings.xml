@@ -178,4 +178,6 @@
     </string-array>
 
     <string name="custom_date_strings">EEE, MMM d</string>
+
+    <string name="google_folder_title">Google</string>
 </resources>
