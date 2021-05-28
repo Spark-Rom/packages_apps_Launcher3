@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 The Android Open Source Project
+<!-- Copyright (C) 2020 The Android Open Source Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -31,14 +31,12 @@
     <string name="suggestion_pref_screen_desc">Для предложений всех приложений и главного экрана</string>
 
     <!-- Edit workspace -->
-    <string name="settings_edit_allow_title">Разрешить редактировать</string>
+    <string name="settings_edit_allow_title">Разрешить редактирование</string>
     <string name="settings_edit_allow_summary_on">Значки и виджеты можно добавлять, удалять и перемещать на главном экране.</string>
     <string name="settings_edit_allow_summary_off">Значки и виджеты нельзя добавлять, удалять и перемещать на главном экране.</string>
     <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран.</string>
 
     <!-- Gestures -->
-    <string name="pref_notification_gesture_title">Жест смахивания вниз</string>
-    <string name="pref_notification_gesture_summary">Проведите пальцем вниз по главному экрану, чтобы открыть панель уведомлений.</string>
     <string name="pref_dt_gesture_title">Жест двойного касания</string>
     <string name="pref_dt_gesture_summary">Дважды коснитесь пустого места, чтобы выключить питание</string>
 
@@ -56,6 +54,14 @@
     <!-- Preference default value -->
     <string name="pref_value_default">По умолчанию</string>
 
+    <string name="state_loading">Применение\u2026</string>
+
+    <!-- Gradients on Workspace/Hotseat -->
+    <string name="workspace_gradient_title">Показывать градиент сверху</string>
+    <string name="workspace_gradient_summary">Включение тонкого градиента от строки состояния</string>
+    <string name="hotseat_gradient_title">Показывать градиент вверху</string>
+    <string name="hotseat_gradient_summary">Включение тонкого градиента от нижнего края</string>
+
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">Скрытые приложения</string>
     <string name="trust_apps_auth_manager">Разблокируйте для управления скрытыми приложениями</string>
@@ -63,5 +69,21 @@
     <string name="trust_apps_no_lock_error">Пожалуйста, настройте защищенный экран блокировки для ограничения доступа к приложениям</string>
     <string name="trust_apps_help">Помощь</string>
     <string name="trust_apps_info_hidden">Скрытые приложения и их виджеты будут спрятаны с рабочего стола</string>
+
+    <!-- General -->
+    <string name="settings_title">Настройки</string>
+
+    <!-- Categories -->
+    <string name="home_category_title">Домашний экран</string>
+    <string name="home_category_summary">Настройки панели Google Now и многое другое</string>
+    <string name="icons_category_title">Иконки</string>
+    <string name="icons_category_summary">Настройка иконок, их стилей и многое другое</string>
+    <string name="app_drawer_category_title">Меню приложений</string>
+    <string name="app_drawer_category_summary">Настройка меню приложений</string>
+    <string name="misc_category_title">Разное</string>
+    <string name="misc_category_summary">Прочие настройки</string>
+
+    <!-- Icon size -->
+    <string name="icon_size_title">Размер иконок</string>
 
 </resources>
