@@ -85,5 +85,8 @@
 
     <!-- Icon size -->
     <string name="icon_size_title">Размер иконок</string>
+     
+     <!-- Font size -->
+    <string name="font_size_title">Размер шрифта</string>
 
 </resources>
