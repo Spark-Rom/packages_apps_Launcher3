@@ -15,6 +15,13 @@
         android:defaultValue="true"
         android:persistent="true"/>
 
+    <com.android.launcher3.widget.SwitchPreference
+        android:key="pref_recents_show_memory"
+        android:defaultValue="true"
+        android:persistent="true"
+        android:summary="@string/pref_recents_show_memory_summary"
+        android:title="@string/pref_recents_show_memory_title"/>
+
     <androidx.preference.PreferenceScreen
         android:key="pref_developer_options"
         android:persistent="false"
