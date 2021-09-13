@@ -70,6 +70,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.animation.Interpolator;
+import android.widget.Toast;
 
 import androidx.core.os.BuildCompat;
 
@@ -135,7 +136,7 @@ public final class Utilities {
 
     public static final String KEY_DT_GESTURE = "pref_dt_gesture";
 
-    private static final long WAIT_BEFORE_RESTART = 250;
+    private static final long WAIT_BEFORE_RESTART = 3000;
     public static final String SHOW_WORKSPACE_GRADIENT = "pref_show_workspace_grad";
     public static final String SHOW_HOTSEAT_GRADIENT = "pref_show_hotseat_grad";
 
@@ -741,6 +742,7 @@ public final class Utilities {
     }
 
     public static void restart(final Context context) {
+        Toast.makeText(context, R.string.launcher_restart_toast, Toast.LENGTH_LONG).show();
         //ProgressDialog.show(context, null, context.getString(R.string.state_loading), true, false);
         MODEL_EXECUTOR.execute(() -> {
             try {

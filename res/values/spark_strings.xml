@@ -97,4 +97,8 @@
     <!-- Recents Memory -->
     <string name="pref_recents_show_memory_title">Show Free RAM in recents</string>
     <string name="pref_recents_show_memory_summary">Show available free RAM in recents view</string>
+
+    <!-- Launcher restart toast -->
+    <string name="launcher_restart_toast">For all changes to take effect, a launcher restart is required. We\'ll restart the launcher right now.</string>
+
 </resources>
