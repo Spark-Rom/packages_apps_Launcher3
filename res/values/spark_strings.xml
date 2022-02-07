@@ -153,4 +153,7 @@
     
     <!-- Background blur -->
     <string name="background_blur_title">Recents background blur</string>
+    
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s Available | %2$s Total</string>
 </resources>
