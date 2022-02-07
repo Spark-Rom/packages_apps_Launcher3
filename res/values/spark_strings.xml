@@ -271,4 +271,6 @@
     <string name="app_info_version">Version</string>
     <string name="app_info_more">More</string>
 
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s Available | %2$s Total</string>
 </resources>
