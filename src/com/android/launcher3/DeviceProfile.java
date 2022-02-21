@@ -383,7 +383,7 @@ public class DeviceProfile {
         hotseatBarTopPaddingPx =
                 res.getDimensionPixelSize(Utilities.showQSB(context)
                         ? R.dimen.dynamic_grid_hotseat_top_padding_widget
-                        : R.dimen.dynamic_grid_hotseat_top_padding)
+                        : R.dimen.dynamic_grid_hotseat_top_padding);
         if (isQsbInline) {
             hotseatBarBottomPaddingPx = res.getDimensionPixelSize(R.dimen.inline_qsb_bottom_margin);
         } else {
