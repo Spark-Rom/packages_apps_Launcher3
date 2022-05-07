@@ -114,4 +114,7 @@
     <string name="app_info_version">Version</string>
     <string name="app_info_more">More</string>
 
+    <!-- Show top shadow -->
+    <string name="show_top_shadow">Show top shadow</string>
+
 </resources>
