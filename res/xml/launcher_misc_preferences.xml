@@ -20,6 +20,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.launcher3">
 
     <SwitchPreference
+        android:key="pref_scroll_vibration"
+        android:title="@string/pref_scroll_vibration_title"
+        android:summary="@string/pref_scroll_vibration_summary"
+        android:defaultValue="true"
+        android:persistent="true" />
+
+    <SwitchPreference
         android:key="pref_allowRotation"
         android:title="@string/allow_rotation_title"
         android:summary="@string/allow_rotation_desc"
