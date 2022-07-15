@@ -173,6 +173,8 @@ public final class Utilities {
     public static final String KEY_SHOW_ALT_QUICKSPACE = "pref_show_alt_quickspace";
     public static final String KEY_SHOW_QUICKSPACE_PSONALITY = "pref_quickspace_psonality";
     public static final String KEY_SHOW_QUICKSPACE_NOWPLAYING = "pref_quickspace_np";
+    public static final String KEY_RECENTS_OPACITY = "pref_recents_opacity";
+    public static final String KEY_APP_DRAWER_OPACITY = "pref_app_drawer_opacity";
 
     /**
      * Returns true if theme is dark.
@@ -1050,5 +1052,15 @@ public final class Utilities {
     public static boolean isQuickspaceNowPlaying(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_SHOW_QUICKSPACE_NOWPLAYING, true);
+    }
+
+    public static int getRecentsOpacity(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getInt(KEY_RECENTS_OPACITY, 80);
+    }
+
+    public static int getAllAppsOpacity(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getInt(KEY_APP_DRAWER_OPACITY, 80);
     }
 }
