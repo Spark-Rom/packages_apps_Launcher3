@@ -151,4 +151,7 @@
 
     <!-- Row Height -->
     <string name="row_height_title">Row height</string>
+
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Background opacity</string>
 </resources>
