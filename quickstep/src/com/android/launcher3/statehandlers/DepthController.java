@@ -126,7 +126,7 @@ public class DepthController implements StateHandler<LauncherState>,
     /**
      * Blur radius when completely zoomed out, in pixels.
      */
-    private float mMaxBlurRadius;
+    private int mMaxBlurRadius;
     private boolean mCrossWindowBlursEnabled;
     private WallpaperManager mWallpaperManager;
     private SurfaceControl mSurface;
@@ -185,7 +185,7 @@ public class DepthController implements StateHandler<LauncherState>,
     private void ensureDependencies() {
         if (mWallpaperManager == null) {
             mWallpaperManager = mLauncher.getSystemService(WallpaperManager.class);
-            mMaxBlurRadius = mLauncher.getResources().getDimension(R.dimen.max_depth_blur_radius);
+            mMaxBlurRadius = Utilities.getBlurRadius(mLauncher);
         }
 
         if (mLauncher.getRootView() != null && mOnAttachListener == null) {
