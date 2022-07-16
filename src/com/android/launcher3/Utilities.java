@@ -158,6 +158,7 @@ public final class Utilities {
     public static final String SHOW_HOTSEAT_BG = "show_hotseat_bg";
     public static final String KEY_RECENTS_OPACITY = "pref_recents_opacity";
     public static final String KEY_APP_DRAWER_OPACITY = "pref_app_drawer_opacity";
+    public static final String KEY_RECENTS_BLUR = "pref_recents_blur";
 
     /**
      * Returns true if theme is dark.
@@ -963,5 +964,10 @@ public final class Utilities {
     public static int getAllAppsOpacity(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getInt(KEY_APP_DRAWER_OPACITY, 80);
+    }
+
+    public static int getBlurRadius(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getInt(KEY_RECENTS_BLUR, 23);
     }
 }

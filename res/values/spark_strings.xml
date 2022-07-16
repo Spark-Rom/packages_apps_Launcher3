@@ -154,4 +154,7 @@
 
     <!-- Background opacity -->
     <string name="background_opacity_title">Background opacity</string>
+    
+    <!-- Background blur -->
+    <string name="background_blur_title">Recents background blur</string>
 </resources>

@@ -27,7 +27,7 @@
             android:title="@string/pref_allow_phone_overview_grid"
             android:summary="@string/pref_allow_phone_overview_grid_desc" />
 
-        <com.android.launcher3.settings.preferences.CustomSeekBarPreference
+        <com.spark.support.preferences.CustomSeekBarPreference
             android:key="pref_recents_opacity"
             android:title="@string/background_opacity_title"
             android:persistent="true"
@@ -35,6 +35,15 @@
             android:min="0"
             settings:units="%"
             android:defaultValue="80" />
+
+        <com.spark.support.preferences.CustomSeekBarPreference
+            android:key="pref_recents_blur"
+            android:title="@string/background_blur_title"
+            android:persistent="true"
+            android:max="175"
+            android:min="0"
+            settings:units="px"
+            android:defaultValue="23" />
     </PreferenceCategory>
 
 </androidx.preference.PreferenceScreen>
