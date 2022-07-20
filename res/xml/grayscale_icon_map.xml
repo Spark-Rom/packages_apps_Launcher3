@@ -2433,4 +2433,8 @@
     <icon
         drawable="@drawable/themed_icon_tinkoff"
         package="ru.tinkoff.sme" />
+    <icon
+        drawable="@drawable/ic_gamespace"
+        name="Game Space"
+        package="io.chaldeaprjkt.gamespace" />
 </icons>
