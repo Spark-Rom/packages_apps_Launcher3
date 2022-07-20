@@ -32,6 +32,7 @@ import com.android.launcher3.Utilities;
 
 import java.util.Calendar;
 import java.util.Random;
+import java.util.Arrays;
 
 public class QuickEventsController {
 
@@ -45,12 +46,8 @@ public class QuickEventsController {
     private boolean mRunning = true;
     private boolean mRegistered = false;
 
-    // PSA + Personality
-    private String[] mPSAMorningStr;
-    private String[] mPSAEvenStr;
-    private String[] mPSAMidniteStr;
-    private String[] mPSARandomStr;
-    private String[] mPSATitleStr;
+    // Quotes
+    private String[] mQuotes;
     private BroadcastReceiver mPSAListener = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -90,10 +87,6 @@ public class QuickEventsController {
 
     public void psonalityEvent() {
         if (!mRunning) return;
-        
-        mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[getLuckyNumber(0,10)];
-        mEventTitleSub = mContext.getResources().getStringArray(R.array.quickspace_psa_random)[getLuckyNumber(0,22)];
-        mEventSubIcon = R.drawable.ic_quickspace_corvus;
 
         mEventTitleSubAction = new OnClickListener() {
             @Override
@@ -108,11 +101,10 @@ public class QuickEventsController {
             }
         };
 
-        mPSAMorningStr = mContext.getResources().getStringArray(R.array.quickspace_psa_morning);
-        mPSAEvenStr = mContext.getResources().getStringArray(R.array.quickspace_psa_evening);
-        mPSAMidniteStr = mContext.getResources().getStringArray(R.array.quickspace_psa_midnight);
-        mPSARandomStr = mContext.getResources().getStringArray(R.array.quickspace_psa_random);
         int psaLength;
+        mQuotes = mContext.getResources().getStringArray(R.array.quickspace_psa_random);
+        psaLength = mQuotes.length - 1;
+        mEventTitleSub = mQuotes[getLuckyNumber(0, psaLength)];
 
         // Clean the onClick event to avoid any weird behavior
         mEventTitleSubAction = new OnClickListener() {
@@ -123,28 +115,29 @@ public class QuickEventsController {
         };
 
         switch (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) {
-            case 5: case 6: case 7: case 8: case 9: case 10:
-                psaLength = mPSAMorningStr.length - 1;
-                mEventTitleSub = mPSAMorningStr[getLuckyNumber(0, psaLength)];
+            case 5: case 6: case 7: case 8: case 9: case 10: case 11:
+                mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[0];
                 mEventSubIcon = R.drawable.ic_quickspace_morning;
                 break;
 
-            case 18: case 19: case 20: case 21: case 22: case 23:
-                psaLength = mPSAEvenStr.length - 1;
-                mEventTitleSub = mPSAEvenStr[getLuckyNumber(0, psaLength)];
+            case 12: case 13: case 14: case 15:
+                mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[1];
+                mEventSubIcon = R.drawable.ic_quickspace_noon;
+                break;
+
+            case 16: case 17: case 18: case 19:
+                mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[2];
+                mEventSubIcon = R.drawable.ic_quickspace_evening;
+                break;
+            
+            case 20: case 21: case 22: case 23:
+                mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[3];
                 mEventSubIcon = R.drawable.ic_quickspace_evening;
                 break;
 
             case 0: case 1: case 2: case 3: case 4:
-                psaLength = mPSAMidniteStr.length - 1;
-                mEventTitleSub = mPSAMidniteStr[getLuckyNumber(0, psaLength)];
+                mEventTitle = mContext.getResources().getStringArray(R.array.welcome_message_variants)[4];
                 mEventSubIcon = R.drawable.ic_quickspace_midnight;
-                break;
-                
-            case 11: case 12: case 13: case 14: case 15: case 16: case 17:
-                psaLength = mPSARandomStr.length - 1;
-                mEventTitleSub = mPSARandomStr[getLuckyNumber(0, psaLength)];
-                mEventSubIcon = R.drawable.ic_quickspace_corvus;
                 break;
 
             default:
