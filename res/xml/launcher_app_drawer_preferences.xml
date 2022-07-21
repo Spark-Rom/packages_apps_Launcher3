@@ -32,7 +32,7 @@
         android:defaultValue="true"
         android:persistent="true" />
 
-    <com.android.launcher3.settings.preferences.CustomSeekBarPreference
+    <com.spark.support.preferences.CustomSeekBarPreference
         android:key="pref_app_drawer_opacity"
         android:title="@string/background_opacity_title"
         android:persistent="true"
