@@ -107,7 +107,7 @@
             android:summary="@string/dock_theme_summary"
             android:dependency="pref_dock_search" />
 
-        <com.android.launcher3.settings.preferences.CustomSeekBarPreference
+        <com.spark.support.preferences.CustomSeekBarPreference
             android:key="pref_search_radius_size"
             android:title="@string/search_radius_title"
             android:persistent="true"
