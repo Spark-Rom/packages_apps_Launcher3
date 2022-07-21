@@ -16,8 +16,7 @@
 * limitations under the License.
 */
 -->
-
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application name -->
     <string name="spark_app_name" translatable="false">SparkLauncher</string>
