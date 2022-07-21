@@ -1074,22 +1074,23 @@ public class QuickstepTransitionManager implements OnDeviceProfileChangeListener
                 dimLayer = null;
             }
 
-            depthController.setSurface(dimLayer);
+            depthController.setSurface(null);
+            if (dimLayer != null) {
+                 new SurfaceControl.Transaction()
+                     .remove(dimLayer)
+                     .apply();
+            }
             backgroundRadiusAnim.addListener(new AnimatorListenerAdapter() {
                 @Override
                 public void onAnimationStart(Animator animation) {
-                    depthController.setIsInLaunchTransition(true);
+                   depthController.setIsInLaunchTransition(false);
+                   // report !setIsInLaunchTransition
                 }
 
                 @Override
                 public void onAnimationEnd(Animator animation) {
                     depthController.setIsInLaunchTransition(false);
-                    depthController.setSurface(null);
-                    if (dimLayer != null) {
-                        new SurfaceControl.Transaction()
-                                .remove(dimLayer)
-                                .apply();
-                    }
+                    // report !setIsInLaunchTransition
                 }
             });
         }
