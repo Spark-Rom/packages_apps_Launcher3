@@ -167,4 +167,7 @@
 
     <!-- App drawer searchbar -->
     <string name="drawer_searchbar_title">Enable/Disable app drawer searchbar</string>
+
+    <!-- App label Color -->
+    <string name="drawer_white_labels">Force white labels</string>
 </resources>

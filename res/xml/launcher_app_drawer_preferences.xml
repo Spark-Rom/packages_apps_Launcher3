@@ -32,6 +32,12 @@
         android:defaultValue="true" />
 
     <SwitchPreference
+        android:key="pref_force_white_label"
+        android:title="@string/drawer_white_labels"
+        android:defaultValue="false"
+        android:persistent="true" />
+
+    <SwitchPreference
         android:key="pref_drawer_show_labels"
         android:title="@string/title_drawer_labels"
         android:summary="@string/summary_drawer_labels"

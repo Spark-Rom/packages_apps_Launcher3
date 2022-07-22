@@ -76,6 +76,7 @@ import com.android.launcher3.util.SafeCloseable;
 import com.android.launcher3.views.ActivityContext;
 import com.android.launcher3.views.BubbleTextHolder;
 import com.android.launcher3.views.IconLabelDotView;
+import com.android.launcher3.Utilities;
 
 import java.text.NumberFormat;
 import java.util.HashMap;
@@ -407,6 +408,9 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver,
         if (mShouldShowLabel) {
             setText(info.title);
             setMaxLines(mMaxLines);
+            if (Utilities.getIsForceWhitelabel(getContext())) {
+               setTextColor(Color.WHITE);
+            }
         }
         if (info.contentDescription != null) {
             setContentDescription(info.isDisabled()

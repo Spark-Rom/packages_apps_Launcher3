@@ -161,6 +161,7 @@ public final class Utilities {
     public static final String KEY_RECENTS_MEMINFO = "pref_recents_meminfo";
     public static final String KEY_BLUR_DEPTH = "pref_blur_depth";
     public static final String KEY_DRAWER_SEARCHBAR = "pref_drawer_searchbar";
+    public static final String KEY_FORCE_WHITE_LABEL = "pref_force_white_label";
 
     /**
      * Returns true if theme is dark.
@@ -983,4 +984,9 @@ public final class Utilities {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_DRAWER_SEARCHBAR, true);
     }
+
+    public static boolean getIsForceWhitelabel(Context context) {
+    	SharedPreferences prefs = getPrefs(context.getApplicationContext());
+    	return prefs.getBoolean(KEY_FORCE_WHITE_LABEL, false);
+   }
 }
