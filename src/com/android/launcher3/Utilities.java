@@ -160,6 +160,7 @@ public final class Utilities {
     public static final String KEY_APP_DRAWER_OPACITY = "pref_app_drawer_opacity";
     public static final String KEY_RECENTS_MEMINFO = "pref_recents_meminfo";
     public static final String KEY_BLUR_DEPTH = "pref_blur_depth";
+    public static final String KEY_DRAWER_SEARCHBAR = "pref_drawer_searchbar";
 
     /**
      * Returns true if theme is dark.
@@ -978,4 +979,8 @@ public final class Utilities {
                 (int) context.getResources().getDimension(R.dimen.max_depth_blur_radius));
     }
 
+    public static boolean showSearchBar(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_DRAWER_SEARCHBAR, true);
+    }
 }

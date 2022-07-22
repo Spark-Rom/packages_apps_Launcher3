@@ -27,6 +27,11 @@
         android:persistent="true" />
 
     <SwitchPreference
+        android:key="pref_drawer_searchbar"
+        android:title="@string/drawer_searchbar_title"
+        android:defaultValue="true" />
+
+    <SwitchPreference
         android:key="pref_drawer_show_labels"
         android:title="@string/title_drawer_labels"
         android:summary="@string/summary_drawer_labels"
@@ -50,5 +55,4 @@
         android:min="0"
         settings:units="%"
         android:defaultValue="80" />
-
 </androidx.preference.PreferenceScreen>
