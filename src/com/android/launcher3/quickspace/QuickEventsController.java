@@ -43,15 +43,15 @@ public class QuickEventsController {
     private OnClickListener mEventTitleSubAction = null;
     private int mEventSubIcon;
 
-    private boolean mRunning = true;
-    private boolean mRegistered = false;
+    private boolean mRunning;
+    private boolean mRegistered;
 
     // Quotes
     private String[] mQuotes;
     private BroadcastReceiver mPSAListener = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            psonalityEvent();
+            updateQuickEvents();
         }
     };
 
@@ -61,13 +61,14 @@ public class QuickEventsController {
     }
 
     public void initQuickEvents() {
+        mRunning = true;
         registerPSAListener();
+        mRegistered = true;
         updateQuickEvents();
     }
 
     private void registerPSAListener() {
         if (mRegistered) return;
-        mRegistered = true;
         IntentFilter psonalityIntent = new IntentFilter();
         psonalityIntent.addAction(Intent.ACTION_TIME_TICK);
         psonalityIntent.addAction(Intent.ACTION_TIME_CHANGED);
@@ -77,15 +78,10 @@ public class QuickEventsController {
 
     private void unregisterPSAListener() {
         if (!mRegistered) return;
-        mRegistered = false;
         mContext.unregisterReceiver(mPSAListener);
     }
 
     public void updateQuickEvents() {
-        psonalityEvent();
-    }
-
-    public void psonalityEvent() {
         if (!mRunning) return;
 
         mEventTitleSubAction = new OnClickListener() {
@@ -173,10 +169,10 @@ public class QuickEventsController {
     public void onPause() {
         mRunning = false;
         unregisterPSAListener();
+        mRegistered = false;
     }
 
     public void onResume() {
-        mRunning = true;
-        registerPSAListener();
+    	initQuickEvents();
     }
 }
