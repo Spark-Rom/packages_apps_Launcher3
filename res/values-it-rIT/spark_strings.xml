@@ -36,7 +36,7 @@
     <string name="general_category_title">Generale</string>
     <string name="interface_category_title">Interfaccia</string>
     <string name="search_bar_category_title">Barra di ricerca</string>
-    <string name="actions_category_title">Quick actions</string>
+    <string name="actions_category_title">Azioni rapide</string>
     <!-- Settings -->
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Blocca layout</string>
@@ -121,17 +121,17 @@
     <!-- Background opacity -->
     <string name="background_opacity_title">Opacità sfondo</string>
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
-    <string name="recents_meminfo_title">Memory info</string>
+    <string name="meminfo_text">%1$s Disponibile | %2$s Totale</string>
+    <string name="recents_meminfo_title">Info memoria</string>
     <!-- Background blur -->
-    <string name="background_blur_title">Background blur depth</string>
-    <string name="background_blur_desc">Set blur depth level for recents and app drawer</string>
+    <string name="background_blur_title">Profondità sfocatura sfondo</string>
+    <string name="background_blur_desc">Imposta il livello di intensità della sfocatura per le app recenti e il drawer delle app</string>
     <!-- Recents icons -->
     <string name="recents_screenshot_title">Screenshot</string>
-    <string name="recents_clear_all_title">Clear all</string>
+    <string name="recents_clear_all_title">Cancella tutto</string>
     <string name="recents_lens_title">Lens</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_searchbar_title">Enable/Disable app drawer searchbar</string>
+    <string name="drawer_searchbar_title">Abilita/Disabilita la barra di ricerca del drawer</string>
     <!-- App label Color -->
-    <string name="drawer_white_labels">Force white labels</string>
+    <string name="drawer_white_labels">Forza etichette bianche</string>
 </resources>

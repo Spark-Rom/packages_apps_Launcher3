@@ -36,7 +36,7 @@
     <string name="general_category_title">一般</string>
     <string name="interface_category_title">インターフェース</string>
     <string name="search_bar_category_title">検索バー</string>
-    <string name="actions_category_title">Quick actions</string>
+    <string name="actions_category_title">クイックアクション</string>
     <!-- Settings -->
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">レイアウトをロック</string>
@@ -121,17 +121,17 @@
     <!-- Background opacity -->
     <string name="background_opacity_title">背景の不透明度</string>
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
-    <string name="recents_meminfo_title">Memory info</string>
+    <string name="meminfo_text">%1$s 利用可能 | %2$s 合計</string>
+    <string name="recents_meminfo_title">メモリ情報</string>
     <!-- Background blur -->
-    <string name="background_blur_title">Background blur depth</string>
-    <string name="background_blur_desc">Set blur depth level for recents and app drawer</string>
+    <string name="background_blur_title">背景ぼかしの深さ</string>
+    <string name="background_blur_desc">アプリ履歴とアプリドロワーのぼかしの深さを設定する</string>
     <!-- Recents icons -->
     <string name="recents_screenshot_title">スクリーンショット</string>
-    <string name="recents_clear_all_title">Clear all</string>
+    <string name="recents_clear_all_title">全て消去</string>
     <string name="recents_lens_title">レンズ</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_searchbar_title">Enable/Disable app drawer searchbar</string>
+    <string name="drawer_searchbar_title">アプリドロワーの検索バーを切り替える</string>
     <!-- App label Color -->
-    <string name="drawer_white_labels">Force white labels</string>
+    <string name="drawer_white_labels">ホワイトラベルを強制使用</string>
 </resources>

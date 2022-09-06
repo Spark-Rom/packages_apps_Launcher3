@@ -36,7 +36,7 @@
     <string name="general_category_title">Genel</string>
     <string name="interface_category_title">Arayüz</string>
     <string name="search_bar_category_title">Arama çubuğu</string>
-    <string name="actions_category_title">Quick actions</string>
+    <string name="actions_category_title">Hızlı eylemler</string>
     <!-- Settings -->
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Düzeni kilitle</string>
@@ -121,17 +121,17 @@
     <!-- Background opacity -->
     <string name="background_opacity_title">Arka plan şeffaflığı</string>
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
-    <string name="recents_meminfo_title">Memory info</string>
+    <string name="meminfo_text">%1$s Kullanılabilir | %2$s Toplam</string>
+    <string name="recents_meminfo_title">Bellek bilgisi</string>
     <!-- Background blur -->
-    <string name="background_blur_title">Background blur depth</string>
-    <string name="background_blur_desc">Set blur depth level for recents and app drawer</string>
+    <string name="background_blur_title">Arka plan bulanıklık derinliği</string>
+    <string name="background_blur_desc">Son uygulamalar ve uygulama çekmecesi için bulanıklık derinliği seviyesini ayarlayın</string>
     <!-- Recents icons -->
     <string name="recents_screenshot_title">Ekran görüntüsü</string>
-    <string name="recents_clear_all_title">Clear all</string>
+    <string name="recents_clear_all_title">Tümünü temizle</string>
     <string name="recents_lens_title">Lens</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_searchbar_title">Enable/Disable app drawer searchbar</string>
+    <string name="drawer_searchbar_title">Uygulama çekmecesi arama çubuğunu etkinleştir/devre dışı bırak</string>
     <!-- App label Color -->
-    <string name="drawer_white_labels">Force white labels</string>
+    <string name="drawer_white_labels">Beyaz etiketleri zorla</string>
 </resources>

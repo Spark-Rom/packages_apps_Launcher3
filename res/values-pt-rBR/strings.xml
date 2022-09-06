@@ -20,7 +20,7 @@
     <!-- General -->
     <skip></skip>
     <!-- Application name -->
-    <string name="app_name">Tela de início 3</string>
+    <string name="app_name">Launcher3</string>
     <!-- Work folder name -->
     <string name="work_folder_name">Trabalho</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->

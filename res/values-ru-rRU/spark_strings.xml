@@ -36,7 +36,7 @@
     <string name="general_category_title">Основные</string>
     <string name="interface_category_title">Интерфейс</string>
     <string name="search_bar_category_title">Строка поиска</string>
-    <string name="actions_category_title">Quick actions</string>
+    <string name="actions_category_title">Быстрые действия</string>
     <!-- Settings -->
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Запретить редактирование</string>
@@ -121,17 +121,17 @@
     <!-- Background opacity -->
     <string name="background_opacity_title">Прозрачность фона</string>
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
-    <string name="recents_meminfo_title">Memory info</string>
+    <string name="meminfo_text">%1$s доступно, %2$s всего</string>
+    <string name="recents_meminfo_title">Информация о памяти</string>
     <!-- Background blur -->
-    <string name="background_blur_title">Background blur depth</string>
-    <string name="background_blur_desc">Set blur depth level for recents and app drawer</string>
+    <string name="background_blur_title">Размытие фона</string>
+    <string name="background_blur_desc">Установка глубины размытия для недавних и меню приложений</string>
     <!-- Recents icons -->
     <string name="recents_screenshot_title">Снимок экрана</string>
-    <string name="recents_clear_all_title">Clear all</string>
+    <string name="recents_clear_all_title">Очистить все</string>
     <string name="recents_lens_title">Объектив</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_searchbar_title">Enable/Disable app drawer searchbar</string>
+    <string name="drawer_searchbar_title">Включить/выключить панель поиска приложений</string>
     <!-- App label Color -->
-    <string name="drawer_white_labels">Force white labels</string>
+    <string name="drawer_white_labels">Принудительно белые подписи</string>
 </resources>
