@@ -163,11 +163,7 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
             if (getActivity() != null && !TextUtils.isEmpty(getPreferenceScreen().getTitle())) {
                 if (getPreferenceScreen().getTitle().equals(
                         getResources().getString(R.string.search_pref_screen_title))){
-                    DeviceProfile mDeviceProfile = InvariantDeviceProfile.INSTANCE.get(
-                            getContext()).getDeviceProfile(getContext());
-                    getPreferenceScreen().setTitle(mDeviceProfile.isTablet ?
-                            R.string.search_pref_screen_title_tablet
-                            : R.string.search_pref_screen_title);
+                    getPreferenceScreen().setTitle(R.string.search_pref_screen_title);
                 }
                 getActivity().setTitle(getPreferenceScreen().getTitle());
             }
