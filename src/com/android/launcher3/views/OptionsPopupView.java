@@ -185,7 +185,7 @@ public class OptionsPopupView extends ArrowPopup<Launcher>
         int resDrawable = Utilities.existsStyleWallpapers(launcher) ?
                 R.drawable.ic_palette : R.drawable.ic_wallpaper;
         options.add(new OptionItem(launcher,
-                R.string.settings_title,
+                resString,
                 resDrawable,
                 IGNORE,
                 OptionsPopupView::startWallpaperPicker));
