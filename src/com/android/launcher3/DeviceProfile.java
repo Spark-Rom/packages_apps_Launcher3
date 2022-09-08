@@ -24,7 +24,7 @@ import static com.android.launcher3.ResourceUtils.pxFromDp;
 import static com.android.launcher3.Utilities.dpiFromPx;
 import static com.android.launcher3.Utilities.pxFromSp;
 import static com.android.launcher3.folder.ClippedFolderIconLayoutRule.ICON_OVERLAP_FACTOR;
-
+import android.content.SharedPreferences;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.Configuration;
@@ -299,6 +299,7 @@ public class DeviceProfile {
             taskbarSize = res.getDimensionPixelSize(R.dimen.taskbar_size);
             stashedTaskbarSize = res.getDimensionPixelSize(R.dimen.taskbar_stashed_size);
         }
+        SharedPreferences prefs = Utilities.getPrefs(context);
 
         edgeMarginPx = res.getDimensionPixelSize(R.dimen.dynamic_grid_edge_margin);
 
@@ -620,6 +621,8 @@ public class DeviceProfile {
      * Re-computes the all-apps cell size to be independent of workspace
      */
     public void autoResizeAllAppsCells() {
+        int cellLayoutHorizontalPadding =
+                (cellLayoutPaddingPx.left + cellLayoutPaddingPx.right) / 2;
         int textHeight = Utilities.calculateTextHeight(allAppsIconTextSizePx);
         int topBottomPadding = textHeight;
         allAppsCellHeightPx = allAppsIconSizePx + allAppsIconDrawablePaddingPx
