@@ -54,6 +54,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Xml;
+import com.android.launcher3.Utilities;
 
 import com.android.launcher3.AutoInstallsLayout.LayoutParserCallback;
 import com.android.launcher3.LauncherSettings.Favorites;
@@ -878,19 +879,6 @@ public class LauncherProvider extends ContentProvider {
                             Favorites.SCREEN, IntArray.wrap(-777, -778)), null);
                 }
                 case 30: {
-                    if (FeatureFlags.QSB_ON_FIRST_SCREEN) {
-                        // Clean up first row in screen 0 as it might contain junk data.
-                        Log.d(TAG, "Cleaning up first row");
-                        db.delete(Favorites.TABLE_NAME,
-                                String.format(Locale.ENGLISH,
-                                        "%1$s = %2$d AND %3$s = %4$d AND %5$s = %6$d",
-                                        Favorites.SCREEN, 0,
-                                        Favorites.CONTAINER, Favorites.CONTAINER_DESKTOP,
-                                        Favorites.CELLY, 0), null);
-                    }
-                    return;
-                }
-                case 31: {
                     // DB Upgraded successfully
                     return;
                 }

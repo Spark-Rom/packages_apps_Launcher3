@@ -2485,10 +2485,10 @@ public class Workspace<T extends View & PageIndicator> extends PagedView<T>
     }
 
     private boolean isDragObjectOverSmartSpace(DragObject dragObject) {
-        if (mQsb == null) {
+        if (quickSpace == null) {
             return false;
         }
-        getViewBoundsRelativeToWorkspace(mQsb, mTempRect);
+        getViewBoundsRelativeToWorkspace(quickSpace, mTempRect);
         return mTempRect.contains(dragObject.x, dragObject.y);
     }
 
