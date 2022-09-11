@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip></skip>
+    <!-- Application name -->
+    <string name="app_name">Launcher3</string>
+    <!-- Work folder name -->
+    <string name="work_folder_name">ਕਾਰਜ-ਸਥਾਨ</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+    <string name="activity_not_found">ਐਪ ਇੰਸਟੌਲ ਨਹੀਂ ਕੀਤਾ ਹੋਇਆ ਹੈ।</string>
+    <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
+    <string name="activity_not_available">ਐਪ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <!-- SafeMode shortcut error string -->
+    <string name="safemode_shortcut_error">ਡਾਊਨਲੋਡ ਕੀਤਾ ਐਪ ਸੁਰੱਖਿਅਤ ਮੋਡ ਵਿੱਚ ਅਸਮਰਥਿਤ</string>
+    <!-- SafeMode widget error string -->
+    <string name="safemode_widget_error">ਵਿਜੇਟ ਸੁਰੱਖਿਅਤ ਮੋਡ ਵਿੱਚ ਅਸਮਰਥਿਤ</string>
+    <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
+    <string name="shortcut_not_available">ਸ਼ਾਰਟਕੱਟ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
+    <string name="home_screen">ਮੁੱਖ ਪੰਨਾ</string>
+    <!-- Options for recent tasks -->
+    <!-- Title for an option to enter split screen mode for a given app -->
+    <string name="recent_task_option_split_screen">ਸਪਲਿਟ ਸਕ੍ਰੀਨ</string>
+    <string name="split_screen_position_top">ਸਿਖਰ \'ਤੇ ਵੰਡੋ</string>
+    <string name="split_screen_position_left">ਖੱਬੇ ਪਾਸੇ ਵੰਡੋ</string>
+    <string name="split_screen_position_right">ਸੱਜੇ ਪਾਸੇ ਵੰਡੋ</string>
+    <string name="split_app_info_accessibility">%1$s ਲਈ ਐਪ ਜਾਣਕਾਰੀ</string>
+    <!-- Widgets -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">ਕਿਸੇ ਵਿਜੇਟ ਨੂੰ ਲਿਜਾਉਣ ਲਈ ਸਪਰਸ਼ ਕਰਕੇ ਰੱਖੋ।</string>
+    <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
+    <string name="long_accessible_way_to_add">ਵਿਜੇਟ ਲਿਜਾਉਣ ਲਈ ਜਾਂ ਵਿਉਂਂਤੀਆਂ ਕਾਰਵਾਈਆਂ ਵਰਤਣ ਲਈ ਦੋ ਵਾਰ ਟੈਪ ਕਰਕੇ ਦਬਾ ਕੇ ਰੱਖੋ।</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+    <!-- There is a special version of this format string for Farsi -->
+    <string name="widget_dims_format">%1$d × %2$d</string>
+    <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
+    <string name="widget_accessible_dims_format">%1$d ਚੌੜਾਈ ਅਤੇ %2$d ਲੰਬਾਈ</string>
+    <!-- Spoken text for a screen reader. The placeholder text is the widget name.
+         [CHAR_LIMIT=none]-->
+    <string name="widget_preview_context_description"><xliff:g id="WIDGET_NAME">%1$s</xliff:g> ਵਿਜੇਟ</string>
+    <!-- Message to tell the user to press and hold a widget/icon to add it to the home screen.
+         [CHAR LIMIT=NONE]  -->
+    <string name="add_item_request_drag_hint">ਵਿਜੇਟ ਨੂੰ ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਇੱਧਰ-ਉੱਧਰ ਲਿਜਾਉਣ ਲਈ ਸਪਰਸ਼ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ</string>
+    <!-- Button label to automatically add a widget to home screen [CHAR_LIMIT=50] -->
+    <string name="add_to_home_screen">ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <!-- Accessibility spoken message announced when a widget gets added to the home screen using a
+         button in a dialog. [CHAR_LIMIT=none] -->
+    <string name="added_to_home_screen_accessibility_text"><xliff:g id="WIDGET_NAME">%1$s</xliff:g> ਵਿਜੇਟ ਨੂੰ ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ</string>
+    <!-- Label for showing the number of widgets an app has in the full widgets picker.
+         [CHAR_LIMIT=25][ICU SYNTAX] -->
+    <string name="widgets_count">{count,plural, =1{# ਵਿਜੇਟ}one{# ਵਿਜੇਟ}other{# ਵਿਜੇਟ}}</string>
+    <!-- Label for showing the number of shortcut an app has in the full widgets picker.
+         [CHAR_LIMIT=25][ICU SYNTAX] -->
+    <string name="shortcuts_count">{count,plural, =1{# ਸ਼ਾਰਟਕੱਟ}one{# ਸ਼ਾਰਟਕੱਟ}other{# ਸ਼ਾਰਟਕੱਟ}}</string>
+    <!-- Label for showing both the number of widgets and shortcuts an app has in the full widgets
+         picker. [CHAR_LIMIT=50] -->
+    <string name="widgets_and_shortcuts_count"><xliff:g id="WIDGETS_COUNT">%1$s</xliff:g>, <xliff:g id="SHORTCUTS_COUNT">%2$s</xliff:g></string>
+    <!-- Text for both the tile of a popup view, which shows all available widgets installed on
+         the device, and the text of a button, which opens this popup view. [CHAR LIMIT=30]-->
+    <string name="widget_button_text">ਵਿਜੇਟ</string>
+    <!-- Search bar text shown in the popup view showing all available widgets installed on the
+         device. [CHAR_LIMIT=50] -->
+    <string name="widgets_full_sheet_search_bar_hint">ਖੋਜੋ</string>
+    <!-- Spoken text for screen readers. This text lets a user know that the button is used to clear
+         the text that the user entered in the search box. [CHAR_LIMIT=none] -->
+    <string name="widgets_full_sheet_cancel_button_description">ਖੋਜ ਬਾਕਸ ਤੋਂ ਲਿਖਤ ਕਲੀਅਰ ਕਰੋ</string>
+    <!-- Text shown when there are no widgets or shortcuts that can be added to the device.
+         [CHAR_LIMIT=none] -->
+    <string name="no_widgets_available">ਵਿਜੇਟ ਜਾਂ ਸ਼ਾਰਟਕੱਟ ਉਪਲਬਧ ਨਹੀਂ ਹਨ</string>
+    <!-- Text shown when there are no matching widget or shortcut search results for user's search
+         query. [CHAR_LIMIT=none] -->
+    <string name="no_search_results">ਕੋਈ ਵੀ ਵਿਜੇਟ ਜਾਂ ਸ਼ਾਰਟਕੱਟ ਨਹੀਂ ਮਿਲਿਆ</string>
+    <!-- Tab label. A user can tap this tab to access their personal widgets. [CHAR_LIMIT=25] -->
+    <string name="widgets_full_sheet_personal_tab">ਨਿੱਜੀ</string>
+    <!-- Tab label. A user can tap this tab to access their work widgets. [CHAR_LIMIT=25] -->
+    <string name="widgets_full_sheet_work_tab">ਕਾਰਜ-ਸਥਾਨ</string>
+    <!-- A widget category label for grouping widgets related to conversations. [CHAR_LIMIT=30] -->
+    <string name="widget_category_conversations">ਗੱਲਾਂਬਾਤਾਂ</string>
+    <!-- Title of a dialog. This dialog lets a user know how they can use widgets on their phone.
+         [CHAR_LIMIT=NONE] -->
+    <string name="widget_education_header">ਮਹੱਤਵਪੂਰਨ ਜਾਣਕਾਰੀ ਤੁਰੰਤ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <!-- Dialog text. This dialog lets a user know how they can use widgets on their phone.
+         [CHAR_LIMIT=NONE] -->
+    <string name="widget_education_content">ਐਪਾਂ ਨੂੰ ਖੋਲ੍ਹੇ ਬਿਨਾਂ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ, ਤੁਸੀਂ ਆਪਣੀ ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਵਿਜੇਟ ਸ਼ਾਮਲ ਕਰ ਸਕਦੇ ਹੋ</string>
+    <!-- Text on an educational tip on widget informing users that they can change widget settings.
+         [CHAR_LIMIT=NONE] -->
+    <string name="reconfigurable_widget_education_tip">ਵਿਜੇਟ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <!-- Text on the button that closes the education dialog about widgets. [CHAR_LIMIT=50] -->
+    <string name="widget_education_close_button">ਸਮਝ ਲਿਆ</string>
+    <!-- Spoken text for screen readers. This text is for an icon that lets the user change a
+         widget's settings. [CHAR_LIMIT=50] -->
+    <string name="widget_reconfigure_button_content_description">ਵਿਜੇਟ ਸੈਟਿੰਗਾਂ ਬਦਲੋ</string>
+    <!-- All Apps -->
+    <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_bar_hint">ਐਪਾਂ ਖੋਜੋ</string>
+    <!-- Loading apps text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_loading_message">ਐਪਾਂ ਨੂੰ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...</string>
+    <!-- No-search-results text. [CHAR_LIMIT=50] -->
+    <string name="all_apps_no_search_results">\"<xliff:g id="QUERY">%1$s</xliff:g>\" ਨਾਲ ਮੇਲ ਖਾਂਦੀਆਂ ਕੋਈ ਐਪਾਂ ਨਹੀਂ ਮਿਲੀਆਂ</string>
+    <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
+    <string name="all_apps_search_market_message">ਹੋਰ ਐਪਾਂ ਖੋਜੋ</string>
+    <!-- Label for an icon representing any generic app. [CHAR_LIMIT=50] -->
+    <string name="label_application">ਐਪ</string>
+    <!-- Label for the header text of the All Apps section in All Apps view, used to separate Predicted Apps and Actions section from All Apps section. [CHAR_LIMIT=50] -->
+    <string name="all_apps_label">ਸਾਰੀਆਂ ਐਪਾਂ</string>
+    <!-- Popup items -->
+    <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
+    <string name="notifications_header">ਸੂਚਨਾਵਾਂ</string>
+    <!-- Drag and drop -->
+    <!-- Message to tell the user to press and hold on a shortcut to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_shortcut_to_add">ਕਿਸੇ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਲਿਜਾਉਣ ਲਈ ਸਪੱਰਸ਼ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ।</string>
+    <!-- Accessibility spoken hint message in deep shortcut menu, which allows user to add a shortcut. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=200] -->
+    <string name="long_accessible_way_to_add_shortcut">ਕਿਸੇ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਲਿਜਾਉਣ ਲਈ ਡਬਲ ਟੈਪ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ ਜਾਂ ਵਿਉਂਤੀਆਂ ਕਾਰਵਾਈਆਂ ਵਰਤੋ।</string>
+    <skip></skip>
+    <!-- Error message when a user can't add more apps, widgets, or shortcuts to a Home screen. -->
+    <string name="out_of_space">ਇਸ ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਜਗ੍ਹਾ ਨਹੀਂ ਬਚੀ</string>
+    <!-- Error message when user has filled the hotseat -->
+    <string name="hotseat_out_of_space">ਮਨਪਸੰਦ ਟ੍ਰੇ ਵਿੱਚ ਹੋਰ ਖਾਲੀ ਸਥਾਨ ਨਹੀਂ।</string>
+    <!-- All applications label -->
+    <string name="all_apps_button_label">ਐਪ ਸੂਚੀ</string>
+    <string name="all_apps_search_results">ਖੋਜ ਨਤੀਜੇ</string>
+    <string name="all_apps_button_personal_label">ਨਿੱਜੀ ਐਪਾਂ ਦੀ ਸੂਚੀ</string>
+    <string name="all_apps_button_work_label">ਕਾਰਜ-ਸਥਾਨ ਸੰਬੰਧੀ ਐਪਾਂ ਦੀ ਸੂਚੀ</string>
+    <!-- Label for remove drop target (from the homescreen only).
+         May appear next to uninstall_drop_target_label [CHAR_LIMIT=20] -->
+    <string name="remove_drop_target_label">ਹਟਾਓ</string>
+    <!-- Label for uninstall drop target (from the device).
+         May appear next to remove_drop_target_label [CHAR_LIMIT=20]-->
+    <string name="uninstall_drop_target_label">ਅਣਸਥਾਪਤ ਕਰੋ</string>
+    <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
+    <string name="app_info_drop_target_label">ਐਪ ਜਾਣਕਾਰੀ</string>
+    <!-- Label for install drop target. [CHAR_LIMIT=20] -->
+    <string name="install_drop_target_label">ਸਥਾਪਤ ਕਰੋ</string>
+    <!-- Label for install dismiss prediction. -->
+    <string name="dismiss_prediction_label">ਐਪ ਦਾ ਸੁਝਾਅ ਨਾ ਦਿਓ</string>
+    <!-- Label for pinning predicted app. -->
+    <string name="pin_prediction">ਪੂਰਵ-ਅਨੁਮਾਨ ਪਿੰਨ ਕਰੋ</string>
+    <!-- Permissions: -->
+    <skip></skip>
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">ਸ਼ਾਰਟਕੱਟ ਸਥਾਪਤ ਕਰੋ</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">ਇੱਕ ਐਪ ਨੂੰ ਵਰਤੋਂਕਾਰ ਦੇ ਦਖ਼ਲ ਤੋਂ ਬਿਨਾਂ ਸ਼ਾਰਟਕੱਟ ਸ਼ਾਮਲ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">ਹੋਮ ਸੈਟਿੰਗਾਂ ਅਤੇ ਸ਼ਾਰਟਕੱਟ ਪੜ੍ਹੋ</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">ਐਪ ਨੂੰ ਹੋਮ ਵਿੱਚ ਸੈਟਿੰਗਾਂ ਅਤੇ ਸ਼ਾਰਟਕੱਟ ਪੜ੍ਹਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">ਹੋਮ ਸੈਟਿੰਗਾਂ ਅਤੇ ਸ਼ਾਰਟਕੱਟ ਲਿਖੋ</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">ਐਪ ਨੂੰ ਹੋਮ ਵਿੱਚ ਸੈਟਿੰਗਾਂ ਅਤੇ ਸ਼ਾਰਟਕੱਟ ਬਦਲਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।</string>
+    <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
+    <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> ਨੂੰ ਫ਼ੋਨ ਕਾਲਾਂ ਕਰਨ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ</string>
+    <!-- Widgets: -->
+    <skip></skip>
+    <!-- Error text that lets a user know that the widget can't load. -->
+    <string name="gadget_error_text">ਵਿਜੇਟ ਨੂੰ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</string>
+    <!-- Button text. This button lets a user change a widget's settings. -->
+    <string name="gadget_setup_text">ਵਿਜੇਟ ਸੈਟਿੰਗਾਂ</string>
+    <!-- Instructional text to encourage a user to finish setting up the widget. -->
+    <string name="gadget_complete_setup_text">ਸੈੱਟਅੱਪ ਪੂਰਾ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">ਇਹ ਇੱਕ ਸਿਸਟਮ ਐਪ ਹੈ ਅਤੇ ਇਸਨੂੰ ਅਣਇੰਸਟੌਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।</string>
+    <!-- Default folder title -->
+    <string name="folder_hint_text">ਨਾਮ ਦਾ ਸੰਪਾਦਨ ਕਰੋ</string>
+    <!-- Accessibility -->
+    <!-- The format string for when an app is temporarily disabled. -->
+    <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> ਨੂੰ ਅਯੋਗ ਬਣਾਇਆ ਗਿਆ</string>
+    <!-- The format string for when an app has a notification dot (meaning it has associated notifications). [ICU_FORMAT]-->
+    <string name="dotted_app_label">{count,plural,offset:1 =1{{app_name} \'ਤੇ # ਸੂਚਨਾ ਹੈ}one{{app_name} \'ਤੇ # ਸੂਚਨਾ ਹੈ}other{{app_name} \'ਤੇ # ਸੂਚਨਾਵਾਂ ਹਨ}}</string>
+    <skip></skip>
+    <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format">ਸਫ਼ਾ %2$d ਦਾ %1$d</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format">ਹੋਮ ਸਕ੍ਰੀਨ %2$d ਦੀ %1$d</string>
+    <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
+    <string name="workspace_new_page">ਨਵਾਂ ਹੋਮ ਸਕ੍ਰੀਨ ਸਫ਼ਾ</string>
+    <!-- Folder accessibility -->
+    <!-- The format string for when a folder is opened, speaks the dimensions -->
+    <string name="folder_opened">ਫੋਲਡਰ ਖੋਲ੍ਹਿਆ, <xliff:g id="WIDTH">%1$d</xliff:g> ਬਾਇ <xliff:g id="HEIGHT">%2$d</xliff:g></string>
+    <!-- Instruction that clicking outside will close folder -->
+    <string name="folder_tap_to_close">ਫੋਲਡਰ ਬੰਦ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <!-- Instruction that clicking outside will commit folder rename -->
+    <string name="folder_tap_to_rename">ਬਦਲੇ ਗਏ ਨਾਮ ਨੂੰ ਰੱਖਿਅਤ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <!-- Indication that folder closed -->
+    <string name="folder_closed">ਫੋਲਡਰ ਬੰਦ ਕੀਤਾ</string>
+    <!-- Folder renamed format -->
+    <string name="folder_renamed">ਫੋਲਡਰ ਨੂੰ <xliff:g id="NAME">%1$s</xliff:g> ਮੁੜ ਨਾਮ ਦਿੱਤਾ ਗਿਆ</string>
+    <!-- Folder name format when folder has less than 4 items -->
+    <string name="folder_name_format_exact">ਫੋਲਡਰ: <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> ਆਈਟਮਾਂ</string>
+    <!-- Folder name format when folder has 4 or more items shown in preview-->
+    <string name="folder_name_format_overflow">ਫੋਲਡਰ: <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> ਜਾਂ ਹੋਰ ਆਈਟਮਾਂ</string>
+    <!-- Strings for the customization mode -->
+    <!-- Text for wallpaper change button [CHAR LIMIT=30]-->
+    <string name="wallpaper_button_text">ਵਾਲਪੇਪਰ</string>
+    <!-- Text for wallpaper change button [CHAR LIMIT=30]-->
+    <string name="styles_wallpaper_button_text">ਵਾਲਪੇਪਰ ਅਤੇ ਸਟਾਈਲ</string>
+    <!-- Text for settings button [CHAR LIMIT=20]-->
+    <string name="settings_button_text">ਹੋਮ ਸੈਟਿੰਗਾਂ</string>
+    <!-- Message shown when a feature is disabled by the administrator -->
+    <string name="msg_disabled_by_admin">ਤੁਹਾਡੇ ਪ੍ਰਸ਼ਾਸਕ ਦੁਆਰਾ ਅਯੋਗ ਬਣਾਈ ਗਈ</string>
+    <!-- Strings for settings -->
+    <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
+    <string name="allow_rotation_title">ਹੋਮ ਸਕ੍ਰੀਨ ਨੂੰ ਘੁਮਾਉਣ ਦੀ ਆਗਿਆ ਦਿਓ</string>
+    <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
+    <string name="allow_rotation_desc">ਜਦੋਂ ਫ਼ੋਨ ਘੁਮਾਇਆ ਜਾਂਦਾ ਹੈ</string>
+    <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
+    <string name="notification_dots_title">ਸੂਚਨਾ ਬਿੰਦੂ</string>
+    <!-- Text to indicate that the system notification dots setting is on [CHAR LIMIT=100] -->
+    <string name="notification_dots_desc_on">ਚਾਲੂ</string>
+    <!-- Text to indicate that the system notification dots setting is off [CHAR LIMIT=100] -->
+    <string name="notification_dots_desc_off">ਬੰਦ</string>
+    <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
+    <string name="title_missing_notification_access">ਸੂਚਨਾ ਪਹੁੰਚ ਲੋੜੀਂਦੀ ਹੈ</string>
+    <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
+    <string name="msg_missing_notification_access">ਸੂਚਨਾ ਬਿੰਦੂਆਂ ਦਿਖਾਉਣ ਲਈ, <xliff:g id="NAME">%1$s</xliff:g> ਲਈ ਐਪ ਸੂਚਨਾਵਾਂ ਚਾਲੂ ਕਰੋ</string>
+    <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
+    <string name="title_change_settings">ਸੈਟਿੰਗਾਂ ਬਦਲੋ</string>
+    <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
+    <string name="notification_dots_service_title">ਸੂਚਨਾ ਬਿੰਦੂ ਦਿਖਾਓ</string>
+    <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=60] -->
+    <string name="auto_add_shortcuts_label">ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਐਪ ਪ੍ਰਤੀਕਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
+    <string name="auto_add_shortcuts_description">ਨਵੀਆਂ ਐਪਾਂ ਲਈ</string>
+    <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
+    <string name="package_state_unknown">ਅਗਿਆਤ</string>
+    <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
+    <string name="abandoned_clean_this">ਹਟਾਓ</string>
+    <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
+    <string name="abandoned_search">ਖੋਜੋ</string>
+    <!-- Title for abandoned promise dialog. -->
+    <string name="abandoned_promises_title">ਇਹ ਐਪ ਇੰਸਟੌਲ ਨਹੀਂ ਕੀਤਾ ਹੋਇਆ ਹੈ।</string>
+    <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
+    The second "it" refers to the app. -->
+    <string name="abandoned_promise_explanation">ਇਸ ਪ੍ਰਤੀਕ ਲਈ ਐਪ ਸਥਾਪਤ ਨਹੀਂ ਕੀਤੀ ਹੋਈ ਹੈ। ਤੁਸੀਂ ਇਸਨੂੰ ਹਟਾ ਸਕਦੇ ਹੋ ਜਾਂ ਐਪ ਨੂੰ ਹੱਥੀਂ ਖੋਜ ਕੇ ਉਸਨੂੰ ਸਥਾਪਤ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <!-- Title for an app which is being installed. -->
+    <string name="app_installing_title"><xliff:g id="NAME">%1$s</xliff:g> ਨੂੰ ਸਥਾਪਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ, <xliff:g id="PROGRESS">%2$s</xliff:g> ਪੂਰਾ ਹੋਇਆ</string>
+    <!-- Title for an app which is being downloaded. -->
+    <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> ਡਾਉਨਲੋਡ ਹੋਰ ਰਿਹਾ ਹੈ, <xliff:g id="PROGRESS">%2$s</xliff:g> ਸੰਪੂਰਣ</string>
+    <!-- Title for an app whose download has been started. -->
+    <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> ਸਥਾਪਤ ਕਰਨ ਦੀ ਉਡੀਕ ਕਰ ਰਿਹਾ ਹੈ</string>
+    <!-- Strings for widgets & more in the popup container/bottom sheet -->
+    <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
+    <string name="widgets_list">ਵਿਜੇਟਾਂ ਦੀ ਸੂਚੀ</string>
+    <!-- Text announced by accessibility when the popup containing the list of widgets is closed. [CHAR_LIMIT=100] -->
+    <string name="widgets_list_closed">ਵਿਜੇਟਾਂ ਦੀ ਸੂਚੀ ਬੰਦ ਕੀਤੀ ਗਈ</string>
+    <!-- Strings for accessibility actions -->
+    <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_add_to_workspace">ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
+    <string name="action_move_here">ਆਈਟਮ ਨੂੰ ਇੱਥੇ ਮੂਵ ਕਰੋ</string>
+    <!-- Accessibility confirmation for item added to workspace. -->
+    <string name="item_added_to_workspace">ਆਈਟਮ ਨੂੰ ਹੋਮ ਸਕ੍ਰੀਨ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ</string>
+    <!-- Accessibility confirmation for item removed. [CHAR_LIMIT=50]-->
+    <string name="item_removed">ਆਈਟਮ ਹਟਾਈ ਗਈ</string>
+    <!-- Action shown in snackbar to undo item removal. [CHAR_LIMIT=20] -->
+    <string name="undo">ਅਣਕੀਤਾ ਕਰੋ</string>
+    <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move">ਆਈਟਮ ਨੂੰ ਮੂਵ ਕਰੋ</string>
+    <!-- Accessibility description to move item to empty cell. -->
+    <string name="move_to_empty_cell">ਕਤਾਰ <xliff:g id="NUMBER_0">%1$s</xliff:g> ਕਾਲਮ <xliff:g id="NUMBER_1">%2$s</xliff:g> ਵਿੱਚ ਮੂਵ ਕਰੋ</string>
+    <!-- Accessibility description to move item inside a folder. -->
+    <string name="move_to_position">ਸਥਿਤੀ <xliff:g id="NUMBER">%1$s</xliff:g> ਵਿੱਚ ਮੂਵ ਕਰੋ</string>
+    <!-- Accessibility description to move item to the hotseat. -->
+    <string name="move_to_hotseat_position">ਮਨਪਸੰਦ ਸਥਿਤੀ <xliff:g id="NUMBER">%1$s</xliff:g> ਵਿੱਚ ਮੂਵ ਕਰੋ</string>
+    <!-- Accessibility confirmation for item move. -->
+    <string name="item_moved">ਆਈਟਮ ਮੂਵ ਕੀਤੀ ਗਈ</string>
+    <!-- Accessibility description to move item into an existing folder. -->
+    <string name="add_to_folder">ਇਸ ਫੋਲਡਰ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility description to move item into an existing folder containing an app. -->
+    <string name="add_to_folder_with_app"><xliff:g id="NAME">%1$s</xliff:g> ਦੇ ਨਾਲ ਫੋਲਡਰ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <!-- Accessibility confirmation for item added to folder. -->
+    <string name="added_to_folder">ਆਈਟਮ ਨੂੰ ਫੋਲਡਰ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ</string>
+    <!-- Accessibility description to create folder with another item. -->
+    <string name="create_folder_with">ਇਸਦੇ ਨਾਲ ਫੋਲਡਰ ਬਣਾਓ: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <!-- Accessibility confirmation for folder created. -->
+    <string name="folder_created">ਫੋਲਡਰ ਬਣਾਇਆ ਗਿਆ</string>
+    <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
+    <string name="action_move_to_workspace">ਹੋਮ ਸਕ੍ਰੀਨ ਵਿੱਚ ਮੂਵ ਕਰੋ</string>
+    <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
+    <string name="action_resize">ਮੁੜ ਆਕਾਰ ਦਿਓ</string>
+    <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_width">ਚੌੜਾਈ ਵਧਾਓ</string>
+    <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_increase_height">ਉਂਚਾਈ ਵਧਾਓ</string>
+    <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_width">ਚੌੜਾਈ ਘਟਾਓ</string>
+    <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
+    <string name="action_decrease_height">ਉਂਚਾਈ ਘਟਾਓ</string>
+    <!-- Accessibility confirmation for widget resize. -->
+    <string name="widget_resized">ਵਿਜੈਟ ਨੂੰ ਚੌੜਾਈ <xliff:g id="NUMBER_0">%1$s</xliff:g> ਉਂਚਾਈ <xliff:g id="NUMBER_1">%2$s</xliff:g> ਨੂੰ ਮੁੜ ਆਕਾਰ ਦਿੱਤਾ</string>
+    <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_deep_shortcut">ਸ਼ਾਰਟਕੱਟ</string>
+    <!-- Accessibility description when the context menu of a launcher icon that has notifications as well as shortcuts (providing quick access to app's actions). The "shortcuts" translation should be consistent with the one for action_deep_shortcut. [CHAR_LIMIT=50] -->
+    <string name="shortcuts_menu_with_notifications_description">ਸ਼ਾਰਟਕੱਟ ਅਤੇ ਸੂਚਨਾਵਾਂ</string>
+    <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
+    <string name="action_dismiss_notification">ਖਾਰਜ ਕਰੋ</string>
+    <!-- Content description for arrow tip close button. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_close">ਬੰਦ ਕਰੋ</string>
+    <!-- Accessibility confirmation for notification being dismissed. -->
+    <string name="notification_dismissed">ਸੂਚਨਾ ਖਾਰਜ ਕੀਤੀ ਗਈ</string>
+    <!-- Label of tab to indicate personal apps -->
+    <string name="all_apps_personal_tab">ਨਿੱਜੀ</string>
+    <!-- Label of tab to indicate work apps -->
+    <string name="all_apps_work_tab">ਕੰਮ ਸੰਬੰਧੀ</string>
+    <!-- This string is in the work profile tab when a user has All Apps open on their phone. This is a label for a toggle to turn the work profile on and off. "Work profile" means a separate profile on a user's phone that's specifically for their work apps and managed by their company. "Work" is used as an adjective.-->
+    <string name="work_profile_toggle_label">ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ</string>
+    <!--- User onboarding title for work profile apps -->
+    <string name="work_profile_edu_work_apps">ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਨੂੰ ਬੈਜ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਇਹ ਤੁਹਾਡੇ ਆਈ.ਟੀ. ਪ੍ਰਸ਼ਾਸਕ ਨੂੰ ਦਿਸਣਗੀਆਂ</string>
+    <!-- Action label to finish work profile edu-->
+    <string name="work_profile_edu_accept">ਸਮਝ ਲਿਆ</string>
+    <!--- heading shown when user opens work apps tab while work apps are paused -->
+    <string name="work_apps_paused_title">ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਨੂੰ ਰੋਕਿਆ ਗਿਆ ਹੈ</string>
+    <!--- body shown when user opens work apps tab while work apps are paused -->
+    <string name="work_apps_paused_body">ਤੁਹਾਡੀਆਂ ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਤੁਹਾਨੂੰ ਸੂਚਨਾਵਾਂ ਨਹੀਂ ਭੇਜ ਸਕਦੀਆਂ, ਤੁਹਾਡੀ ਬੈਟਰੀ ਨਹੀਂ ਵਰਤ ਸਕਦੀਆਂ ਜਾਂ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕਰ ਸਕਦੀਆਂ</string>
+    <!-- content description for paused work apps list -->
+    <string name="work_apps_paused_content_description">ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਬੰਦ ਹਨ। ਤੁਹਾਡੀਆਂ ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਤੁਹਾਨੂੰ ਸੂਚਨਾਵਾਂ ਨਹੀਂ ਭੇਜ ਸਕਦੀਆਂ, ਤੁਹਾਡੀ ਬੈਟਰੀ ਨਹੀਂ ਵਰਤ ਸਕਦੀਆਂ ਜਾਂ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕਰ ਸਕਦੀਆਂ</string>
+    <!-- string shown in educational banner about work profile -->
+    <string name="work_apps_paused_edu_banner">ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਨੂੰ ਬੈਜ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਇਹ ਤੁਹਾਡੇ ਆਈ.ਟੀ. ਪ੍ਰਸ਼ਾਸਕ ਨੂੰ ਦਿਸਣਗੀਆਂ</string>
+    <!-- button string shown to dismiss work tab education -->
+    <string name="work_apps_paused_edu_accept">ਸਮਝ ਲਿਆ</string>
+    <!-- button string shown pause work profile -->
+    <string name="work_apps_pause_btn_text">ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਬੰਦ ਕਰੋ</string>
+    <!-- button string shown enable work profile -->
+    <string name="work_apps_enable_btn_text">ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਚਾਲੂ ਕਰੋ</string>
+    <!-- A hint shown in launcher settings develop options filter box -->
+    <string name="developer_options_filter_hint">ਫਿਲਟਰ</string>
+    <!-- Failed action error message: e.g. Failed: Pause -->
+    <string name="remote_action_failed">ਇਹ ਕਾਰਵਾਈ ਅਸਫਲ ਹੋਈ: <xliff:g id="WHAT">%1$s</xliff:g></string>
+</resources>
