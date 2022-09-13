@@ -154,7 +154,7 @@
     <string name="show_quickspace_summary">Show at the top of your Home screen</string>
     <string name="abbrev_wday_month_day_no_year" translatable="false">EEEEMMMd</string>
 
-    <string-array translatable="false" name="welcome_message_variants">
+    <string-array name="welcome_message_variants">
         <item>Good Morning</item>
         <item>Good Afternoon</item>
         <item>Good Evening</item>
