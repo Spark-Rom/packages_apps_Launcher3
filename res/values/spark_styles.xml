@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2023 Spark Android Project
+     Copyright (C) 2019-2023 crDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,6 +17,11 @@
 <resources>
 
     <!-- QuickSpace -->
-    <dimen name="quickspace_title_size">24dp</dimen>
-    <dimen name="quickspace_alternate_title_size">22dp</dimen>
+    <style name="QuickSpaceText">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="QuickSpaceSubText">
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
 </resources>
