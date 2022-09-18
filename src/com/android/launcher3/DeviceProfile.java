@@ -47,7 +47,7 @@ import com.android.launcher3.util.DisplayController;
 import com.android.launcher3.util.DisplayController.Info;
 import com.android.launcher3.util.WindowBounds;
 
-import settings.provider.Settings;
+import android.provider.Settings;
 
 import java.io.PrintWriter;
 import java.util.List;
