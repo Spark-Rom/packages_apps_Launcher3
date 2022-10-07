@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-/*
-* Copyright (C) 2022 Spark
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*      http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
+<!-- Copyright (C) 2022 Spark
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+        http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Application name -->
+    <!-- Settings -->
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Запретить редактирование</string>
+    <string name="settings_lock_layout_summary_on">Иконки и виджеты не могут быть добавлены, удалены и перемещены на главный экран</string>
+    <string name="settings_lock_layout_summary_off">Иконки и виджеты могут быть добавлены, удалены и перемещены на домашнем экране</string>
+    <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Смахните для доступа к приложению Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">When you swipe right from main home screen</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">When you swipe left from main home screen</string>
+    <!-- Folder titles -->
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Icon labels on desktop</string>
+    <string name="drawer_show_labels">Icon labels in drawer</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
+    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
+    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
+    <string name="trust_apps_loading">Loading\u2026</string>
+    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
+    <string name="trust_apps_help">Help</string>
+    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
+    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
     <!-- General -->
-    <string name="settings_title">Настройки</string>
+    <string name="settings_title">Главный экран</string>
     <!-- Categories -->
     <string name="home_category_title">Домашний экран</string>
     <string name="home_category_summary">Включить панель Google Now и др</string>
@@ -31,66 +50,174 @@
     <string name="recents_category_summary">Настройка экрана недавних приложений</string>
     <string name="misc_category_title">Прочее</string>
     <string name="misc_category_summary">Другие параметры</string>
-    <string name="dev_options_title">Настройки разработчика</string>
-    <string name="dev_options_desc">Включить некоторые скрытые функции на свой страх и риск</string>
     <string name="general_category_title">Основные</string>
     <string name="interface_category_title">Интерфейс</string>
+    <string name="quickspace_category_title">Quickspace</string>
     <string name="search_bar_category_title">Строка поиска</string>
     <string name="actions_category_title">Быстрые действия</string>
-    <!-- Settings -->
-    <!-- Edit workspace -->
-    <string name="settings_lock_layout_title">Запретить редактирование</string>
-    <string name="settings_lock_layout_summary_on">Иконки и виджеты не могут быть добавлены, удалены и перемещены на главный экран</string>
-    <string name="settings_lock_layout_summary_off">Иконки и виджеты могут быть добавлены, удалены и перемещены на домашнем экране</string>
-    <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
-    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
-    <string name="title_show_google_app">Смахните для доступа к приложению Google</string>
-    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_left">На главном экране проведите пальцем вправо, чтобы открыть приложение Google</string>
-    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_right">На главном экране проведите пальцем вправо, чтобы открыть приложение Google</string>
-    <!-- Folder titles -->
-    <!-- Hide labels -->
-    <string name="title_desktop_labels">Подписи рабочего стола</string>
-    <string name="summary_desktop_labels">Показывать названия приложений на домашнем экране</string>
-    <string name="title_drawer_labels">Заголовки списка приложений</string>
-    <string name="summary_drawer_labels">Отображать подписи значков в меню</string>
+    <!-- Developer options -->
+    <string name="dev_options_title">Настройки разработчика</string>
+    <string name="dev_options_summary">Enable some hidden features at your own risk</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">Pause</string>
+    <string name="pause_apps_dialog_title">Pause %1$s?</string>
+    <string name="pause_apps_dialog_message">Notifications for %1$s will be paused</string>
+    <string name="paused_apps_dialog_title">App paused</string>
+    <string name="paused_apps_dialog_message">%1$s was directly paused from the launcher</string>
+    <string name="paused_apps_drop_target_label">Pause app</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Набор иконок</string>
+    <string name="icon_pack_default_label">По умолчанию</string>
+    <string name="icon_pack_add">Установить ещё</string>
+    <string name="icon_pack_no_market">Нет доступного магазина приложений</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">by default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <!-- Icon size -->
     <string name="icon_size_title">Размер значков</string>
     <!-- Font size -->
     <string name="font_size_title">Размер шрифта</string>
     <!-- App label - max lines -->
     <string name="icon_max_lines_title">Максимальное количество строк в названии приложения</string>
-    <!-- DT2S -->
-    <string name="pref_sleep_gesture_title">Двойное нажатие для отключения экрана</string>
-    <string name="pref_sleep_gesture_summary">Двойное нажатие на пустом месте для выключения экрана</string>
     <!-- Hotseat searchbar -->
     <string name="label_search">Поиск</string>
     <string name="label_lens">Google Объектив</string>
     <string name="label_voice_search">Голосовой поиск</string>
     <string name="dock_search_title">Панель поиска Google</string>
-    <string name="dock_search_summary">Строка поиска в нижней панели</string>
+    <string name="dock_search_summary">Search bar in the bottom dock</string>
     <string name="dock_theme_title">Тематические значки</string>
     <string name="dock_theme_summary">Использовать тематические иконки для панели поиска</string>
     <string name="search_radius_title">Радиус скругления углов</string>
-    <!-- Recents -->
-    <string name="action_lens">Объектив</string>
+    <!-- Hotseat Background -->
+    <string name="hotseat_bg_title">Hotseat background</string>
+    <string name="hotseat_bg_summary">Add translucent background to the app dock</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Двойное нажатие для отключения экрана</string>
+    <string name="pref_sleep_gesture_summary">Double tap on empty space for screen off</string>
+    <!-- Wallpaper scrolling -->
+    <string name="allow_wallpaper_scrolling">Wallpaper scrolling</string>
+    <string name="allow_wallpaper_scrolling_summary">Wallpaper scrolling effect for multiple screens</string>
+    <!-- Wallpaper zooming -->
+    <string name="allow_wallpaper_zooming">Wallpaper zooming</string>
+    <string name="allow_wallpaper_zooming_summary">Zoom in or out the wallpaper when using drawer or recent apps</string>
     <!-- Homescreen Statusbar -->
-    <string name="show_statusbar_title">Показывать строку состояния</string>
+    <string name="show_statusbar_title">Status Bar</string>
+    <!-- Top shadow -->
+    <string name="show_top_shadow">Top shadow</string>
+    <!-- Row Height -->
+    <string name="row_height_title">Row height</string>
+    <!-- Background blur -->
+    <string name="background_blur_title">Размытие фона</string>
+    <string name="background_blur_summary">Set blur depth level for recents and app drawer</string>
+    <!-- QuickSpace -->
+    <string name="show_quickspace_title">Самое главное</string>
+    <string name="show_quickspace_summary">Show at the top of your home screen</string>
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <string name="quick_event_rom_intro_welcome">Welcome to Spark!</string>
+    <string-array name="welcome_message_variants">
+        <item>Have a great day</item>
+        <item>Thank you for choosing us</item>
+        <item>Loving us? Send us a beer</item>
+        <item>Best Rom Ever.</item>
+        <item>Say hi to us on Telegram</item>
+        <item>Tap here to begin</item>
+        <item>We love you 3000</item>
+    </string-array>
+    <!-- QuickSpace: QuickEvent: Ambient Play -->
+    <string name="quick_event_ambient_now_playing">Now Playing</string>
+    <string name="quick_event_ambient_song_artist">%1$s by %2$s</string>
+    <!-- Quickspace Now Playing -->
+    <string name="quickspace_now_playing_title">Now playing</string>
+    <string name="quickspace_now_playing_summary">Show the song you\'re playing</string>
+    <!-- Quickspace alternative view -->
+    <string name="quickspace_alternate_style_title">Minimalistic style</string>
+    <string name="quickspace_alternate_style_summary">Switch to modern style</string>
+    <!-- Quickspace PSA - Custom messages for the glance -->
+    <string name="quickspace_psa_title">Random messages</string>
+    <string name="quickspace_psa_summary">Make your companion more lively with random messages</string>
+    <string-array name="quickspace_psa_morning">
+        <item>Good morning!</item>
+        <item>Good morning, time to rock!</item>
+        <item>What a beautiful day!</item>
+        <item>Have a nice day!</item>
+        <item>What about a small 5 minutes nap?</item>
+        <item>That\'s one way to wake up.</item>
+        <item>You should change your alarm sounds.</item>
+        <item>Looks like it\'s a beautiful day, isn\'t it?</item>
+        <item>Let\'s get this bread.</item>
+        <item>Check the weather just in case</item>
+        <item>Feeling a bit sleepy yet</item>
+        <item>Have you looked outside yet?</item>
+        <item>Let\'s get this done.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Good night!</item>
+        <item>Sleep well!</item>
+        <item>See you tomorrow!</item>
+        <item>Sweet dreams!</item>
+        <item>Don\'t stay up too long</item>
+        <item>Have a good sleep</item>
+        <item>Get some sleep</item>
+        <item>Time to relax</item>
+        <item>Enjoy the night!</item>
+        <item>Time to charge the batteries!</item>
+        <item>Tomorrow might be a great day</item>
+        <item>Get your bones ready for tomorrow</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>Um... good night?</item>
+        <item>It\'s a bit late now</item>
+        <item>You should fix your sleep schedule</item>
+        <item>Are you more productive at this time?</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Ignorance is Bliss</item>
+        <item>Is it time to flash another update already?</item>
+        <item>Make peace, not war</item>
+        <item>Oh hey, what\'s up?</item>
+        <item>Focus on your tasks</item>
+        <item>How many screenshots do you take?</item>
+        <item>#LightTheNight</item>
+        <item>Spread love, not havoc</item>
+        <item>We didn\'t start the fire!</item>
+        <item>Time for some good music</item>
+        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>Remember the Lineage of the Unicorn</item>
+        <item>Enjoy Xtended battery life</item>
+        <item>Starting from the ground zero</item>
+        <item>We love you 3000</item>
+        <item>Delicious even without Sushi</item>
+        <item>Do something nice today</item>
+        <item>This is best Pixel Experience, isn\'t it?</item>
+        <item>How is everything going?</item>
+        <item>No illusions, welcome to reality!</item>
+        <item>Thank you for your support</item>
+        <item>No festival for Derps - only perfection!</item>
+        <item>One of the buildbot\'s best picks</item>
+        <item>Sanity for your Paranoia</item>
+        <item>Try Ice Cold desserts</item>
+        <item>What a lovely experience, isn\'t it?</item>
+        <item>Evolution is a myth, right?</item>
+        <item>You are what you flash, don\'t be Potato</item>
+        <item>What\'s on your mind?</item>
+        <item>Expecto Patronum</item>
+        <item>Wubba Lubba Dub Dub</item>
+        <item>Winner Winner ....?</item>
+        <item>rm -rf \/</item>
+    </string-array>
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Предложения</string>
-    <string name="suggestion_pref_screen_desc">Рекомендации в списке всех приложений и на главном экране</string>
+    <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
     <!-- Force stop shortcut -->
     <string name="recent_task_force_stop_app">Принудительно остановить</string>
     <string name="recents_app_force_stopped">Приложение принудительно остановлено</string>
-    <!-- Drawer themed icons -->
-    <string name="pref_themed_icons_title">Тематические иконки в меню приложений</string>
-    <string name="pref_themed_icons_summary">Применить тематические значки в меню приложений</string>
-    <!-- Icon pack -->
-    <string name="icon_pack_title">Набор иконок</string>
-    <string name="icon_pack_default_label">По умолчанию</string>
-    <string name="icon_pack_add">Установить ещё</string>
-    <string name="icon_pack_no_market">Нет доступного магазина приложений</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">All apps themed icons</string>
+    <string name="pref_themed_icons_summary">Toggle to switch between homescreen dock and all apps themed icons</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Прозрачность фона</string>
     <!-- AppInfo -->
     <string name="app_info_subtext">Смахните вниз, чтобы закрыть информацию о приложении</string>
     <string name="app_info_source">Источник</string>
@@ -98,40 +225,16 @@
     <string name="app_info_last_update">Последнее обновление</string>
     <string name="app_info_version">Версия</string>
     <string name="app_info_more">Ещё</string>
-    <!-- Taskbar -->
-    <string name="pref_allow_phone_taskbar">Использовать нижнюю панель</string>
-    <string name="pref_allow_phone_taskbar_desc">Для открытия и переключения приложений в любом месте</string>
-    <!-- Recent Grid -->
-    <string name="pref_allow_phone_overview_grid">Стиль сетки</string>
-    <string name="pref_allow_phone_overview_grid_desc">Больше недавних приложений одновременно</string>
-    <!-- Show top shadow -->
-    <string name="show_top_shadow_title">Тень сверху</string>
-    <string name="show_top_shadow_summary">Показывать тень в верхней части главного экрана</string>
-    <!-- Scroll Vibration -->
-    <string name="pref_scroll_vibration_title">Вибрация при прокрутке</string>
-    <string name="pref_scroll_vibration_summary">Виброотклик при прокрутке последних приложений, если поддерживается</string>
-    <!-- Dark Status Bar -->
-    <string name="perf_dark_status_bar_title">Тёмная строка состояния</string>
-    <string name="perf_dark_status_bar_summary">Использовать тёмную строку состояния на главном экране</string>
-    <!-- Hotseat Background -->
-    <string name="hotseat_bg_title">Показывать фон виджета</string>
-    <string name="hotseat_bg_summary">Добавляет прозрачный фон в нижнюю часть</string>
-    <!-- Row Height -->
-    <string name="row_height_title">Высота строки</string>
-    <!-- Background opacity -->
-    <string name="background_opacity_title">Прозрачность фона</string>
     <!-- Memory info -->
     <string name="meminfo_text">%1$s доступно, %2$s всего</string>
     <string name="recents_meminfo_title">Информация о памяти</string>
-    <!-- Background blur -->
-    <string name="background_blur_title">Размытие фона</string>
-    <string name="background_blur_desc">Установка глубины размытия для недавних и меню приложений</string>
+    <!-- Recents -->
+    <string name="action_lens">Объектив</string>
     <!-- Recents icons -->
     <string name="recents_screenshot_title">Снимок экрана</string>
     <string name="recents_clear_all_title">Очистить все</string>
     <string name="recents_lens_title">Объектив</string>
-    <!-- App drawer searchbar -->
-    <string name="drawer_searchbar_title">Включить/выключить панель поиска приложений</string>
-    <!-- App label Color -->
-    <string name="drawer_white_labels">Принудительно белые подписи</string>
+    <!-- Scroll Vibration -->
+    <string name="pref_scroll_vibration_title">Вибрация при прокрутке</string>
+    <string name="pref_scroll_vibration_summary">Виброотклик при прокрутке последних приложений, если поддерживается</string>
 </resources>
