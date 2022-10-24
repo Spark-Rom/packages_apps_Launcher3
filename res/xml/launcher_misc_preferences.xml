@@ -48,10 +48,6 @@
         <intent android:action="android.settings.ACTION_CONTENT_SUGGESTIONS_SETTINGS" />
     </androidx.preference.PreferenceScreen>
 
-    <Preference
-        android:key="pref_trust_apps"
-        android:title="@string/trust_apps_manager_name" />
-
      <com.android.launcher3.settings.preferences.CustomSeekBarPreference
         android:key="pref_blur_depth"
         android:title="@string/background_blur_title"

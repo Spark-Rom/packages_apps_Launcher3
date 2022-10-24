@@ -244,11 +244,5 @@
             android:name="androidx.startup.InitializationProvider"
             android:authorities="${applicationId}.androidx-startup"
             tools:node="remove" />
-
-        <activity
-            android:name="com.android.launcher3.lineage.trust.TrustAppsActivity"
-            android:label="@string/trust_apps_manager_name"
-            android:theme="@android:style/Theme.DeviceDefault.Settings"
-            android:autoRemoveFromRecents="true" />
     </application>
 </manifest>
