@@ -35,7 +35,7 @@
             android:max="100"
             android:min="0"
             settings:units="%"
-            android:defaultValue="80" />
+            android:defaultValue="20" />
     </PreferenceCategory>
 
     <PreferenceCategory
