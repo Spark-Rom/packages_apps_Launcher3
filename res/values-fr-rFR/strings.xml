@@ -57,9 +57,9 @@
     <string name="widget_preview_context_description">Widget <xliff:g id="WIDGET_NAME">%1$s</xliff:g></string>
     <!-- Message to tell the user to press and hold a widget/icon to add it to the home screen.
          [CHAR LIMIT=NONE]  -->
-    <string name="add_item_request_drag_hint">Appuyez de manière prolongée sur le widget pour le déplacer sur l\'écran d\'accueil</string>
+    <string name="add_item_request_drag_hint">Touch &amp; hold the widget to move it around the home screen</string>
     <!-- Button label to automatically add a widget to home screen [CHAR_LIMIT=50] -->
-    <string name="add_to_home_screen">Ajouter à l\'écran d\'accueil</string>
+    <string name="add_to_home_screen">Add to home screen</string>
     <!-- Accessibility spoken message announced when a widget gets added to the home screen using a
          button in a dialog. [CHAR_LIMIT=none] -->
     <string name="added_to_home_screen_accessibility_text">Widget <xliff:g id="WIDGET_NAME">%1$s</xliff:g> ajouté à l\'écran d\'accueil</string>
@@ -98,7 +98,7 @@
     <string name="widget_education_header">Infos utiles à portée de main</string>
     <!-- Dialog text. This dialog lets a user know how they can use widgets on their phone.
          [CHAR_LIMIT=NONE] -->
-    <string name="widget_education_content">Pour obtenir des infos sans ouvrir d\'applis, vous pouvez ajouter des widgets à votre écran d\'accueil</string>
+    <string name="widget_education_content">To get info without opening apps, you can add widgets to your home screen</string>
     <!-- Text on an educational tip on widget informing users that they can change widget settings.
          [CHAR_LIMIT=NONE] -->
     <string name="reconfigurable_widget_education_tip">Appuyez pour modifier les paramètres du widget</string>
@@ -130,7 +130,7 @@
     <string name="long_accessible_way_to_add_shortcut">Appuyez deux fois et maintenez la pression pour déplacer un raccourci ou utiliser les actions personnalisées.</string>
     <skip></skip>
     <!-- Error message when a user can't add more apps, widgets, or shortcuts to a Home screen. -->
-    <string name="out_of_space">Espace insuffisant sur cet écran d\'accueil</string>
+    <string name="out_of_space">No room on this home screen</string>
     <!-- Error message when user has filled the hotseat -->
     <string name="hotseat_out_of_space">Plus d\'espace disponible dans la zone de favoris.</string>
     <!-- All applications label -->
@@ -159,13 +159,15 @@
     <!-- Permission description -->
     <string name="permdesc_install_shortcut">Permettre à une application d\'ajouter des raccourcis sans l\'intervention de l\'utilisateur</string>
     <!-- Permission short label -->
-    <string name="permlab_read_settings">lire les paramètres et les raccourcis de l\'écran d\'accueil</string>
+    <string name="permlab_read_settings">read home settings and shortcuts</string>
     <!-- Permission description -->
-    <string name="permdesc_read_settings">Permettre à l\'application de lire les paramètres et les raccourcis de l\'écran d\'accueil</string>
+    <string name="permdesc_read_settings">Allows the app to read the settings and
+        shortcuts in home.</string>
     <!-- Permission short label -->
-    <string name="permlab_write_settings">modifier les paramètres et les raccourcis de l\'écran d\'accueil</string>
+    <string name="permlab_write_settings">write home settings and shortcuts</string>
     <!-- Permission description -->
-    <string name="permdesc_write_settings">Permettre à l\'application de modifier les paramètres et les raccourcis de l\'écran d\'accueil</string>
+    <string name="permdesc_write_settings">Allows the app to change the settings and
+        shortcuts in home.</string>
     <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
     <string name="msg_no_phone_permission">L\'application <xliff:g id="APP_NAME">%1$s</xliff:g> n\'est pas autorisée à passer des appels téléphoniques.</string>
     <!-- Widgets: -->
@@ -184,7 +186,11 @@
     <!-- The format string for when an app is temporarily disabled. -->
     <string name="disabled_app_label"><xliff:g id="APP_NAME">%1$s</xliff:g> est désactivé.</string>
     <!-- The format string for when an app has a notification dot (meaning it has associated notifications). [ICU_FORMAT]-->
-    <string name="dotted_app_label">{count,plural,offset:1 =1{{app_name} a # notification}one{{app_name} a # notification}other{{app_name} a # notifications}}</string>
+    <string name="dotted_app_label">        {count, plural,
+            =1      {{app_name} has # notification}
+            other   {{app_name} has # notifications}
+        }
+    </string>
     <skip></skip>
     <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
     <string name="default_scroll_format">Page %1$d sur %2$d</string>
@@ -218,7 +224,7 @@
     <string name="msg_disabled_by_admin">Désactivé par votre administrateur</string>
     <!-- Strings for settings -->
     <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-    <string name="allow_rotation_title">Autoriser la rotation de l\'écran d\'accueil</string>
+    <string name="allow_rotation_title">Allow home screen rotation</string>
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <string name="allow_rotation_desc">Lorsque vous faites pivoter le téléphone</string>
     <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
@@ -235,8 +241,10 @@
     <string name="title_change_settings">Modifier les paramètres</string>
     <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
     <string name="notification_dots_service_title">Afficher les pastilles de notification</string>
+    <!-- Title for Developer Options setting. [CHAR LIMIT=50] -->
+    <string name="developer_options_title">Developer Options</string>
     <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=60] -->
-    <string name="auto_add_shortcuts_label">Ajouter les icônes des applis à l\'écran d\'accueil</string>
+    <string name="auto_add_shortcuts_label">Add app icons to home screen</string>
     <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
     <string name="auto_add_shortcuts_description">Pour les nouvelles applications</string>
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
@@ -256,6 +264,15 @@
     <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> en cours de téléchargement, <xliff:g id="PROGRESS">%2$s</xliff:g> effectué(s)</string>
     <!-- Title for an app whose download has been started. -->
     <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> en attente d\'installation</string>
+    <!-- Title shown on the alert dialog prompting the user to update the application in market
+     in order to re-enable the disabled shortcuts -->
+    <string name="dialog_update_title">App update required</string>
+    <!-- Message shown on the alert dialog prompting the user to update the application -->
+    <string name="dialog_update_message">The app for this icon isn\'t updated. You can update manually to re-enable this shortcut, or remove the icon.</string>
+    <!-- Message for the update button in the alert dialog, will bring the user to market -->
+    <string name="dialog_update">Update</string>
+    <!-- Message for the remove button in the alert dialog -->
+    <string name="dialog_remove">Supprimer</string>
     <!-- Strings for widgets & more in the popup container/bottom sheet -->
     <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
     <string name="widgets_list">Liste des widgets</string>
@@ -263,7 +280,7 @@
     <string name="widgets_list_closed">La liste des widgets est fermée</string>
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_add_to_workspace">Ajouter à l\'écran d\'accueil</string>
+    <string name="action_add_to_workspace">Add to home screen</string>
     <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
     <string name="action_move_here">Déplacer l\'élément ici</string>
     <!-- Accessibility confirmation for item added to workspace. -->
@@ -293,7 +310,7 @@
     <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">Dossier créé</string>
     <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_move_to_workspace">Déplacer vers l\'écran d\'accueil</string>
+    <string name="action_move_to_workspace">Move to home screen</string>
     <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
     <string name="action_resize">Redimensionner</string>
     <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
@@ -337,11 +354,15 @@
     <!-- button string shown to dismiss work tab education -->
     <string name="work_apps_paused_edu_accept">OK</string>
     <!-- button string shown pause work profile -->
-    <string name="work_apps_pause_btn_text">Désactiver les applis professionnelles</string>
+    <string name="work_apps_pause_btn_text">Pause work apps</string>
     <!-- button string shown enable work profile -->
     <string name="work_apps_enable_btn_text">Activer les applications professionnelles</string>
     <!-- A hint shown in launcher settings develop options filter box -->
     <string name="developer_options_filter_hint">Filtre</string>
+    <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
+    <string name="search_pref_screen_title">Search your phone</string>
+    <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
+    <string name="search_pref_screen_title_tablet">Search your tablet</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Échec : <xliff:g id="WHAT">%1$s</xliff:g></string>
 </resources>

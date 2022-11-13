@@ -28,15 +28,6 @@
     <!-- Hide labels -->
     <string name="desktop_show_labels">Ana ekranda simge etiketleri</string>
     <string name="drawer_show_labels">Çekmecede simge etiketleri</string>
-    <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Gizli &amp; Korunan uygulamalar</string>
-    <string name="trust_apps_auth_manager">Gizli ve korunan uygulamaları yönetmek için kilidi açın</string>
-    <string name="trust_apps_auth_open_app">%1$s açmak için kimlik doğrula</string>
-    <string name="trust_apps_loading">Yükleniyor\u2026</string>
-    <string name="trust_apps_no_lock_error">Uygulama erişimini kısıtlamak için lütfen güvenli bir kilit ekranı ayarlayın</string>
-    <string name="trust_apps_help">Yardım</string>
-    <string name="trust_apps_info_hidden">Gizli uygulamalar ve widgetler uygulama menüsünde görünmeyecek</string>
-    <string name="trust_apps_info_protected">Korunan uygulamaların başlatıcıdan açılması için kimlik doğrulama gerekir</string>
     <!-- General -->
     <string name="settings_title">Ana ekran ayarları</string>
     <!-- Categories -->
@@ -237,4 +228,11 @@
     <!-- Scroll Vibration -->
     <string name="pref_scroll_vibration_title">Kaydırma titreşimi</string>
     <string name="pref_scroll_vibration_summary">Destekleniyorsa, son uygulamalar arasında gezinirken dokunumsal geri bildirim</string>
+    <!-- QuickSpace: QuickEvent: Weather -->
+    <string name="quick_event_ambient_weather_title">Weather condition</string>
+    <string name="quick_event_ambient_weather_summary">Display current weather condition and temperature</string>
+    <string name="quick_event_ambient_weather_enabled_info">Requires weather service to be enabled</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar_title">Use taskbar</string>
+    <string name="pref_allow_phone_taskbar_summary">For opening and switching apps anywhere</string>
 </resources>
