@@ -319,4 +319,7 @@
     <!-- QSB -->
     <string name="qsb_search_hint">Search your phone</string>
 
+    <!-- App drawer searchbar -->
+    <string name="drawer_search_title">App search bar</string>
+    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
 </resources>
