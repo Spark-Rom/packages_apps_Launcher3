@@ -57,9 +57,9 @@
     <string name="widget_preview_context_description"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget</string>
     <!-- Message to tell the user to press and hold a widget/icon to add it to the home screen.
          [CHAR LIMIT=NONE]  -->
-    <string name="add_item_request_drag_hint">Sentuh &amp; tahan widget untuk memindahkannya di sekitar layar beranda</string>
+    <string name="add_item_request_drag_hint">Touch &amp; hold the widget to move it around the home screen</string>
     <!-- Button label to automatically add a widget to home screen [CHAR_LIMIT=50] -->
-    <string name="add_to_home_screen">Tambah ke layar beranda</string>
+    <string name="add_to_home_screen">Add to home screen</string>
     <!-- Accessibility spoken message announced when a widget gets added to the home screen using a
          button in a dialog. [CHAR_LIMIT=none] -->
     <string name="added_to_home_screen_accessibility_text"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget ditambahkan ke layar beranda</string>
@@ -100,7 +100,7 @@
     <string name="widget_education_header">Info bermanfaat mudah dilihat</string>
     <!-- Dialog text. This dialog lets a user know how they can use widgets on their phone.
          [CHAR_LIMIT=NONE] -->
-    <string name="widget_education_content">Untuk mendapatkan info tanpa membuka aplikasi, Anda dapat menambahkan widget ke layar beranda</string>
+    <string name="widget_education_content">To get info without opening apps, you can add widgets to your home screen</string>
     <!-- Text on an educational tip on widget informing users that they can change widget settings.
          [CHAR_LIMIT=NONE] -->
     <string name="reconfigurable_widget_education_tip">Ketuk untuk mengubah setelan widget</string>
@@ -132,7 +132,7 @@
     <string name="long_accessible_way_to_add_shortcut">Ketuk dua kali &amp; tahan untuk mengatur pintasan atau menggunakan tindakan khusus.</string>
     <skip></skip>
     <!-- Error message when a user can't add more apps, widgets, or shortcuts to a Home screen. -->
-    <string name="out_of_space">Tidak ada ruang di layar beranda ini</string>
+    <string name="out_of_space">No room on this home screen</string>
     <!-- Error message when user has filled the hotseat -->
     <string name="hotseat_out_of_space">Tidak ada ruang tersisa di baki Favorit</string>
     <!-- All applications label -->
@@ -162,15 +162,15 @@
     <string name="permdesc_install_shortcut">Izinkan aplikasi menambah
         pintasan tanpa campur tangan pengguna.</string>
     <!-- Permission short label -->
-    <string name="permlab_read_settings">membaca setelan dan pintasan layar beranda</string>
+    <string name="permlab_read_settings">read home settings and shortcuts</string>
     <!-- Permission description -->
-    <string name="permdesc_read_settings">Izinkan aplikasi melihat setelan dan
-        pintasan di beranda.</string>
+    <string name="permdesc_read_settings">Allows the app to read the settings and
+        shortcuts in home.</string>
     <!-- Permission short label -->
-    <string name="permlab_write_settings">membaca setelan dan pintasan layar beranda</string>
+    <string name="permlab_write_settings">write home settings and shortcuts</string>
     <!-- Permission description -->
-    <string name="permdesc_write_settings">Izinkan aplikasi mengubah setelan dan
-        pintasan di beranda.</string>
+    <string name="permdesc_write_settings">Allows the app to change the settings and
+        shortcuts in home.</string>
     <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
     <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Launcher3">%1$s</xliff:g> tidak diizinkan melakukan panggilan telepon</string>
     <!-- Widgets: -->
@@ -189,9 +189,9 @@
     <!-- The format string for when an app is temporarily disabled. -->
     <string name="disabled_app_label">Nonakfikan <xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
     <!-- The format string for when an app has a notification dot (meaning it has associated notifications). [ICU_FORMAT]-->
-    <string name="dotted_app_label">        {count, plural, offset:1
-            =1      {{app_name} memiliki # notifikasi}
-            other   {{app_name} memiliki # notifikasi}
+    <string name="dotted_app_label">        {count, plural,
+            =1      {{app_name} has # notification}
+            other   {{app_name} has # notifications}
         }
     </string>
     <skip></skip>
@@ -227,7 +227,7 @@
     <string name="msg_disabled_by_admin">Dinonaktifkan oleh admin</string>
     <!-- Strings for settings -->
     <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-    <string name="allow_rotation_title">Izinkan rotasi layar beranda</string>
+    <string name="allow_rotation_title">Allow home screen rotation</string>
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <string name="allow_rotation_desc">Saat ponsel diputar</string>
     <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
@@ -244,8 +244,10 @@
     <string name="title_change_settings">Ubah setelan</string>
     <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
     <string name="notification_dots_service_title">Tampilkan titik notifikasi</string>
+    <!-- Title for Developer Options setting. [CHAR LIMIT=50] -->
+    <string name="developer_options_title">Developer Options</string>
     <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=60] -->
-    <string name="auto_add_shortcuts_label">Tambahkan ikon aplikasi ke layar beranda</string>
+    <string name="auto_add_shortcuts_label">Add app icons to home screen</string>
     <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
     <string name="auto_add_shortcuts_description">Untuk aplikasi baru</string>
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
@@ -267,6 +269,15 @@
     <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> mengunduh, <xliff:g id="progress" example="30%">%2$s</xliff:g> selesai</string>
     <!-- Title for an app whose download has been started. -->
     <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> menunggu untuk diinstal</string>
+    <!-- Title shown on the alert dialog prompting the user to update the application in market
+     in order to re-enable the disabled shortcuts -->
+    <string name="dialog_update_title">App update required</string>
+    <!-- Message shown on the alert dialog prompting the user to update the application -->
+    <string name="dialog_update_message">The app for this icon isn\'t updated. You can update manually to re-enable this shortcut, or remove the icon.</string>
+    <!-- Message for the update button in the alert dialog, will bring the user to market -->
+    <string name="dialog_update">Update</string>
+    <!-- Message for the remove button in the alert dialog -->
+    <string name="dialog_remove">Hapus</string>
     <!-- Strings for widgets & more in the popup container/bottom sheet -->
     <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
     <string name="widgets_list">Daftar widget</string>
@@ -274,7 +285,7 @@
     <string name="widgets_list_closed">Daftar widget ditutup</string>
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_add_to_workspace">Tambah ke layar beranda</string>
+    <string name="action_add_to_workspace">Add to home screen</string>
     <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
     <string name="action_move_here">Pindahkan item ke sini</string>
     <!-- Accessibility confirmation for item added to workspace. -->
@@ -304,7 +315,7 @@
     <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">Folder dibuat</string>
     <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_move_to_workspace">Pindahkan ke layar beranda</string>
+    <string name="action_move_to_workspace">Move to home screen</string>
     <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
     <string name="action_resize">Ubah ukuran</string>
     <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
@@ -349,11 +360,15 @@
     <!-- button string shown to dismiss work tab education -->
     <string name="work_apps_paused_edu_accept">Oke</string>
     <!-- button string shown pause work profile -->
-    <string name="work_apps_pause_btn_text">Nonaktifkan aplikasi kerja</string>
+    <string name="work_apps_pause_btn_text">Pause work apps</string>
     <!-- button string shown enable work profile -->
     <string name="work_apps_enable_btn_text">Aktifkan aplikasi kerja</string>
     <!-- A hint shown in launcher settings develop options filter box -->
     <string name="developer_options_filter_hint">Filter</string>
+    <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
+    <string name="search_pref_screen_title">Search your phone</string>
+    <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
+    <string name="search_pref_screen_title_tablet">Search your tablet</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Gagal: <xliff:g id="WHAT">%1$s</xliff:g></string>
 </resources>
