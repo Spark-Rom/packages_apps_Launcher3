@@ -18,6 +18,7 @@ package com.android.launcher3.quickspace;
 import android.animation.LayoutTransition;
 import android.animation.ValueAnimator;
 import android.animation.ValueAnimator.AnimatorUpdateListener;
+import android.annotation.UiThread;
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
 import android.content.Context;
@@ -79,6 +80,7 @@ public class QuickSpaceView extends FrameLayout implements AnimatorUpdateListene
         setClipChildren(false);
     }
 
+    @UiThread
     @Override
     public void onDataUpdated() {
         mController.getEventController().initQuickEvents();
