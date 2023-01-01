@@ -174,15 +174,15 @@
     <string name="quickspace_date_format_minimalistic" translatable="false">EEE, MMM d</string>
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
-    <string name="quick_event_rom_intro_welcome" translatable="false">Welcome to riceDroid!</string>
+    <string name="quick_event_rom_intro_welcome" translatable="false">Welcome to Spark!</string>
     <string-array name="welcome_message_variants" translatable="false">
         <item>Have a great day!</item>
-        <item>Thank you for flashing riceDroid!</item>
-        <item>Loving us? Send us a soju!</item>
-        <item>We\'re not the best, but at least we try!</item>
-        <item>Share us on twitter! #gtrcd</item>
+        <item>Thank you for flashing Spark!</item>
+        <item>Loving us? Buy as a pizza</item>
+        <item>Trying to be the best everyday!</item>
+        <item>Share us on twitter! #LightTheNight</item>
         <item>Tap here to begin</item>
-        <item>We love it when you enjoy riceDroid!</item>
+        <item>We love it when you enjoy Spark!</item>
     </string-array>
 
     <!-- QuickSpace: QuickEvent: Greetings -->
@@ -190,7 +190,7 @@
     <string name="quickspace_grt_evening">Good evening.</string>
     <string name="quickspace_grt_afternoon">Good afternoon.</string>
     <string name="quickspace_grt_night">Good night.</string>
-    <string name="quickspace_grt_midnight">Solemn midnight.</string>
+    <string name="quickspace_grt_midnight">Happy midnight.</string>
     <string name="quickspace_grt_general">Good day.</string>
     <string name="quickspace_ext_one">Today is</string>
     <string name="quickspace_ext_two">It\'s</string>
