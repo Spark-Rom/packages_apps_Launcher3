@@ -49,7 +49,7 @@ import com.android.launcher3.model.WidgetsModel;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
-import com.android.internal.util.crdroid.OmniJawsClient;
+import com.android.internal.util.spark.OmniJawsClient;
 
 /**
  * Settings activity for Launcher.
