@@ -31,6 +31,7 @@
     <string name="misc_category_summary">Altre opzioni</string>
     <string name="general_category_title">Generale</string>
     <string name="interface_category_title">Interfaccia</string>
+    <string name="quickspace_category_title">Quickspace</string>
     <string name="search_bar_category_title">Barra di ricerca</string>
     <string name="actions_category_title">Azioni rapide</string>
     <!-- Developer options -->
@@ -112,7 +113,7 @@
     <string name="recents_lens_title">Lens</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Icone a tema</string>
-    <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
+    <string name="pref_themed_icons_summary">Segui le icone a tema usate nella schermata home</string>
     <!-- AppInfo -->
     <string name="app_info_source">Fonte</string>
     <string name="app_info_source_system">Sistema</string>
@@ -124,4 +125,143 @@
     <string name="icon_pack_default_label">Predefinito</string>
     <string name="icon_pack_add">Installa altri</string>
     <string name="icon_pack_no_market">Nessun app store disponibile</string>
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Termina</string>
+    <string name="recents_app_killed">App terminata</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s Disponibile | %2$s Totale</string>
+    <string name="recents_meminfo_title">Info memoria</string>
+    <!-- QuickSpace -->
+    <string name="show_quickspace_title">At A Glance</string>
+    <string name="show_quickspace_summary">Mostrato nella parte superiore della tua schermata home</string>
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <!-- QuickSpace: QuickEvent: Greetings -->
+    <string name="quickspace_grt_morning">Buongiorno.</string>
+    <string name="quickspace_grt_evening">Buonasera.</string>
+    <string name="quickspace_grt_afternoon">Buon pomeriggio.</string>
+    <string name="quickspace_grt_night">Buonanotte.</string>
+    <string name="quickspace_grt_midnight">Felice mezzanotte.</string>
+    <string name="quickspace_grt_general">Buona giornata.</string>
+    <string name="quickspace_ext_one">Oggi è</string>
+    <string name="quickspace_ext_two">Sono le</string>
+    <string name="quickspace_ext_three">Sono le</string>
+    <!-- QuickSpace: QuickEvent: Ambient Play -->
+    <string name="qe_now_playing_unknown_artist">Artista Sconosciuto</string>
+    <string name="qe_now_playing_ext_one">Ora siete</string>
+    <string name="qe_now_playing_ext_two">In riproduzione</string>
+    <string name="qe_now_playing_by">Da</string>
+    <!-- Quickspace Now Playing -->
+    <string name="quickspace_now_playing_title">In riproduzione</string>
+    <string name="quickspace_now_playing_summary">Mostra la canzone che stai riproducendo</string>
+    <!-- Quickspace alternative view -->
+    <string name="quickspace_alternate_style_title">Stile esteso</string>
+    <string name="quickspace_alternate_style_summary">Passa allo stile esteso</string>
+    <!-- Quickspace PSA - Custom messages for the glance -->
+    <string name="quickspace_psa_title">Messaggi casuali</string>
+    <string name="quickspace_psa_summary">Rendi il tuo compagno più vivace con messaggi casuali</string>
+    <string-array name="quickspace_psa_morning">
+        <item>Una piccola passeggiata sembra piacevole.</item>
+        <item>Spazzola i denti con cura.</item>
+        <item>Inizia la tua giornata idratandoti!</item>
+        <item>Fai un po\' di esercizio!</item>
+        <item>Stiracchiati!</item>
+        <item>Inizia la tua giornata con positività.</item>
+        <item>Una bella mattina è!</item>
+        <item>Controlla sempre il livello della batteria del dispositivo!</item>
+        <item>Non dimenticate di preparare la colazione.</item>
+        <item>Controlla il meteo, non si sa mai.</item>
+        <item>Non dimenticarti di controllare le tue note!</item>
+        <item>Controlla sempre le tue mail/messaggi.</item>
+        <item>Controlla il tuo programma se ne hai uno.</item>
+        <item>Buona fortuna oggi!</item>
+        <item>Attivare l\'interruttore può correggere le risposte bloccate.</item>
+        <item>Inizia la giornata con qualsiasi bevanda calda.</item>
+        <item>Non dimenticare le proteine.</item>
+        <item>Le uova fanno una colazione semplice e nutriente.</item>
+        <item>Goditi la colazione.</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>Non dimenticare d\'idratarti!</item>
+        <item>Ricordati di mangiare qualche spuntino.</item>
+        <item>I raggi UV sono più dannosi nel pomeriggio.</item>
+        <item>È pomeriggio in questo momento.</item>
+        <item>Controlla sempre il livello della batteria del dispositivo!</item>
+        <item>Ricorda di controllare sempre le tue mail/messaggi.</item>
+        <item>Per favore, controlla la tua lista di cose da fare se ne hai una.</item>
+        <item>Non dimenticare di preparare la cena.</item>
+        <item>Goditi la giornata.</item>
+        <item>Resisti! La giornata è quasi finita!</item>
+        <item>Divertiti un po\'.</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>Idratati sempre!</item>
+        <item>8 ore di sonno sono un must.</item>
+        <item>È sera in questo momento.</item>
+        <item>Ricordati di caricarmi completamente prima di dormire.</item>
+        <item>Ricorda di controllare sempre le tue mail/messaggi.</item>
+        <item>Per favore, controlla la tua lista di cose da fare se ne hai una.</item>
+        <item>Ricordati di cenare.</item>
+        <item>Controlla sempre le luci e le prese di corrente.</item>
+        <item>Goditi la notte.</item>
+        <item>Ehi tu! Riposati un po\'!</item>
+        <item>Rilassati e riposa un po\'.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Non bere troppa acqua prima di dormire.</item>
+        <item>È sera in questo momento.</item>
+        <item>Cerca di evitare la ricarica notturna, se possibile.</item>
+        <item>Ricorda di controllare sempre le tue mail/messaggi.</item>
+        <item>Per favore, controlla la tua lista di cose da fare se ne hai una.</item>
+        <item>Ricordati di cenare.</item>
+        <item>8 ore di sonno sono un must.</item>
+        <item>Goditi la notte.</item>
+        <item>Il lugaw è una bella ricetta per la cena.</item>
+        <item>Goditi il sonno.</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>La carenza di sonno fa male alla tua salute.</item>
+        <item>Non dimenticare d\'idratarti.</item>
+        <item>Essere in deficit di sonno può influire sulla produzione di melatonina.</item>
+        <item>È mezzanotte in questo momento.</item>
+        <item>Dormire tardi non è salutare.</item>
+        <item>Devi dormire ora.</item>
+        <item>Non dimenticare di dormire/preparare la colazione.</item>
+        <item>Goditi la mezzanotte.</item>
+        <item>La carenza di sonno influisce sull’orologio del corpo.</item>
+        <item>Per favore, prenditi cura di te.</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Ci sono easter eggs nascosti in questa ROM.</item>
+        <item>Prova a controllare le impostazioni del meteo.</item>
+        <item>Cerca di evitare i raggi UV durante mezzogiorno.</item>
+        <item>Idratati!</item>
+        <item>Le Pringles non sono patate in realtà..</item>
+        <item>La risata può aumentare il flusso sanguigno.</item>
+        <item>Il caffè contiene antiossidanti.</item>
+        <item>Il Ketchup una volta era venduto come medicina.</item>
+        <item>Lo zucchero filato è stato inventato da un dentista.</item>
+        <item>Non saltare il tuo pasto!</item>
+        <item>Ricorda di controllare il livello della batteria del dispositivo!</item>
+        <item>Controlla le tue mail/messaggi.</item>
+        <item>Controlla la tua lista di cose da fare se ne hai una.</item>
+        <item>È possibile disattivare lo spazio rapido tramite le impostazioni home.</item>
+        <item>Vai a prenderli!</item>
+        <item>È ora di comprare un po\' di riso!</item>
+        <item>Ora di pranzo!</item>
+        <item>Il kalamay è fatto di riso glutinoso.</item>
+        <item>Tutto il riso bianco nasce marrone.</item>
+        <item>Vuoi della soda?</item>
+        <item>Portare sempre dell\'acqua per idratarti.</item>
+        <item>Lo spazio odora di bistecca scottata..</item>
+        <item>Goditi la giornata!</item>
+    </string-array>
+    <!-- QuickSpace: QuickEvent: Weather -->
+    <string name="quick_event_ambient_weather_title">Condizioni meteo</string>
+    <string name="quick_event_ambient_weather_summary">Mostra le condizioni meteorologiche e la temperatura attuali</string>
+    <string name="quick_event_ambient_weather_enabled_info">Richiede l\'attivazione del servizio meteo</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Cerca su questo telefono</string>
+    <!-- App drawer searchbar -->
+    <string name="drawer_search_title">App search bar</string>
+    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
 </resources>
