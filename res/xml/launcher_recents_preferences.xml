@@ -28,6 +28,13 @@
             android:defaultValue="false"
             android:persistent="true" />
 
+         <SwitchPreference
+            android:key="pref_recents_meminfo_position"
+            android:title="@string/recents_meminfo_position_title"
+            android:summary="@string/recents_meminfo_position_summary"
+            android:dependency="pref_recents_meminfo"
+            android:defaultValue="false" />
+
         <com.android.launcher3.settings.preferences.CustomSeekBarPreference
             android:key="pref_recents_opacity"
             android:title="@string/background_opacity_title"

@@ -166,6 +166,8 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s Available | %2$s Total</string>
     <string name="recents_meminfo_title">Memory info</string>
+    <string name="recents_meminfo_position_title">Memory info position</string>
+    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
 
     <!-- QuickSpace -->
     <string name="show_quickspace_title">At A Glance</string>
