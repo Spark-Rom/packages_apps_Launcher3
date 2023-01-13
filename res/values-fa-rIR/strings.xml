@@ -59,7 +59,7 @@
          [CHAR LIMIT=NONE]  -->
     <string name="add_item_request_drag_hint">Touch &amp; hold the widget to move it around the home screen</string>
     <!-- Button label to automatically add a widget to home screen [CHAR_LIMIT=50] -->
-    <string name="add_to_home_screen">Add to home screen</string>
+    <string name="add_to_home_screen">افزودن به صفحه اصلی</string>
     <!-- Accessibility spoken message announced when a widget gets added to the home screen using a
          button in a dialog. [CHAR_LIMIT=none] -->
     <string name="added_to_home_screen_accessibility_text"><xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> widget added to home screen</string>
@@ -100,7 +100,7 @@
     <string name="widget_education_header">اطلاعات مفید در دسترس شماست</string>
     <!-- Dialog text. This dialog lets a user know how they can use widgets on their phone.
          [CHAR_LIMIT=NONE] -->
-    <string name="widget_education_content">To get info without opening apps, you can add widgets to your home screen</string>
+    <string name="widget_education_content">برای دریافت اطلاعات بدون باز کردن برنامه‌ها، می‌توانید ویجت‌ها را به صفحه اصلی خود اضافه کنید</string>
     <!-- Text on an educational tip on widget informing users that they can change widget settings.
          [CHAR_LIMIT=NONE] -->
     <string name="reconfigurable_widget_education_tip">برای تغییر تنظیمات ضربه بزنید</string>
@@ -115,7 +115,6 @@
     <!-- Loading apps text. [CHAR_LIMIT=50] -->
     <string name="all_apps_loading_message">درحال بارگذاری برنامه ها &#8230;</string>
     <!-- No-search-results text. [CHAR_LIMIT=50] -->
-    <string name="all_apps_no_search_results">هیچ برنامه‌ای مطابق با «<xliff:g id="QUERY">%1$s</xliff:g>» پیدا نشد</string>
     <!-- Label for an icon representing any generic app. [CHAR_LIMIT=50] -->
     <string name="label_application">برنامه ها</string>
     <!-- Label for the header text of the All Apps section in All Apps view, used to separate Predicted Apps and Actions section from All Apps section. [CHAR_LIMIT=50] -->
@@ -125,12 +124,12 @@
     <string name="notifications_header">اعلان‌ها</string>
     <!-- Drag and drop -->
     <!-- Message to tell the user to press and hold on a shortcut to add it [CHAR_LIMIT=50] -->
-    <string name="long_press_shortcut_to_add">Touch &amp; hold to move a shortcut.</string>
+    <string name="long_press_shortcut_to_add">برای انتخاب ابزارک لمس کنید &amp; نگه دارید.</string>
     <!-- Accessibility spoken hint message in deep shortcut menu, which allows user to add a shortcut. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=200] -->
-    <string name="long_accessible_way_to_add_shortcut">Double-tap &amp; hold to move a shortcut or use custom actions.</string>
+    <string name="long_accessible_way_to_add_shortcut">برای انتخاب یک ابزارک، دو ضربه سریع بزنید &amp; نگه‌دارید یا از اقدامات سفارشی استفاده کنید.</string>
     <skip></skip>
     <!-- Error message when a user can't add more apps, widgets, or shortcuts to a Home screen. -->
-    <string name="out_of_space">No room on this home screen</string>
+    <string name="out_of_space">این صفحه دیگر فضا ندارد</string>
     <!-- Error message when user has filled the hotseat -->
     <string name="hotseat_out_of_space">فضای بیشتری موارد دلخواه وجود ندارد</string>
     <!-- All applications label -->
@@ -159,15 +158,13 @@
     <!-- Permission description -->
     <string name="permdesc_install_shortcut">به برنامه اجازه می‌دهد بدون دخالت کاربر میانبرها را اضافه کند.</string>
     <!-- Permission short label -->
-    <string name="permlab_read_settings">read home settings and shortcuts</string>
+    <string name="permlab_read_settings">خواندن تنظیمات و میان‌برهای صفحه اصلی</string>
     <!-- Permission description -->
-    <string name="permdesc_read_settings">Allows the app to read the settings and
-        shortcuts in home.</string>
+    <string name="permdesc_read_settings">به برنامه اجازه می‌دهد تنظیمات و میان‌برها را در صفحه اصلی بخواند.</string>
     <!-- Permission short label -->
-    <string name="permlab_write_settings">write home settings and shortcuts</string>
+    <string name="permlab_write_settings">نوشتن تنظیمات و میان‌برهای صفحه اصلی</string>
     <!-- Permission description -->
-    <string name="permdesc_write_settings">Allows the app to change the settings and
-        shortcuts in home.</string>
+    <string name="permdesc_write_settings">به برنامه اجازه می‌دهد تنظیمات و میان‌برها را در صفحه اصلی تغییر دهد.</string>
     <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
     <string name="msg_no_phone_permission"><xliff:g id="APP_NAME">%1$s</xliff:g> مجاز نیست تماس تلفنی برقرار کند</string>
     <!-- Widgets: -->
@@ -217,14 +214,14 @@
     <!-- Text for wallpaper change button [CHAR LIMIT=30]-->
     <string name="wallpaper_button_text">تصاویر پس زمینه</string>
     <!-- Text for wallpaper change button [CHAR LIMIT=30]-->
-    <string name="styles_wallpaper_button_text">Wallpaper &amp; style</string>
+    <string name="styles_wallpaper_button_text">تصویرزمینه &amp; سبک</string>
     <!-- Text for settings button [CHAR LIMIT=20]-->
     <string name="settings_button_text">تنظیمات صفحه اصلی</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">توسط مدیریت غیر فعال شد</string>
     <!-- Strings for settings -->
     <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-    <string name="allow_rotation_title">Allow home screen rotation</string>
+    <string name="allow_rotation_title">اجازه به چرخش تصویر</string>
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
     <string name="allow_rotation_desc">وقتی تلفن چرخانده می‌شود</string>
     <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
@@ -242,9 +239,9 @@
     <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
     <string name="notification_dots_service_title">نمایش نقطه اعلان</string>
     <!-- Title for Developer Options setting. [CHAR LIMIT=50] -->
-    <string name="developer_options_title">Developer Options</string>
+    <string name="developer_options_title">گزینه‌های توسعه‌دهنده</string>
     <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=60] -->
-    <string name="auto_add_shortcuts_label">Add app icons to home screen</string>
+    <string name="auto_add_shortcuts_label">افزودن ایکون به صفحه اصلی</string>
     <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
     <string name="auto_add_shortcuts_description">برای برنامه های جدید</string>
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
@@ -259,18 +256,18 @@
     The second "it" refers to the app. -->
     <string name="abandoned_promise_explanation">برنامه برای این ایکون نصب نشده است. می‌توانید آن را حذف کنید یا سعی کنید برنامه را جستجو کنید و آن را به صورت دستی نصب کنید.</string>
     <!-- Title for an app which is being installed. -->
-    <string name="app_installing_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> installing, <xliff:g id="progress" example="30%">%2$s</xliff:g> complete</string>
+    <string name="app_installing_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> درحال نصب <xliff:g id="progress" example="30%">%2$s</xliff:g> تکمیل شد</string>
     <!-- Title for an app which is being downloaded. -->
     <string name="app_downloading_title">درحال بارگیری <xliff:g id="NAME">%1$s</xliff:g>، <xliff:g id="PROGRESS">%2$s</xliff:g> کامل شد</string>
     <!-- Title for an app whose download has been started. -->
     <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> درانتظار نصب</string>
     <!-- Title shown on the alert dialog prompting the user to update the application in market
      in order to re-enable the disabled shortcuts -->
-    <string name="dialog_update_title">App update required</string>
+    <string name="dialog_update_title">آپدیت مورد نیاز است</string>
     <!-- Message shown on the alert dialog prompting the user to update the application -->
     <string name="dialog_update_message">The app for this icon isn\'t updated. You can update manually to re-enable this shortcut, or remove the icon.</string>
     <!-- Message for the update button in the alert dialog, will bring the user to market -->
-    <string name="dialog_update">Update</string>
+    <string name="dialog_update">به‌روزرسانی</string>
     <!-- Message for the remove button in the alert dialog -->
     <string name="dialog_remove">حذف</string>
     <!-- Strings for widgets & more in the popup container/bottom sheet -->
@@ -280,7 +277,7 @@
     <string name="widgets_list_closed">فهرست ابزارک‌ها بسته شد</string>
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_add_to_workspace">Add to home screen</string>
+    <string name="action_add_to_workspace">افزودن به صفحه اصلی</string>
     <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
     <string name="action_move_here">انتقال ایتم به اینجا</string>
     <!-- Accessibility confirmation for item added to workspace. -->
@@ -302,15 +299,15 @@
     <!-- Accessibility description to move item into an existing folder. -->
     <string name="add_to_folder">افزودن به پوشه: <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Accessibility description to move item into an existing folder containing an app. -->
-    <string name="add_to_folder_with_app">Add to folder with <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+    <string name="add_to_folder_with_app">افزودن به پوشه حاوی <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for item added to folder. -->
-    <string name="added_to_folder">Item added to folder</string>
+    <string name="added_to_folder">مورد به پوشه اضافه شد</string>
     <!-- Accessibility description to create folder with another item. -->
-    <string name="create_folder_with">Create folder with: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+    <string name="create_folder_with">ایجاد پوشه با: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">پوشه ساخته شد</string>
     <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-    <string name="action_move_to_workspace">Move to home screen</string>
+    <string name="action_move_to_workspace">انتقال به صفحه اصلی</string>
     <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
     <string name="action_resize">تغییر اندازه</string>
     <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
@@ -322,7 +319,7 @@
     <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_height">کاهش ارتفاع</string>
     <!-- Accessibility confirmation for widget resize. -->
-    <string name="widget_resized">Widget resized to width <xliff:g id="number" example="2">%1$s</xliff:g> height <xliff:g id="number" example="1">%2$s</xliff:g></string>
+    <string name="widget_resized">اندازه ابزارک به عرض <xliff:g id="number" example="2">%1$s</xliff:g> ارتفاع <xliff:g id="number" example="1">%2$s</xliff:g> تغییر کرد</string>
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_deep_shortcut">میانبرها</string>
     <!-- Accessibility description when the context menu of a launcher icon that has notifications as well as shortcuts (providing quick access to app's actions). The "shortcuts" translation should be consistent with the one for action_deep_shortcut. [CHAR_LIMIT=50] -->
@@ -338,19 +335,19 @@
     <!-- Label of tab to indicate work apps -->
     <string name="all_apps_work_tab">کار</string>
     <!-- This string is in the work profile tab when a user has All Apps open on their phone. This is a label for a toggle to turn the work profile on and off. "Work profile" means a separate profile on a user's phone that's specifically for their work apps and managed by their company. "Work" is used as an adjective.-->
-    <string name="work_profile_toggle_label">Work profile</string>
+    <string name="work_profile_toggle_label">نمایه کار</string>
     <!--- User onboarding title for work profile apps -->
-    <string name="work_profile_edu_work_apps">Work apps are badged and visible to your IT admin</string>
+    <string name="work_profile_edu_work_apps">برنامه‌ها و داده‌های کاری برای سرپرست IT شما قابل مشاهده است</string>
     <!-- Action label to finish work profile edu-->
     <string name="work_profile_edu_accept">فهمیدم</string>
     <!--- heading shown when user opens work apps tab while work apps are paused -->
     <string name="work_apps_paused_title">Work apps are paused</string>
     <!--- body shown when user opens work apps tab while work apps are paused -->
-    <string name="work_apps_paused_body">Your work apps can’t send you notifications, use your battery, or access your location</string>
+    <string name="work_apps_paused_body">برنامه‌های کاری نمی‌توانند اعلان ارسال کنند، از باتری استفاده کنند، یا به مکانتان دسترسی داشته باشند</string>
     <!-- content description for paused work apps list -->
-    <string name="work_apps_paused_content_description">Work apps are off. Your work apps can’t send you notifications, use your battery, or access your location</string>
+    <string name="work_apps_paused_content_description">نمایه کاری موقتاً متوقف شده است. برنامه‌های کاری نمی‌توانند به شما اعلان ارسال کنند، از باتری استفاده کنند، یا به مکانتان دسترسی داشته باشند</string>
     <!-- string shown in educational banner about work profile -->
-    <string name="work_apps_paused_edu_banner">Work apps are badged and visible to your IT admin</string>
+    <string name="work_apps_paused_edu_banner">برنامه‌ها و داده‌های کاری برای سرپرست IT شما قابل مشاهده است</string>
     <!-- button string shown to dismiss work tab education -->
     <string name="work_apps_paused_edu_accept">فهمیدم</string>
     <!-- button string shown pause work profile -->
@@ -364,5 +361,5 @@
     <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
     <string name="search_pref_screen_title_tablet">Search your tablet</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
-    <string name="remote_action_failed">Failed: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
+    <string name="remote_action_failed">ناموفق بود: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
 </resources>
