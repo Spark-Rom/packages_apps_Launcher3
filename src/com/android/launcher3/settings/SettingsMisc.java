@@ -288,6 +288,8 @@ public class SettingsMisc extends CollapsingToolbarBaseActivity
                 case SUGGESTIONS_KEY:
                     // Show if Device Personalization Services is present.
                     return isDPSEnabled(getContext());
+                case Utilities.KEY_ACTION_TOAST_ENABLED:
+                    return true;
                 case KEY_TRUST_APPS:
                     preference.setOnPreferenceClickListener(p -> {
                         Utilities.showLockScreen(getActivity(),
