@@ -31,7 +31,7 @@
     <string name="misc_category_summary">その他のオプション</string>
     <string name="general_category_title">一般</string>
     <string name="interface_category_title">インターフェース</string>
-    <string name="quickspace_category_title">Quickspace</string>
+    <string name="quickspace_category_title">クイックスペース</string>
     <string name="search_bar_category_title">検索バー</string>
     <string name="actions_category_title">クイックアクション</string>
     <!-- Developer options -->
@@ -76,6 +76,8 @@
     <string name="label_search">検索</string>
     <string name="label_lens">Google レンズ</string>
     <string name="label_voice_search">音声検索</string>
+    <string name="dock_music_search_title">Google music search</string>
+    <string name="dock_music_search_summary">Use Google music search instead of Google Assistant on mic icon pressed</string>
     <string name="dock_search_title">Google 検索バー</string>
     <string name="dock_search_summary">ドック下部の検索バー</string>
     <string name="dock_theme_title">アイコンのテーマ</string>
@@ -111,9 +113,10 @@
     <string name="recents_screenshot_title">スクリーンショット</string>
     <string name="recents_clear_all_title">全て消去</string>
     <string name="recents_lens_title">レンズ</string>
+    <string name="recents_lock_title">Lock recent apps</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">アイコンのテーマ</string>
-    <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
+    <string name="pref_themed_icons_summary">ホーム画面のテーマアイコンに従う</string>
     <!-- AppInfo -->
     <string name="app_info_source">ソース</string>
     <string name="app_info_source_system">システム</string>
@@ -127,13 +130,15 @@
     <string name="icon_pack_no_market">利用できるアプリストアがありません</string>
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">Kill</string>
-    <string name="recents_app_killed">App killed</string>
+    <string name="recents_app_killed">アプリを終了しました</string>
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
-    <string name="recents_meminfo_title">Memory info</string>
+    <string name="meminfo_text">%1$s 利用可能 | %2$s 合計</string>
+    <string name="recents_meminfo_title">メモリ情報</string>
+    <string name="recents_meminfo_position_title">Memory info position</string>
+    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">At A Glance</string>
-    <string name="show_quickspace_summary">Show at the top of your home screen</string>
+    <string name="show_quickspace_summary">ホーム画面の上部に表示する</string>
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
     <!-- QuickSpace: QuickEvent: Greetings -->
     <string name="quickspace_grt_morning">Good morning.</string>
@@ -146,7 +151,7 @@
     <string name="quickspace_ext_two">It\'s</string>
     <string name="quickspace_ext_three">It\'s</string>
     <!-- QuickSpace: QuickEvent: Ambient Play -->
-    <string name="qe_now_playing_unknown_artist">Unknown Artist</string>
+    <string name="qe_now_playing_unknown_artist">不明なアーティスト</string>
     <string name="qe_now_playing_ext_one">You are now</string>
     <string name="qe_now_playing_ext_two">Playing</string>
     <string name="qe_now_playing_by">By</string>
@@ -256,12 +261,12 @@
         <item>Enjoy your day!</item>
     </string-array>
     <!-- QuickSpace: QuickEvent: Weather -->
-    <string name="quick_event_ambient_weather_title">Weather condition</string>
-    <string name="quick_event_ambient_weather_summary">Display current weather condition and temperature</string>
-    <string name="quick_event_ambient_weather_enabled_info">Requires weather service to be enabled</string>
+    <string name="quick_event_ambient_weather_title">天気情報</string>
+    <string name="quick_event_ambient_weather_summary">現在の天気と気温を表示します</string>
+    <string name="quick_event_ambient_weather_enabled_info">天気サービスを有効にする必要があります</string>
     <!-- QSB -->
     <string name="qsb_search_hint">スマートフォンの保護</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_search_title">App search bar</string>
-    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+    <string name="drawer_search_title">アプリ検索バー</string>
+    <string name="drawer_search_summary">アプリドロワー上部の検索バー</string>
 </resources>

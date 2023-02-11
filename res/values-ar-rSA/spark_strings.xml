@@ -76,6 +76,8 @@
     <string name="label_search">بحث</string>
     <string name="label_lens">عدسة جوجل</string>
     <string name="label_voice_search">البحث الصوتي</string>
+    <string name="dock_music_search_title">Google music search</string>
+    <string name="dock_music_search_summary">Use Google music search instead of Google Assistant on mic icon pressed</string>
     <string name="dock_search_title">بحث جوجل</string>
     <string name="dock_search_summary">Search bar in the bottom dock</string>
     <string name="dock_theme_title">أيقونات مع الثيم</string>
@@ -111,6 +113,7 @@
     <string name="recents_screenshot_title">لقطة الشاشة</string>
     <string name="recents_clear_all_title">مسح الكل</string>
     <string name="recents_lens_title">العدسة</string>
+    <string name="recents_lock_title">Lock recent apps</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">أيقونات مع الثيم</string>
     <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
@@ -131,6 +134,8 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s Available | %2$s Total</string>
     <string name="recents_meminfo_title">Memory info</string>
+    <string name="recents_meminfo_position_title">Memory info position</string>
+    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">At A Glance</string>
     <string name="show_quickspace_summary">Show at the top of your home screen</string>

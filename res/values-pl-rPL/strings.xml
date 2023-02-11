@@ -98,7 +98,7 @@
     <string name="widget_education_header">Użyteczne informacje w zasięgu ręki</string>
     <!-- Dialog text. This dialog lets a user know how they can use widgets on their phone.
          [CHAR_LIMIT=NONE] -->
-    <string name="widget_education_content">To get info without opening apps, you can add widgets to your home screen</string>
+    <string name="widget_education_content">Aby uzyskać informacje bez otwierania aplikacji, możesz dodać widżety do ekranu głównego</string>
     <!-- Text on an educational tip on widget informing users that they can change widget settings.
          [CHAR_LIMIT=NONE] -->
     <string name="reconfigurable_widget_education_tip">Kliknij, aby zmienić ustawienia widżetu</string>
@@ -156,7 +156,7 @@
     <!-- Permission description -->
     <string name="permdesc_install_shortcut">Pozwala aplikacji dodawać skróty bez interwencji użytkownika.</string>
     <!-- Permission short label -->
-    <string name="permlab_read_settings">read home settings and shortcuts</string>
+    <string name="permlab_read_settings">odczytywanie ustawień i skrótów na ekranie głównym</string>
     <!-- Permission description -->
     <string name="permdesc_read_settings">Pozwala aplikacji na odczytywanie ustawień i
         skrótów na ekranie.</string>
@@ -355,11 +355,20 @@
     <!-- button string shown enable work profile -->
     <string name="work_apps_enable_btn_text">Włącz aplikacje służbowe</string>
     <!-- A hint shown in launcher settings develop options filter box -->
-    <string name="developer_options_filter_hint">Filtruj</string>
+    <string name="developer_options_filter_hint">Filtr</string>
     <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
     <string name="search_pref_screen_title">Szukaj telefonu</string>
     <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
     <string name="search_pref_screen_title_tablet">Szukaj tabletu</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Niepowodzenie: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Ukryte &amp; chronione aplikacje</string>
+    <string name="trust_apps_auth_manager">Odblokuj, aby zarządzać ukrytymi i chronionymi aplikacjami</string>
+    <string name="trust_apps_auth_open_app">Uwierzytelnij, aby otworzyć %1$s</string>
+    <string name="trust_apps_loading">Ładuję\u2026</string>
+    <string name="trust_apps_no_lock_error">Należy skonfigurować blokadę urządzenia, aby ograniczyć dostęp do aplikacji</string>
+    <string name="trust_apps_help">Pomoc</string>
+    <string name="trust_apps_info_hidden">Ukryte aplikacje i ich widżety są ukryte z szuflady aplikacji</string>
+    <string name="trust_apps_info_protected">Chronione aplikacje wymagają uwierzytelniania, aby mogły zostać uruchomione z poziomu ekranu głównego</string>
 </resources>
