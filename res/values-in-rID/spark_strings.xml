@@ -76,6 +76,8 @@
     <string name="label_search">Cari</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Penelusuran suara</string>
+    <string name="dock_music_search_title">Google music search</string>
+    <string name="dock_music_search_summary">Use Google music search instead of Google Assistant on mic icon pressed</string>
     <string name="dock_search_title">Bilah pencarian Google</string>
     <string name="dock_search_summary">Bilah pencarian di dok bawah</string>
     <string name="dock_theme_title">Ikon bertema</string>
@@ -111,6 +113,7 @@
     <string name="recents_screenshot_title">Tangkapan layar</string>
     <string name="recents_clear_all_title">Hapus semua</string>
     <string name="recents_lens_title">Lens</string>
+    <string name="recents_lock_title">Lock recent apps</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Ikon bertema</string>
     <string name="pref_themed_icons_summary">Ikuti ikon bertema yang digunakan di layar beranda</string>
@@ -131,6 +134,8 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s Tersedia | %2$s Total</string>
     <string name="recents_meminfo_title">Info memori</string>
+    <string name="recents_meminfo_position_title">Memory info position</string>
+    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">Sekilas</string>
     <string name="show_quickspace_summary">Tampilkan di bagian atas layar beranda Anda</string>
@@ -262,6 +267,6 @@
     <!-- QSB -->
     <string name="qsb_search_hint">Telusuri ponsel Anda</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_search_title">App search bar</string>
-    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+    <string name="drawer_search_title">Bilah pencarian aplikasi</string>
+    <string name="drawer_search_summary">Bilah pencarian di atas laci aplikasi</string>
 </resources>

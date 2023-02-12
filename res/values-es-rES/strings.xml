@@ -38,9 +38,9 @@
     <!-- Options for recent tasks -->
     <!-- Title for an option to enter split screen mode for a given app -->
     <string name="recent_task_option_split_screen">Dividir pantalla</string>
-    <string name="split_screen_position_top">Dividir parte superior</string>
-    <string name="split_screen_position_left">Dividir parte izquierda</string>
-    <string name="split_screen_position_right">Dividir parte derecha</string>
+    <string name="split_screen_position_top">División superior</string>
+    <string name="split_screen_position_left">División izquierda</string>
+    <string name="split_screen_position_right">División derecha</string>
     <string name="split_app_info_accessibility">Información de la aplicación %1$s</string>
     <!-- Widgets -->
     <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
@@ -362,4 +362,13 @@
     <string name="search_pref_screen_title_tablet">Buscar en tu tablet</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Se ha producido un error: <xliff:g id="WHAT">%1$s</xliff:g></string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Aplicaciones ocultas &amp; protegidas</string>
+    <string name="trust_apps_auth_manager">Desbloquea para gestionar las aplicaciones ocultas y protegidas</string>
+    <string name="trust_apps_auth_open_app">Autenticar para abrir %1$s</string>
+    <string name="trust_apps_loading">Cargando\u2026</string>
+    <string name="trust_apps_no_lock_error">Configura un bloqueo de pantalla para restringir el acceso a las aplicaciones</string>
+    <string name="trust_apps_help">Ayuda</string>
+    <string name="trust_apps_info_hidden">Las aplicaciones ocultas y sus widgets no se muestran en el cajón</string>
+    <string name="trust_apps_info_protected">Las aplicaciones protegidas requieren autenticación para abrirse desde el launcher</string>
 </resources>

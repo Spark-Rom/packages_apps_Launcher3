@@ -76,6 +76,8 @@
     <string name="label_search">Buscar</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Búsqueda por voz</string>
+    <string name="dock_music_search_title">Búsqueda de sonido de Google</string>
+    <string name="dock_music_search_summary">Usar búsqueda de música de Google en lugar del asistente al pulsar el icono de micrófono</string>
     <string name="dock_search_title">Barra de búsqueda de Google</string>
     <string name="dock_search_summary">Barra de búsqueda en la parte inferior</string>
     <string name="dock_theme_title">Iconos tematizados</string>
@@ -111,6 +113,7 @@
     <string name="recents_screenshot_title">Captura de pantalla</string>
     <string name="recents_clear_all_title">Borrar todo</string>
     <string name="recents_lens_title">Lens</string>
+    <string name="recents_lock_title">Bloquear aplicaciones recientes</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Iconos tematizados</string>
     <string name="pref_themed_icons_summary">Seguir iconos temáticos usados en la pantalla de inicio</string>
@@ -131,6 +134,8 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s Libre | %2$s Total</string>
     <string name="recents_meminfo_title">Información de RAM</string>
+    <string name="recents_meminfo_position_title">Posición de información de memoria</string>
+    <string name="recents_meminfo_position_summary">Cambiar la ubicación de la información de memoria en recientes</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">De un vistazo</string>
     <string name="show_quickspace_summary">Mostrar en la parte superior de la pantalla de inicio</string>
@@ -262,6 +267,6 @@
     <!-- QSB -->
     <string name="qsb_search_hint">Buscar en tu teléfono</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_search_title">App search bar</string>
-    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+    <string name="drawer_search_title">Barra de búsqueda de aplicaciones</string>
+    <string name="drawer_search_summary">Barra de búsqueda encima del cajón de aplicaciones</string>
 </resources>
