@@ -45,7 +45,7 @@
             android:layout_width="150dp"
             android:layout_height="48dp"
             android:text="@string/recents_clear_all_title"
-            android:textColor="?android:attr/colorAccent"
+            android:textColor="#FFFFFFFF"
             android:foregroundGravity="center" />
             
         <Space
