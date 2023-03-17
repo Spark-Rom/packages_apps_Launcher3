@@ -110,7 +110,7 @@
     <string name="pref_allow_phone_taskbar_title">Użyj paska zadań</string>
     <string name="pref_allow_phone_taskbar_summary">Do otwierania i przełączania aplikacji gdziekolwiek</string>
     <!-- Recents icons -->
-    <string name="recents_screenshot_title">Zrzut ekranu</string>
+    <string name="recents_screenshot_title">Screenshot</string>
     <string name="recents_clear_all_title">Wyczyść wszystko</string>
     <string name="recents_lens_title">Soczewka</string>
     <string name="recents_lock_title">Zablokuj ostatnie aplikacje</string>
@@ -224,7 +224,7 @@
         <item>Miłego snu.</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
-        <item>Sleep defficiency is bad for your health.</item>
+        <item>Niedobór snu jest szkodliwy dla zdrowia.</item>
         <item>Nie zapomnij się nawodnić.</item>
         <item>Deficyt snu może zakłócić produkcję melatoniny.</item>
         <item>Teraz jest północ.</item>
@@ -254,7 +254,7 @@
         <item>Czas kupić ryż!</item>
         <item>Czas na obiad!</item>
         <item>Kalamay jest zrobiony z klejonego ryżu.</item>
-        <item>All white rice starts brown.</item>
+        <item>Cały biały ryż zaczyna się brązowo.</item>
         <item>Chcesz trochę sody?</item>
         <item>Zawsze bierz ze sobą wodę, by być nawodnionym.</item>
         <item>Kosmos pachnie jak smażony stek..</item>
@@ -269,4 +269,7 @@
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Pasek wyszukiwania</string>
     <string name="drawer_search_summary">Pasek wyszukiwania na górze listy aplikacji</string>
+    <!-- Toast for Clear All, App Locked n Unlocked -->
+    <string name="action_toast_enabled_title">Action Toasts</string>
+    <string name="action_toast_enabled_summary">Enable-disable Toast clear all</string>
 </resources>

@@ -110,7 +110,7 @@
     <string name="pref_allow_phone_taskbar_title">Use taskbar</string>
     <string name="pref_allow_phone_taskbar_summary">For opening and switching apps anywhere</string>
     <!-- Recents icons -->
-    <string name="recents_screenshot_title">عکس از صفحه نمایش</string>
+    <string name="recents_screenshot_title">Screenshot</string>
     <string name="recents_clear_all_title">پاک کردن همه</string>
     <string name="recents_lens_title">لنز</string>
     <string name="recents_lock_title">Lock recent apps</string>
@@ -269,4 +269,7 @@
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">App search bar</string>
     <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+    <!-- Toast for Clear All, App Locked n Unlocked -->
+    <string name="action_toast_enabled_title">Action Toasts</string>
+    <string name="action_toast_enabled_summary">Enable-disable Toast clear all</string>
 </resources>

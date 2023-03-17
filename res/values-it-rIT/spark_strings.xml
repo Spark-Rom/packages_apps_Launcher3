@@ -76,8 +76,8 @@
     <string name="label_search">Cerca</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Ricerca vocale</string>
-    <string name="dock_music_search_title">Google music search</string>
-    <string name="dock_music_search_summary">Use Google music search instead of Google Assistant on mic icon pressed</string>
+    <string name="dock_music_search_title">Ricerca audio Google</string>
+    <string name="dock_music_search_summary">Usa la ricerca musicale di Google invece di Google Assistant alla pressione dell\'icona microfono</string>
     <string name="dock_search_title">Barra di ricerca Google</string>
     <string name="dock_search_summary">Mostra la barra di ricerca nella dock in basso</string>
     <string name="dock_theme_title">Icone a tema</string>
@@ -113,7 +113,7 @@
     <string name="recents_screenshot_title">Screenshot</string>
     <string name="recents_clear_all_title">Cancella tutto</string>
     <string name="recents_lens_title">Lens</string>
-    <string name="recents_lock_title">Lock recent apps</string>
+    <string name="recents_lock_title">Blocca app recenti</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Icone a tema</string>
     <string name="pref_themed_icons_summary">Segui le icone a tema usate nella schermata home</string>
@@ -134,8 +134,8 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s Disponibile | %2$s Totale</string>
     <string name="recents_meminfo_title">Info memoria</string>
-    <string name="recents_meminfo_position_title">Memory info position</string>
-    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
+    <string name="recents_meminfo_position_title">Posizione info memoria</string>
+    <string name="recents_meminfo_position_summary">Cambia la posizione delle informazioni della memoria nelle app recenti</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">At A Glance</string>
     <string name="show_quickspace_summary">Mostrato nella parte superiore della tua schermata home</string>
@@ -256,7 +256,7 @@
         <item>Il kalamay è fatto di riso glutinoso.</item>
         <item>Tutto il riso bianco nasce integrale.</item>
         <item>Vuoi della soda?</item>
-        <item>Portare sempre dell\'acqua per idratarti.</item>
+        <item>Porta sempre dell\'acqua per idratarti.</item>
         <item>Lo spazio odora di bistecca scottata..</item>
         <item>Goditi la giornata!</item>
     </string-array>
@@ -269,4 +269,7 @@
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Barra di ricerca app</string>
     <string name="drawer_search_summary">Barra di ricerca sopra il cassetto delle app</string>
+    <!-- Toast for Clear All, App Locked n Unlocked -->
+    <string name="action_toast_enabled_title">Action Toasts</string>
+    <string name="action_toast_enabled_summary">Enable-disable Toast clear all</string>
 </resources>

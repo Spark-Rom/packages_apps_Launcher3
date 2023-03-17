@@ -269,4 +269,7 @@
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">App Suchleiste</string>
     <string name="drawer_search_summary">Suchleiste oben in der App-Übersicht</string>
+    <!-- Toast for Clear All, App Locked n Unlocked -->
+    <string name="action_toast_enabled_title">Action Toasts</string>
+    <string name="action_toast_enabled_summary">Enable-disable Toast clear all</string>
 </resources>

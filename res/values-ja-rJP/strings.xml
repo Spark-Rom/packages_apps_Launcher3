@@ -221,7 +221,7 @@
     <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
     <string name="allow_rotation_title">ホーム画面の回転を許可</string>
     <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-    <string name="allow_rotation_desc">スマートフォンの向きに合わせます</string>
+    <string name="allow_rotation_desc">端末の向きが回転した時</string>
     <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
     <string name="notification_dots_title">通知ドット</string>
     <!-- Text to indicate that the system notification dots setting is on [CHAR LIMIT=100] -->
@@ -355,18 +355,18 @@
     <!-- A hint shown in launcher settings develop options filter box -->
     <string name="developer_options_filter_hint">フィルタ</string>
     <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
-    <string name="search_pref_screen_title">スマートフォンの保護</string>
+    <string name="search_pref_screen_title">端末を探す</string>
     <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
     <string name="search_pref_screen_title_tablet">タブレットを検索</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">失敗: <xliff:g id="WHAT">%1$s</xliff:g></string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
-    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
-    <string name="trust_apps_loading">Loading\u2026</string>
-    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
-    <string name="trust_apps_help">Help</string>
-    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
-    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
+    <string name="trust_apps_manager_name">非表示 &amp; 保護アプリ</string>
+    <string name="trust_apps_auth_manager">ロック解除して非表示と保護アプリを管理</string>
+    <string name="trust_apps_auth_open_app">認証して %1$s を開きます</string>
+    <string name="trust_apps_loading">読み込んでいます…\u2026</string>
+    <string name="trust_apps_no_lock_error">アプリのアクセス制限をするために画面ロックの設定をしてください</string>
+    <string name="trust_apps_help">ヘルプ</string>
+    <string name="trust_apps_info_hidden">非表示アプリとそのウィジェットはドロワーで非表示になります</string>
+    <string name="trust_apps_info_protected">保護アプリは開くのに認証が必要になります</string>
 </resources>
