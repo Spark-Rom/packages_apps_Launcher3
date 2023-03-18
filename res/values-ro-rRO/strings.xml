@@ -30,23 +30,23 @@
     <!-- SafeMode shortcut error string -->
     <string name="safemode_shortcut_error">Aplicația descărcată este dezactivată în modul de siguranță</string>
     <!-- SafeMode widget error string -->
-    <string name="safemode_widget_error">Widgeturile sunt dezactivate în modul de siguranță</string>
+    <string name="safemode_widget_error">Widget-urile sunt dezactivate în modul de siguranță</string>
     <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
     <string name="shortcut_not_available">Comanda rapidă nu este disponibilă</string>
     <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
     <string name="home_screen">Pagina de pornire</string>
     <!-- Options for recent tasks -->
     <!-- Title for an option to enter split screen mode for a given app -->
-    <string name="recent_task_option_split_screen">Ecran împărțit</string>
-    <string name="split_screen_position_top">Împărțiți în sus</string>
-    <string name="split_screen_position_left">Împărțiți în stânga</string>
-    <string name="split_screen_position_right">Împărțiți în dreapta</string>
+    <string name="recent_task_option_split_screen">Ecran divizat</string>
+    <string name="split_screen_position_top">Divizare în sus</string>
+    <string name="split_screen_position_left">Divizare la stânga</string>
+    <string name="split_screen_position_right">Divizare la dreapta</string>
     <string name="split_app_info_accessibility">Informații despre aplicație pentru %1$s</string>
     <!-- Widgets -->
     <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-    <string name="long_press_widget_to_add">Atingeți și țineți apăsat pentru a muta un widget.</string>
+    <string name="long_press_widget_to_add">Atinge și ține apăsat pentru a muta un widget.</string>
     <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-    <string name="long_accessible_way_to_add">Atingeți de două ori și țineți apăsat pentru a muta un widget sau folosiți acțiuni personalizate.</string>
+    <string name="long_accessible_way_to_add">Atinge de două ori și ține apăsat pentru a muta un widget sau folosește acțiuni personalizate.</string>
     <!-- The format string for the dimensions of a widget in the drawer -->
     <!-- There is a special version of this format string for Farsi -->
     <string name="widget_dims_format">%1$d × %2$d</string>
@@ -54,15 +54,15 @@
     <string name="widget_accessible_dims_format">%1$d lățime și %2$d înălțime</string>
     <!-- Spoken text for a screen reader. The placeholder text is the widget name.
          [CHAR_LIMIT=none]-->
-    <string name="widget_preview_context_description">Widgetul <xliff:g id="WIDGET_NAME">%1$s</xliff:g></string>
+    <string name="widget_preview_context_description">Widget-ul <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g></string>
     <!-- Message to tell the user to press and hold a widget/icon to add it to the home screen.
          [CHAR LIMIT=NONE]  -->
-    <string name="add_item_request_drag_hint">Atingeți lung widget-ul pentru a-l muta pe ecranul de pornire</string>
+    <string name="add_item_request_drag_hint">Atinge lung widget-ul pentru a-l muta pe ecranul de pornire</string>
     <!-- Button label to automatically add a widget to home screen [CHAR_LIMIT=50] -->
     <string name="add_to_home_screen">Adaugă pe ecranul de pornire</string>
     <!-- Accessibility spoken message announced when a widget gets added to the home screen using a
          button in a dialog. [CHAR_LIMIT=none] -->
-    <string name="added_to_home_screen_accessibility_text">Widgetul <xliff:g id="WIDGET_NAME">%1$s</xliff:g> a fost adăugat pe ecranul de pornire</string>
+    <string name="added_to_home_screen_accessibility_text">Widget-ul <xliff:g id="widget_name" example="Calendar month view">%1$s</xliff:g> a fost adăugat pe ecranul principal</string>
     <!-- Label for showing the number of widgets an app has in the full widgets picker.
          [CHAR_LIMIT=25][ICU SYNTAX] -->
     <string name="widgets_count">{count,plural, =1{# widget}few{# widgeturi}other{# de widgeturi}}</string>
@@ -74,19 +74,19 @@
     <string name="widgets_and_shortcuts_count"><xliff:g id="WIDGETS_COUNT">%1$s</xliff:g> <xliff:g id="SHORTCUTS_COUNT">%2$s</xliff:g></string>
     <!-- Text for both the tile of a popup view, which shows all available widgets installed on
          the device, and the text of a button, which opens this popup view. [CHAR LIMIT=30]-->
-    <string name="widget_button_text">Widgeturi</string>
+    <string name="widget_button_text">Widget-uri</string>
     <!-- Search bar text shown in the popup view showing all available widgets installed on the
          device. [CHAR_LIMIT=50] -->
     <string name="widgets_full_sheet_search_bar_hint">Căutare</string>
     <!-- Spoken text for screen readers. This text lets a user know that the button is used to clear
          the text that the user entered in the search box. [CHAR_LIMIT=none] -->
-    <string name="widgets_full_sheet_cancel_button_description">Ștergeți textul din caseta de căutare</string>
+    <string name="widgets_full_sheet_cancel_button_description">Șterge textul din caseta de căutare</string>
     <!-- Text shown when there are no widgets or shortcuts that can be added to the device.
          [CHAR_LIMIT=none] -->
-    <string name="no_widgets_available">Widgeturile și comenzile rapide nu sunt disponibile</string>
+    <string name="no_widgets_available">Widget-urile și scurtăturile nu sunt disponibile</string>
     <!-- Text shown when there are no matching widget or shortcut search results for user's search
          query. [CHAR_LIMIT=none] -->
-    <string name="no_search_results">Nu au fost găsite widgeturi sau comenzi rapide</string>
+    <string name="no_search_results">Nu au fost găsite widget-uri sau comenzi rapide</string>
     <!-- Tab label. A user can tap this tab to access their personal widgets. [CHAR_LIMIT=25] -->
     <string name="widgets_full_sheet_personal_tab">Personale</string>
     <!-- Tab label. A user can tap this tab to access their work widgets. [CHAR_LIMIT=25] -->
@@ -101,15 +101,15 @@
     <string name="widget_education_content">Pentru a primi informații fără să deschideți aplicațiile, puteți adăuga widget-uri pe ecranul de pornire</string>
     <!-- Text on an educational tip on widget informing users that they can change widget settings.
          [CHAR_LIMIT=NONE] -->
-    <string name="reconfigurable_widget_education_tip">Atingeți ca să schimbați setările pentru widgeturi</string>
+    <string name="reconfigurable_widget_education_tip">Atinge ca să schimbi setările pentru widget-uri</string>
     <!-- Text on the button that closes the education dialog about widgets. [CHAR_LIMIT=50] -->
     <string name="widget_education_close_button">OK</string>
     <!-- Spoken text for screen readers. This text is for an icon that lets the user change a
          widget's settings. [CHAR_LIMIT=50] -->
-    <string name="widget_reconfigure_button_content_description">Modificați setările pentru widgeturi</string>
+    <string name="widget_reconfigure_button_content_description">Modifică setările pentru widget-uri</string>
     <!-- All Apps -->
     <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-    <string name="all_apps_search_bar_hint">Căutați aplicații</string>
+    <string name="all_apps_search_bar_hint">Căutare aplicații</string>
     <!-- Loading apps text. [CHAR_LIMIT=50] -->
     <string name="all_apps_loading_message">Se încarcă aplicații…</string>
     <!-- No-search-results text. [CHAR_LIMIT=50] -->
@@ -122,7 +122,7 @@
     <string name="notifications_header">Notificări</string>
     <!-- Drag and drop -->
     <!-- Message to tell the user to press and hold on a shortcut to add it [CHAR_LIMIT=50] -->
-    <string name="long_press_shortcut_to_add">Atingeți și țineți apăsat pentru a muta comanda rapidă.</string>
+    <string name="long_press_shortcut_to_add">Atinge și ține apăsat pentru a muta comanda rapidă.</string>
     <!-- Accessibility spoken hint message in deep shortcut menu, which allows user to add a shortcut. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=200] -->
     <string name="long_accessible_way_to_add_shortcut">Atingeți de două ori și țineți apăsat pentru a muta o comandă rapidă sau folosiți acțiuni personalizate.</string>
     <skip></skip>
@@ -137,14 +137,14 @@
     <string name="all_apps_button_work_label">Lista de aplicații de serviciu</string>
     <!-- Label for remove drop target (from the homescreen only).
          May appear next to uninstall_drop_target_label [CHAR_LIMIT=20] -->
-    <string name="remove_drop_target_label">Eliminați</string>
+    <string name="remove_drop_target_label">Elimină</string>
     <!-- Label for uninstall drop target (from the device).
          May appear next to remove_drop_target_label [CHAR_LIMIT=20]-->
-    <string name="uninstall_drop_target_label">Dezinstalați</string>
+    <string name="uninstall_drop_target_label">Dezinstalare</string>
     <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
     <string name="app_info_drop_target_label">Informații despre aplicații</string>
     <!-- Label for install drop target. [CHAR_LIMIT=20] -->
-    <string name="install_drop_target_label">Instalați</string>
+    <string name="install_drop_target_label">Instalare</string>
     <!-- Label for install dismiss prediction. -->
     <string name="dismiss_prediction_label">Nu sugera aplicația</string>
     <!-- Label for pinning predicted app. -->
@@ -172,11 +172,11 @@
     <!-- Button text. This button lets a user change a widget's settings. -->
     <string name="gadget_setup_text">Setări pentru widget</string>
     <!-- Instructional text to encourage a user to finish setting up the widget. -->
-    <string name="gadget_complete_setup_text">Atingeți pentru a finaliza configurarea</string>
+    <string name="gadget_complete_setup_text">Atinge pentru a finaliza configurarea</string>
     <!-- Text to inform the user that they can't uninstall a system application -->
     <string name="uninstall_system_app_text">Aceasta este o aplicație de sistem și nu poate fi dezinstalată.</string>
     <!-- Default folder title -->
-    <string name="folder_hint_text">Modificați numele</string>
+    <string name="folder_hint_text">Modifică numele</string>
     <!-- Accessibility -->
     <!-- The format string for when an app is temporarily disabled. -->
     <string name="disabled_app_label">S-a dezactivat <xliff:g id="APP_NAME">%1$s</xliff:g></string>
@@ -198,9 +198,9 @@
     <!-- The format string for when a folder is opened, speaks the dimensions -->
     <string name="folder_opened">Dosar deschis, <xliff:g id="WIDTH">%1$d</xliff:g> pe <xliff:g id="HEIGHT">%2$d</xliff:g></string>
     <!-- Instruction that clicking outside will close folder -->
-    <string name="folder_tap_to_close">Atingeți pentru a închide dosarul</string>
+    <string name="folder_tap_to_close">Atinge pentru a închide dosarul</string>
     <!-- Instruction that clicking outside will commit folder rename -->
-    <string name="folder_tap_to_rename">Atingeți pentru a salva noul nume</string>
+    <string name="folder_tap_to_rename">Atinge pentru a salva noul nume</string>
     <!-- Indication that folder closed -->
     <string name="folder_closed">Dosar închis</string>
     <!-- Folder renamed format -->
@@ -234,9 +234,9 @@
     <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
     <string name="msg_missing_notification_access">Pentru a afișa punctele de notificare, activați notificările din aplicație pentru <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-    <string name="title_change_settings">Modificați setările</string>
+    <string name="title_change_settings">Modifică setările</string>
     <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
-    <string name="notification_dots_service_title">Afișați punctele de notificare</string>
+    <string name="notification_dots_service_title">Afișează punctul de notificare</string>
     <!-- Title for Developer Options setting. [CHAR LIMIT=50] -->
     <string name="developer_options_title">Opțiuni dezvoltator</string>
     <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=60] -->
@@ -246,77 +246,79 @@
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
     <string name="package_state_unknown">Necunoscut</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-    <string name="abandoned_clean_this">Eliminați</string>
+    <string name="abandoned_clean_this">Elimină</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-    <string name="abandoned_search">Căutați</string>
+    <string name="abandoned_search">Căutare</string>
     <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">Aplicația nu este instalată</string>
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-    <string name="abandoned_promise_explanation">Aplicația pentru această pictogramă nu este instalată. Puteți să ștergeți pictograma sau să căutați aplicația și s-o instalați manual.</string>
+    <string name="abandoned_promise_explanation">Aplicația pentru această pictogramă nu este instalată.
+        O poți elimina, sau poți căuta aplicația și instala manual.
+    </string>
     <!-- Title for an app which is being installed. -->
     <string name="app_installing_title"><xliff:g id="NAME">%1$s</xliff:g> se instalează, <xliff:g id="PROGRESS">%2$s</xliff:g> finalizat</string>
     <!-- Title for an app which is being downloaded. -->
-    <string name="app_downloading_title"><xliff:g id="NAME">%1$s</xliff:g> se descarcă (finalizat <xliff:g id="PROGRESS">%2$s</xliff:g>)</string>
+    <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> se descarcă, <xliff:g id="progress" example="30%">%2$s</xliff:g> finalizat</string>
     <!-- Title for an app whose download has been started. -->
     <string name="app_waiting_download_title"><xliff:g id="NAME">%1$s</xliff:g> așteaptă instalarea</string>
     <!-- Title shown on the alert dialog prompting the user to update the application in market
      in order to re-enable the disabled shortcuts -->
     <string name="dialog_update_title">Este necesară actualizarea aplicației</string>
     <!-- Message shown on the alert dialog prompting the user to update the application -->
-    <string name="dialog_update_message">Aplicația pentru această pictogramă nu este actualizată. Puteți actualiza manual pentru a reactiva această scurtătură, sau pentru a elimina pictograma.</string>
+    <string name="dialog_update_message">Aplicația pentru această pictogramă nu este actualizată. Poți actualiza manual pentru a reactiva această scurtătură, sau pentru a elimina pictograma.</string>
     <!-- Message for the update button in the alert dialog, will bring the user to market -->
     <string name="dialog_update">Actualizare</string>
     <!-- Message for the remove button in the alert dialog -->
-    <string name="dialog_remove">Eliminați</string>
+    <string name="dialog_remove">Elimină</string>
     <!-- Strings for widgets & more in the popup container/bottom sheet -->
     <!-- Accessibility title for the popup containing a list of widgets. [CHAR_LIMIT=50] -->
-    <string name="widgets_list">Listă de widgeturi</string>
+    <string name="widgets_list">Lista de widget-uri</string>
     <!-- Text announced by accessibility when the popup containing the list of widgets is closed. [CHAR_LIMIT=100] -->
-    <string name="widgets_list_closed">Lista de widgeturi este închisă</string>
+    <string name="widgets_list_closed">Lista de widget-uri este închisă</string>
     <!-- Strings for accessibility actions -->
     <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
     <string name="action_add_to_workspace">Adaugă pe ecranul de pornire</string>
     <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-    <string name="action_move_here">Mutați elementul aici</string>
+    <string name="action_move_here">Mută elementul aici</string>
     <!-- Accessibility confirmation for item added to workspace. -->
     <string name="item_added_to_workspace">Element adăugat pe ecranul de pornire</string>
     <!-- Accessibility confirmation for item removed. [CHAR_LIMIT=50]-->
     <string name="item_removed">Element eliminat</string>
     <!-- Action shown in snackbar to undo item removal. [CHAR_LIMIT=20] -->
-    <string name="undo">Anulați</string>
+    <string name="undo">Anulare</string>
     <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-    <string name="action_move">Mutați elementul</string>
+    <string name="action_move">Mută elementul</string>
     <!-- Accessibility description to move item to empty cell. -->
     <string name="move_to_empty_cell_description">Mută pe rândul <xliff:g id="number" example="1">%1$s</xliff:g> coloana <xliff:g id="number" example="1">%2$s</xliff:g> în <xliff:g id="string" example="Home screen 2 of 4">%3$s</xliff:g></string>
     <!-- Accessibility description to move item inside a folder. -->
-    <string name="move_to_position">Mutați pe poziția <xliff:g id="NUMBER">%1$s</xliff:g></string>
+    <string name="move_to_position">Mută la poziția <xliff:g id="number" example="1">%1$s</xliff:g></string>
     <!-- Accessibility description to move item to the hotseat. -->
-    <string name="move_to_hotseat_position">Mutați în preferate, pe poziția <xliff:g id="NUMBER">%1$s</xliff:g></string>
+    <string name="move_to_hotseat_position">Mută în poziția favorită <xliff:g id="number" example="1">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for item move. -->
     <string name="item_moved">Element mutat</string>
     <!-- Accessibility description to move item into an existing folder. -->
-    <string name="add_to_folder">Adăugați în dosar: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="add_to_folder">Adaugă în dosar: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
     <!-- Accessibility description to move item into an existing folder containing an app. -->
-    <string name="add_to_folder_with_app">Adăugați în dosarul cu <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="add_to_folder_with_app">Adaugă în dosarul cu <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for item added to folder. -->
     <string name="added_to_folder">Element adăugat în dosar</string>
     <!-- Accessibility description to create folder with another item. -->
-    <string name="create_folder_with">Creați dosar cu: <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="create_folder_with">Creează un dosar cu: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">Dosar creat</string>
     <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
     <string name="action_move_to_workspace">Mută pe ecranul de pornire</string>
     <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-    <string name="action_resize">Redimensionați</string>
+    <string name="action_resize">Redimensionare</string>
     <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_increase_width">Creșteți lățimea</string>
+    <string name="action_increase_width">Crește lățimea</string>
     <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_increase_height">Creșteți înălțimea</string>
+    <string name="action_increase_height">Crește înălțimea</string>
     <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_decrease_width">Reduceți lățimea</string>
+    <string name="action_decrease_width">Scade lățimea</string>
     <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-    <string name="action_decrease_height">Reduceți înălțimea</string>
+    <string name="action_decrease_height">Scade înălțimea</string>
     <!-- Accessibility confirmation for widget resize. -->
     <string name="widget_resized">Widgetul a fost redimensionat la lățimea <xliff:g id="NUMBER_0">%1$s</xliff:g> și înălțimea <xliff:g id="NUMBER_1">%2$s</xliff:g></string>
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
@@ -324,9 +326,9 @@
     <!-- Accessibility description when the context menu of a launcher icon that has notifications as well as shortcuts (providing quick access to app's actions). The "shortcuts" translation should be consistent with the one for action_deep_shortcut. [CHAR_LIMIT=50] -->
     <string name="shortcuts_menu_with_notifications_description">Comenzi rapide și notificări</string>
     <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-    <string name="action_dismiss_notification">Închideți</string>
+    <string name="action_dismiss_notification">Respinge</string>
     <!-- Content description for arrow tip close button. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_close">Închideți</string>
+    <string name="accessibility_close">Închide</string>
     <!-- Accessibility confirmation for notification being dismissed. -->
     <string name="notification_dismissed">Notificare închisă</string>
     <!-- Label of tab to indicate personal apps -->
@@ -352,7 +354,7 @@
     <!-- button string shown pause work profile -->
     <string name="work_apps_pause_btn_text">Întrerupe aplicațiile de lucru</string>
     <!-- button string shown enable work profile -->
-    <string name="work_apps_enable_btn_text">Activați aplicațiile pentru lucru</string>
+    <string name="work_apps_enable_btn_text">Activează aplicațiile de serviciu</string>
     <!-- A hint shown in launcher settings develop options filter box -->
     <string name="developer_options_filter_hint">Filtru</string>
     <!-- Title for preference screen show in Home Settings related to smart search preferences. [CHAR LIMIT=50]-->
@@ -362,12 +364,12 @@
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Eșuare: <xliff:g id="WHAT">%1$s</xliff:g></string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
-    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
-    <string name="trust_apps_loading">Loading\u2026</string>
-    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
-    <string name="trust_apps_help">Help</string>
-    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
-    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
+    <string name="trust_apps_manager_name">Aplicații Ascunse și Protejate</string>
+    <string name="trust_apps_auth_manager">Deblochează ca să gestionezi aplicațile ascunse și protejate</string>
+    <string name="trust_apps_auth_open_app">Autentifică-te pentru a deschide %1$s</string>
+    <string name="trust_apps_loading">Se încarcă\u2026</string>
+    <string name="trust_apps_no_lock_error">Setează un ecran de blocare sigur pentru a restricționa accesul spre aplicații</string>
+    <string name="trust_apps_help">Ajutor</string>
+    <string name="trust_apps_info_hidden">Aplicațiile ascunse și widget-urile lor sunt ascunse în sertar</string>
+    <string name="trust_apps_info_protected">Aplicațiile protejate necesită autentificare pentru a fi deschise din lansator</string>
 </resources>

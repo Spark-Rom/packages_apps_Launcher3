@@ -24,9 +24,9 @@
     <string name="icons_category_title">Pictograme</string>
     <string name="icons_category_summary">Setează dimensiunea pictogramelor și mai multe</string>
     <string name="app_drawer_category_title">Sertar aplicații</string>
-    <string name="app_drawer_category_summary">Personalizați sertarul de aplicații</string>
+    <string name="app_drawer_category_summary">Personalizează lista aplicațiilor</string>
     <string name="recents_category_title">Recente</string>
-    <string name="recents_category_summary">Renovați ecranul de prezentare generală</string>
+    <string name="recents_category_summary">Renovează ecranul de prezentare generală</string>
     <string name="misc_category_title">Diverse</string>
     <string name="misc_category_summary">Alte opțiuni</string>
     <string name="general_category_title">General</string>
@@ -46,17 +46,17 @@
     <string name="desktop_show_labels">Arată etichetele pictogramelor de pe ecran principal</string>
     <string name="drawer_show_labels">Arată etichetele pictogramelor în sertarul cu aplicații</string>
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
-    <string name="title_show_google_app">Glisați pentru a accesa aplicația Google</string>
+    <string name="title_show_google_app">Glisare pentru a accesa aplicația Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_left">Când glisați stânga din ecranul principal de pornire</string>
+    <string name="msg_minus_one_on_left">La glisare spre dreapta din ecranul de pornire principal</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_right">Când glisați stânga din ecranul acasă principal</string>
+    <string name="msg_minus_one_on_right">La glisare spre stânga din ecranul de pornire principal</string>
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Apăsare dublă pentru a opri ecranul</string>
-    <string name="pref_sleep_gesture_summary">Atingeți de două ori spațiul gol pentru oprirea ecranului</string>
+    <string name="pref_sleep_gesture_summary">Atinge de două ori spațiul gol pentru oprirea ecranului</string>
     <!-- Pause apps shortcut -->
     <string name="pause">Pauză</string>
-    <string name="pause_apps_dialog_title">Întrerupeți %1$s?</string>
+    <string name="pause_apps_dialog_title">Întrerupi %1$s?</string>
     <string name="pause_apps_dialog_message">Notificările pentru %1$s vor fi întrerupte</string>
     <string name="paused_apps_dialog_title">Aplicație întreruptă</string>
     <string name="paused_apps_dialog_message">%1$s a fost întreruptă direct din lansator</string>
@@ -76,8 +76,8 @@
     <string name="label_search">Căutare</string>
     <string name="label_lens">Google Lens</string>
     <string name="label_voice_search">Căutare vocală</string>
-    <string name="dock_music_search_title">Google music search</string>
-    <string name="dock_music_search_summary">Use Google music search instead of Google Assistant on mic icon pressed</string>
+    <string name="dock_music_search_title">Căutare muzică Google</string>
+    <string name="dock_music_search_summary">Folosește căutarea de muzică Google în loc de Google Assistant pe pictograma mică apăsată</string>
     <string name="dock_search_title">Bara de căutare Google</string>
     <string name="dock_search_summary">Arată bara de căutare în partea de jos a dock-ului</string>
     <string name="dock_theme_title">Pictograme tematice</string>
@@ -99,8 +99,8 @@
     <!-- Row Height -->
     <string name="row_height_title">Înălțimea rândului</string>
     <!-- Background blur -->
-    <string name="background_blur_title">Adâncime încețoșare fundal</string>
-    <string name="background_blur_summary">Setați nivelul de adâncime încețoșare pentru aplicațiile recente și lista aplicațiilor</string>
+    <string name="background_blur_title">Adâncime estompare fundal</string>
+    <string name="background_blur_summary">Setează nivelul de adâncime estompare pentru aplicațiile recente și lista aplicațiilor</string>
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Sugestii</string>
     <string name="suggestion_pref_screen_desc">Pentru toate aplicațiile și sugestiile pentru ecranul de pornire</string>
@@ -113,7 +113,7 @@
     <string name="recents_screenshot_title">Captură de ecran</string>
     <string name="recents_clear_all_title">Goliți tot</string>
     <string name="recents_lens_title">Obiectiv</string>
-    <string name="recents_lock_title">Lock recent apps</string>
+    <string name="recents_lock_title">Blocare aplicații recente</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Pictograme tematice</string>
     <string name="pref_themed_icons_summary">Urmărește pictogramele tematice utilizate pe ecranul de pornire</string>
@@ -134,8 +134,8 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s Disponibil | %2$s Total</string>
     <string name="recents_meminfo_title">Informații memorie</string>
-    <string name="recents_meminfo_position_title">Memory info position</string>
-    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
+    <string name="recents_meminfo_position_title">Poziție informații memorie</string>
+    <string name="recents_meminfo_position_summary">Schimbă locația informațiilor despre memorie în recente</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">Pe scurt</string>
     <string name="show_quickspace_summary">O copie a widget-ului Google dintr-o privire</string>
@@ -269,4 +269,7 @@
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Bara de căutare aplicații</string>
     <string name="drawer_search_summary">Bara de căutare în partea de sus a sertarului de aplicații</string>
+    <!-- Toast for Clear All, App Locked n Unlocked -->
+    <string name="action_toast_enabled_title">Action Toasts</string>
+    <string name="action_toast_enabled_summary">Enable-disable Toast clear all</string>
 </resources>
