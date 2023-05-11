@@ -182,6 +182,7 @@ public final class Utilities {
     public static final String KEY_DRAWER_SEARCH = "pref_drawer_search";
     public static final String KEY_HOTSEAT_OPACITY = "pref_hotseat_opacity";
     public static final String KEY_VIBRATION_TOGGLE = "pref_recents_vibration";
+    public static final String KEY_FORCE_MONOCHROME_ICONS = "pref_forced_monochrome_icons";
 
     /**
      * Returns true if theme is dark.
@@ -974,5 +975,10 @@ public final class Utilities {
     public static boolean recentsScrollVibration(Context context) {
     	SharedPreferences prefs = getPrefs(context.getApplicationContext());
     	return prefs.getBoolean(KEY_VIBRATION_TOGGLE, true);
+   }
+
+    public static boolean enableMonoChromeThemedIcons(Context context) {
+    	SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
+    	return prefs.getBoolean(KEY_FORCE_MONOCHROME_ICONS, false);
    }
 }
