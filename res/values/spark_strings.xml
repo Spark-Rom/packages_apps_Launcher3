@@ -365,4 +365,6 @@
 
     <!-- QSB -->
     <string name="qsb_search_hint">Search this phone and more…</string>
+    
+    <string name="intent_no_app_clock_found">Unable to find calendar or clock activity</string>
 </resources>
