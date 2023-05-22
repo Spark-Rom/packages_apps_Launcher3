@@ -360,13 +360,4 @@
     <string name="search_pref_screen_title_tablet">タブレットを検索</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">失敗: <xliff:g id="WHAT">%1$s</xliff:g></string>
-    <!-- Trust apps -->
-    <string name="trust_apps_manager_name">非表示 &amp; 保護アプリ</string>
-    <string name="trust_apps_auth_manager">ロック解除して非表示と保護アプリを管理</string>
-    <string name="trust_apps_auth_open_app">認証して %1$s を開きます</string>
-    <string name="trust_apps_loading">読み込んでいます…\u2026</string>
-    <string name="trust_apps_no_lock_error">アプリのアクセス制限をするために画面ロックの設定をしてください</string>
-    <string name="trust_apps_help">ヘルプ</string>
-    <string name="trust_apps_info_hidden">非表示アプリとそのウィジェットはドロワーで非表示になります</string>
-    <string name="trust_apps_info_protected">保護アプリは開くのに認証が必要になります</string>
 </resources>

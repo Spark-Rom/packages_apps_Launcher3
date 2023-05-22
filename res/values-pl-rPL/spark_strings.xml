@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 Spark Android Project
+<!-- Copyright (C) 2019-2023 Spark Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -51,6 +51,15 @@
     <string name="msg_minus_one_on_left">Kiedy przesuniesz w prawo od głównego ekranu głównego</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Kiedy przesuniesz w lewo od głównego ekranu</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Ukryte &amp; Aplikacje chronione</string>
+    <string name="trust_apps_auth_manager">Odblokuj aby zarządzać ukrytymi i zabezpieczonymi aplikacjami</string>
+    <string name="trust_apps_auth_open_app">Uwierzytelnij by otworzyć %1$s</string>
+    <string name="trust_apps_loading">Wczytuję\u2026</string>
+    <string name="trust_apps_no_lock_error">Proszę skonfigurować bezpieczny ekran blokady, aby ograniczyć dostęp aplikacji</string>
+    <string name="trust_apps_help">Wsparcie</string>
+    <string name="trust_apps_info_hidden">Ukryte aplikacje i ich widżety są ukryte na liście aplikacji</string>
+    <string name="trust_apps_info_protected">Chronione aplikacje wymagają uwierzytelniania z launcheru</string>
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Dotknij dwukrotnie by uśpić</string>
     <string name="pref_sleep_gesture_summary">Dwukrotnie stuknij pustą przestrzeń, aby wyłączyć ekran</string>
@@ -104,38 +113,6 @@
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Sugestie</string>
     <string name="suggestion_pref_screen_desc">Dla wszystkich aplikacji &amp; sugestie ekranu głównego</string>
-    <!-- Background opacity -->
-    <string name="background_opacity_title">Przezroczystość tła</string>
-    <!-- Taskbar -->
-    <string name="pref_allow_phone_taskbar_title">Użyj paska zadań</string>
-    <string name="pref_allow_phone_taskbar_summary">Do otwierania i przełączania aplikacji gdziekolwiek</string>
-    <!-- Recents icons -->
-    <string name="recents_screenshot_title">Zrzut ekranu</string>
-    <string name="recents_clear_all_title">Wyczyść wszystko</string>
-    <string name="recents_lens_title">Soczewka</string>
-    <string name="recents_lock_title">Zablokuj ostatnie aplikacje</string>
-    <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Ikony tematyczne</string>
-    <string name="pref_themed_icons_summary">Obserwuj ikony motywu używane na ekranie głównym</string>
-    <!-- AppInfo -->
-    <string name="app_info_source">Źródło</string>
-    <string name="app_info_source_system">System</string>
-    <string name="app_info_last_update">Ostatnia aktualizacja</string>
-    <string name="app_info_version">Wersja</string>
-    <string name="app_info_more">Więcej</string>
-    <!-- Icon pack -->
-    <string name="icon_pack_title">Zestaw ikon</string>
-    <string name="icon_pack_default_label">Domyślnie</string>
-    <string name="icon_pack_add">Instaluj więcej</string>
-    <string name="icon_pack_no_market">Brak dostępnego sklepu aplikacji</string>
-    <!-- Kill App recents action shortcut -->
-    <string name="recent_task_option_kill_app">Zatrzymaj</string>
-    <string name="recents_app_killed">Aplikacja zatrzymana</string>
-    <!-- Memory info -->
-    <string name="meminfo_text">%1$s Dostępne | %2$s Łącznie</string>
-    <string name="recents_meminfo_title">Informacja o pamięci</string>
-    <string name="recents_meminfo_position_title">Pozycja informacji o pamięci</string>
-    <string name="recents_meminfo_position_summary">Zmień lokalizację informacji o pamięci w ostatnich aplikacjach</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">W skrócie</string>
     <string name="show_quickspace_summary">Pokaż u góry ekranu głównego</string>
@@ -153,7 +130,7 @@
     <!-- QuickSpace: QuickEvent: Ambient Play -->
     <string name="qe_now_playing_unknown_artist">Nieznany wykonawca</string>
     <string name="qe_now_playing_ext_one">Jesteś teraz</string>
-    <string name="qe_now_playing_ext_two">Odtwarzanie</string>
+    <string name="qe_now_playing_ext_two"></string>
     <string name="qe_now_playing_by">Przez</string>
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">Teraz odtwarzane</string>
@@ -264,12 +241,55 @@
     <string name="quick_event_ambient_weather_title">Warunki pogodowe</string>
     <string name="quick_event_ambient_weather_summary">Pokaż bieżące warunki pogodowe i temperaturę</string>
     <string name="quick_event_ambient_weather_enabled_info">Wymaga włączenia usługi pogodowej</string>
-    <!-- QSB -->
-    <string name="qsb_search_hint">Szukaj telefonu</string>
+    <string name="quick_event_ambient_detailed_weather_title">Szczegółowe warunki pogodowe</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Wyświetl szczegółowe warunki i temperaturę pogody</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Przezroczystość tła</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar_title">Użyj paska zadań</string>
+    <string name="pref_allow_phone_taskbar_summary">Do otwierania i przełączania aplikacji gdziekolwiek</string>
+    <!-- Recents icons -->
+    <string name="recents_screenshot_title">Zrzut ekranu</string>
+    <string name="recents_clear_all_title">Wyczyść wszystko</string>
+    <string name="recents_lens_title">Soczewka</string>
+    <string name="recents_lock_title">Zablokuj ostatnie aplikacje</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Ikony tematyczne</string>
+    <string name="pref_themed_icons_summary">Obserwuj ikony motywu używane na ekranie głównym</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">Źródło</string>
+    <string name="app_info_source_system">System</string>
+    <string name="app_info_last_update">Ostatnia aktualizacja</string>
+    <string name="app_info_version">Wersja</string>
+    <string name="app_info_more">Więcej</string>
+    <!-- Force monochrome icons -->
+    <string name="pref_force_monochrome_themed_icons_title">Wymuś monochromatyczne ikony</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Generuj ikony monochromatyczne, jeśli nie są dostarczane przez aplikację (wymaga ponownego przełączania ikon tematycznych)</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Zestaw ikon</string>
+    <string name="icon_pack_default_label">Domyślnie</string>
+    <string name="icon_pack_add">Instaluj więcej</string>
+    <string name="icon_pack_no_market">Brak dostępnego sklepu aplikacji</string>
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Zatrzymaj</string>
+    <string name="recents_app_killed">Aplikacja zatrzymana</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s Dostępne | %2$s Łącznie</string>
+    <string name="recents_meminfo_title">Informacja o pamięci</string>
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Pasek wyszukiwania</string>
     <string name="drawer_search_summary">Pasek wyszukiwania na górze listy aplikacji</string>
+    <!-- Restart launcher -->
+    <string name="pref_restart_title">Uruchom ponownie</string>
+    <string name="pref_restart_summary">Uruchom ponownie launcher ręcznie, aby zastosować wszystkie oczekujące ustawienia</string>
+    <!-- Shake Clear Recents -->
+    <string name="recents_shake_clear_all_title">Wstrząśnij telefonem, aby wyczyścić wszystkie zadania</string>
     <!-- Toast for Clear All, App Locked n Unlocked -->
     <string name="action_toast_enabled_title">Toasty akcji</string>
     <string name="action_toast_enabled_summary">Włącz/wyłącz wyczyść wszystkie toast</string>
+    <!-- Recents Scroll Vibration -->
+    <string name="pref_recents_vibration_title">Włącz wibracje przy przewijaniu ostatnio używanych</string>
+    <string name="recents_kill_app">Zabij aplikację</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Szukaj telefonu</string>
 </resources>

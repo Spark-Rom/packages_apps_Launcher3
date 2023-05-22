@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 Spark Android Project
+<!-- Copyright (C) 2019-2023 Spark Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -51,6 +51,15 @@
     <string name="msg_minus_one_on_left">Khi bạn vuốt sang phải từ màn hình chính</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Khi bạn vuốt sang trái từ màn hình chính</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Các ứng dụng Ẩn &amp; Được bảo vệ</string>
+    <string name="trust_apps_auth_manager">Mở khóa để quản lý các ứng dụng ẩn và được bảo vệ</string>
+    <string name="trust_apps_auth_open_app">Xác thực để mở %1$s</string>
+    <string name="trust_apps_loading">Đang tải\u2026</string>
+    <string name="trust_apps_no_lock_error">Vui lòng thiết lập màn hình khóa an toàn để hạn chế quyền truy cập ứng dụng</string>
+    <string name="trust_apps_help">Trợ giúp</string>
+    <string name="trust_apps_info_hidden">Các ứng dụng ẩn và tiện ích của chúng được ẩn khỏi ngăn kéo</string>
+    <string name="trust_apps_info_protected">Các ứng dụng được bảo vệ yêu cầu xác thực để được mở từ trình khởi chạy</string>
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Nhấn đúp để tắt màn hình</string>
     <string name="pref_sleep_gesture_summary">Nhấn đúp vào khoảng trống để tắt màn hình</string>
@@ -104,38 +113,6 @@
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Đề xuất</string>
     <string name="suggestion_pref_screen_desc">Đối với tất cả ứng dụng &amp; Đề xuất trên màn hình chính</string>
-    <!-- Background opacity -->
-    <string name="background_opacity_title">Độ mờ hình nền</string>
-    <!-- Taskbar -->
-    <string name="pref_allow_phone_taskbar_title">Sử dụng thanh tác vụ</string>
-    <string name="pref_allow_phone_taskbar_summary">Để mở và chuyển đổi ứng dụng ở mọi nơi</string>
-    <!-- Recents icons -->
-    <string name="recents_screenshot_title">Ảnh chụp màn hình</string>
-    <string name="recents_clear_all_title">Dọn sạch</string>
-    <string name="recents_lens_title">Ống kính</string>
-    <string name="recents_lock_title">Khóa ứng dụng gần đây</string>
-    <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Biểu tượng theo chủ đề</string>
-    <string name="pref_themed_icons_summary">Sử dụng biểu tượng theo chủ đề trên màn hình chính</string>
-    <!-- AppInfo -->
-    <string name="app_info_source">Mã nguồn</string>
-    <string name="app_info_source_system">Hệ thống</string>
-    <string name="app_info_last_update">Cập nhật gần nhất</string>
-    <string name="app_info_version">Phiên bản</string>
-    <string name="app_info_more">Nhiều hơn</string>
-    <!-- Icon pack -->
-    <string name="icon_pack_title">Gói biểu tượng</string>
-    <string name="icon_pack_default_label">Mặc định</string>
-    <string name="icon_pack_add">Cài thêm</string>
-    <string name="icon_pack_no_market">Không có sẵn cửa hàng ứng dụng</string>
-    <!-- Kill App recents action shortcut -->
-    <string name="recent_task_option_kill_app">Dừng</string>
-    <string name="recents_app_killed">Đã dừng ứng dụng</string>
-    <!-- Memory info -->
-    <string name="meminfo_text">%1$s Trống | %2$s Tổng</string>
-    <string name="recents_meminfo_title">Thông tin bộ nhớ</string>
-    <string name="recents_meminfo_position_title">Vị trí thông tin bộ nhớ</string>
-    <string name="recents_meminfo_position_summary">Thay đổi vị trí của thông tin bộ nhớ trên gần đây</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">Xem nhanh</string>
     <string name="show_quickspace_summary">Hiển thị ở đầu màn hình chính của bạn</string>
@@ -153,7 +130,7 @@
     <!-- QuickSpace: QuickEvent: Ambient Play -->
     <string name="qe_now_playing_unknown_artist">Nghệ sĩ không xác định</string>
     <string name="qe_now_playing_ext_one">Bây giờ bạn</string>
-    <string name="qe_now_playing_ext_two">Đang phát</string>
+    <string name="qe_now_playing_ext_two"></string>
     <string name="qe_now_playing_by">Bởi</string>
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">Hiện đang phát</string>
@@ -264,12 +241,55 @@
     <string name="quick_event_ambient_weather_title">Điều kiện thời tiết</string>
     <string name="quick_event_ambient_weather_summary">Hiển thị thời tiết và nhiệt độ hiện tại</string>
     <string name="quick_event_ambient_weather_enabled_info">Yêu cầu bật dịch vụ thời tiết</string>
-    <!-- QSB -->
-    <string name="qsb_search_hint">Tìm kiếm điện thoại</string>
+    <string name="quick_event_ambient_detailed_weather_title">Điều kiện thời tiết chi tiết</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Hiển thị chi tiết điều kiện thời tiết và nhiệt độ</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Độ mờ hình nền</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar_title">Sử dụng thanh tác vụ</string>
+    <string name="pref_allow_phone_taskbar_summary">Để mở và chuyển đổi ứng dụng ở mọi nơi</string>
+    <!-- Recents icons -->
+    <string name="recents_screenshot_title">Ảnh chụp màn hình</string>
+    <string name="recents_clear_all_title">Dọn sạch</string>
+    <string name="recents_lens_title">Ống kính</string>
+    <string name="recents_lock_title">Khóa ứng dụng gần đây</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Biểu tượng theo chủ đề</string>
+    <string name="pref_themed_icons_summary">Sử dụng biểu tượng theo chủ đề trên màn hình chính</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">Mã nguồn</string>
+    <string name="app_info_source_system">Hệ thống</string>
+    <string name="app_info_last_update">Cập nhật gần nhất</string>
+    <string name="app_info_version">Phiên bản</string>
+    <string name="app_info_more">Nhiều hơn</string>
+    <!-- Force monochrome icons -->
+    <string name="pref_force_monochrome_themed_icons_title">Buộc các biểu tượng theo chủ đề đơn sắc</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Tạo các biểu tượng đơn sắc, nếu ứng dụng không cung cấp (yêu cầu chuyển đổi lại các biểu tượng theo chủ đề)</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Gói biểu tượng</string>
+    <string name="icon_pack_default_label">Mặc định</string>
+    <string name="icon_pack_add">Cài thêm</string>
+    <string name="icon_pack_no_market">Không có sẵn cửa hàng ứng dụng</string>
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Dừng</string>
+    <string name="recents_app_killed">Đã dừng ứng dụng</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s Trống | %2$s Tổng</string>
+    <string name="recents_meminfo_title">Thông tin bộ nhớ</string>
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Thanh tìm kiếm ứng dụng</string>
     <string name="drawer_search_summary">Thanh tìm kiếm trên đầu ngăn kéo ứng dụng</string>
+    <!-- Restart launcher -->
+    <string name="pref_restart_title">Khởi động lại</string>
+    <string name="pref_restart_summary">Khởi động lại trình khởi chạy để áp dụng các cài đặt đang chờ xử lý</string>
+    <!-- Shake Clear Recents -->
+    <string name="recents_shake_clear_all_title">Lắc điện thoại để xóa hết các tác vụ</string>
     <!-- Toast for Clear All, App Locked n Unlocked -->
     <string name="action_toast_enabled_title">Hành động thông báo ngắn</string>
     <string name="action_toast_enabled_summary">Bật-tắt Thông báo ngắn xóa tất cả</string>
+    <!-- Recents Scroll Vibration -->
+    <string name="pref_recents_vibration_title">Bật phản hồi xúc giác trên cuộn gần đây</string>
+    <string name="recents_kill_app">Dừng ứng dụng</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Tìm kiếm điện thoại</string>
 </resources>

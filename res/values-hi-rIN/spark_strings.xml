@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 Spark Android Project
+<!-- Copyright (C) 2019-2023 Spark Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -51,6 +51,15 @@
     <string name="msg_minus_one_on_left">When you swipe right from main home screen</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">When you swipe left from main home screen</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
+    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
+    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
+    <string name="trust_apps_loading">Loading\u2026</string>
+    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
+    <string name="trust_apps_help">Help</string>
+    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
+    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Double tap to sleep</string>
     <string name="pref_sleep_gesture_summary">Double tap on empty space for screen off</string>
@@ -104,38 +113,6 @@
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Suggestions</string>
     <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
-    <!-- Background opacity -->
-    <string name="background_opacity_title">Background opacity</string>
-    <!-- Taskbar -->
-    <string name="pref_allow_phone_taskbar_title">Use taskbar</string>
-    <string name="pref_allow_phone_taskbar_summary">For opening and switching apps anywhere</string>
-    <!-- Recents icons -->
-    <string name="recents_screenshot_title">Screenshot</string>
-    <string name="recents_clear_all_title">Clear all</string>
-    <string name="recents_lens_title">Lens</string>
-    <string name="recents_lock_title">Lock recent apps</string>
-    <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Themed icons</string>
-    <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
-    <!-- AppInfo -->
-    <string name="app_info_source">Source</string>
-    <string name="app_info_source_system">System</string>
-    <string name="app_info_last_update">Last update</string>
-    <string name="app_info_version">Version</string>
-    <string name="app_info_more">More</string>
-    <!-- Icon pack -->
-    <string name="icon_pack_title">Icon pack</string>
-    <string name="icon_pack_default_label">पूर्व निर्धारित</string>
-    <string name="icon_pack_add">Install more</string>
-    <string name="icon_pack_no_market">There\'s no available app store</string>
-    <!-- Kill App recents action shortcut -->
-    <string name="recent_task_option_kill_app">Kill</string>
-    <string name="recents_app_killed">App killed</string>
-    <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
-    <string name="recents_meminfo_title">Memory info</string>
-    <string name="recents_meminfo_position_title">Memory info position</string>
-    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">At A Glance</string>
     <string name="show_quickspace_summary">Show at the top of your home screen</string>
@@ -153,7 +130,7 @@
     <!-- QuickSpace: QuickEvent: Ambient Play -->
     <string name="qe_now_playing_unknown_artist">Unknown Artist</string>
     <string name="qe_now_playing_ext_one">You are now</string>
-    <string name="qe_now_playing_ext_two">Playing</string>
+    <string name="qe_now_playing_ext_two"></string>
     <string name="qe_now_playing_by">By</string>
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">Now playing</string>
@@ -264,12 +241,55 @@
     <string name="quick_event_ambient_weather_title">Weather condition</string>
     <string name="quick_event_ambient_weather_summary">Display current weather condition and temperature</string>
     <string name="quick_event_ambient_weather_enabled_info">Requires weather service to be enabled</string>
-    <!-- QSB -->
-    <string name="qsb_search_hint">Search your phone</string>
+    <string name="quick_event_ambient_detailed_weather_title">Detailed Weather condition</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Display detailed weather condition and temperature</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Background opacity</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar_title">Use taskbar</string>
+    <string name="pref_allow_phone_taskbar_summary">For opening and switching apps anywhere</string>
+    <!-- Recents icons -->
+    <string name="recents_screenshot_title">Screenshot</string>
+    <string name="recents_clear_all_title">Clear all</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="recents_lock_title">Lock recent apps</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Themed icons</string>
+    <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">Source</string>
+    <string name="app_info_source_system">System</string>
+    <string name="app_info_last_update">Last update</string>
+    <string name="app_info_version">Version</string>
+    <string name="app_info_more">More</string>
+    <!-- Force monochrome icons -->
+    <string name="pref_force_monochrome_themed_icons_title">Force Monochrome themed icons</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Generate monochromatic icons, if it is not provided by the app (requires re-toggling of themed icons)</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Icon pack</string>
+    <string name="icon_pack_default_label">पूर्व निर्धारित</string>
+    <string name="icon_pack_add">Install more</string>
+    <string name="icon_pack_no_market">There\'s no available app store</string>
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Kill</string>
+    <string name="recents_app_killed">App killed</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s Available | %2$s Total</string>
+    <string name="recents_meminfo_title">Memory info</string>
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">App search bar</string>
     <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+    <!-- Restart launcher -->
+    <string name="pref_restart_title">Restart</string>
+    <string name="pref_restart_summary">Restart the launcher manually to apply any pending settings</string>
+    <!-- Shake Clear Recents -->
+    <string name="recents_shake_clear_all_title">Shake phone to clear all tasks</string>
     <!-- Toast for Clear All, App Locked n Unlocked -->
     <string name="action_toast_enabled_title">Action Toasts</string>
     <string name="action_toast_enabled_summary">Enable-disable Toast clear all</string>
+    <!-- Recents Scroll Vibration -->
+    <string name="pref_recents_vibration_title">Enable haptic feedback on recents scroll</string>
+    <string name="recents_kill_app">Kill app</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Search your phone</string>
 </resources>

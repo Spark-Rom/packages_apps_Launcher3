@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 Spark Android Project
+<!-- Copyright (C) 2019-2023 Spark Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -51,6 +51,15 @@
     <string name="msg_minus_one_on_left">Ao deslizar para a direita no ecrã inicial</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Ao deslizar para a esquerda no ecrã inicial</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
+    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
+    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
+    <string name="trust_apps_loading">Loading\u2026</string>
+    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
+    <string name="trust_apps_help">Help</string>
+    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
+    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Toque duplo para dormir</string>
     <string name="pref_sleep_gesture_summary">Toque duas vezes num espaço vazio para desligar o ecrã</string>
@@ -104,38 +113,6 @@
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Sugestões</string>
     <string name="suggestion_pref_screen_desc">Para a gaveta de apps e ecrã inicial</string>
-    <!-- Background opacity -->
-    <string name="background_opacity_title">Opacidade do fundo</string>
-    <!-- Taskbar -->
-    <string name="pref_allow_phone_taskbar_title">Usar barra de tarefas</string>
-    <string name="pref_allow_phone_taskbar_summary">Para abrir e trocar apps em qualquer lugar</string>
-    <!-- Recents icons -->
-    <string name="recents_screenshot_title">Captura de ecrã</string>
-    <string name="recents_clear_all_title">Limpar tudo</string>
-    <string name="recents_lens_title">Lens</string>
-    <string name="recents_lock_title">Bloquear apps recentes</string>
-    <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Ícones temáticos</string>
-    <string name="pref_themed_icons_summary">Seguir ícones temáticos usados no ecrã inicial</string>
-    <!-- AppInfo -->
-    <string name="app_info_source">Origem</string>
-    <string name="app_info_source_system">Sistema</string>
-    <string name="app_info_last_update">Última atualização</string>
-    <string name="app_info_version">Versão</string>
-    <string name="app_info_more">Mais</string>
-    <!-- Icon pack -->
-    <string name="icon_pack_title">Pacote de ícones</string>
-    <string name="icon_pack_default_label">Padrão</string>
-    <string name="icon_pack_add">Instalar mais</string>
-    <string name="icon_pack_no_market">Não há nenhuma loja de apps disponível</string>
-    <!-- Kill App recents action shortcut -->
-    <string name="recent_task_option_kill_app">Encerrar</string>
-    <string name="recents_app_killed">App encerrada</string>
-    <!-- Memory info -->
-    <string name="meminfo_text">%1$s Disponível | %2$s Total</string>
-    <string name="recents_meminfo_title">Informações da memória</string>
-    <string name="recents_meminfo_position_title">Posição da informação de memória</string>
-    <string name="recents_meminfo_position_summary">Alterar a posição da informação de memória no ecrã de recentes</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">Em resumo</string>
     <string name="show_quickspace_summary">Mostrado na parte superior do ecrã inicial</string>
@@ -153,7 +130,7 @@
     <!-- QuickSpace: QuickEvent: Ambient Play -->
     <string name="qe_now_playing_unknown_artist">Artista desconhecido</string>
     <string name="qe_now_playing_ext_one">Está agora</string>
-    <string name="qe_now_playing_ext_two">A reproduzir</string>
+    <string name="qe_now_playing_ext_two"></string>
     <string name="qe_now_playing_by">Por</string>
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">Em reprodução</string>
@@ -264,12 +241,55 @@
     <string name="quick_event_ambient_weather_title">Condições meteorológicas</string>
     <string name="quick_event_ambient_weather_summary">Exibir as condições meteorológicas atuais</string>
     <string name="quick_event_ambient_weather_enabled_info">Requer que o serviço meteorológico esteja ativado</string>
-    <!-- QSB -->
-    <string name="qsb_search_hint">Procurar no seu telefone</string>
+    <string name="quick_event_ambient_detailed_weather_title">Detailed Weather condition</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Display detailed weather condition and temperature</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Opacidade do fundo</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar_title">Usar barra de tarefas</string>
+    <string name="pref_allow_phone_taskbar_summary">Para abrir e trocar apps em qualquer lugar</string>
+    <!-- Recents icons -->
+    <string name="recents_screenshot_title">Captura de ecrã</string>
+    <string name="recents_clear_all_title">Limpar tudo</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="recents_lock_title">Bloquear apps recentes</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Ícones temáticos</string>
+    <string name="pref_themed_icons_summary">Seguir ícones temáticos usados no ecrã inicial</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">Origem</string>
+    <string name="app_info_source_system">Sistema</string>
+    <string name="app_info_last_update">Última atualização</string>
+    <string name="app_info_version">Versão</string>
+    <string name="app_info_more">Mais</string>
+    <!-- Force monochrome icons -->
+    <string name="pref_force_monochrome_themed_icons_title">Force Monochrome themed icons</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Generate monochromatic icons, if it is not provided by the app (requires re-toggling of themed icons)</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Pacote de ícones</string>
+    <string name="icon_pack_default_label">Padrão</string>
+    <string name="icon_pack_add">Instalar mais</string>
+    <string name="icon_pack_no_market">Não há nenhuma loja de apps disponível</string>
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Encerrar</string>
+    <string name="recents_app_killed">App encerrada</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s Disponível | %2$s Total</string>
+    <string name="recents_meminfo_title">Informações da memória</string>
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Barra de pesquisa de apps</string>
     <string name="drawer_search_summary">Barra de pesquisa no topo da gaveta de apps</string>
+    <!-- Restart launcher -->
+    <string name="pref_restart_title">Restart</string>
+    <string name="pref_restart_summary">Restart the launcher manually to apply any pending settings</string>
+    <!-- Shake Clear Recents -->
+    <string name="recents_shake_clear_all_title">Shake phone to clear all tasks</string>
     <!-- Toast for Clear All, App Locked n Unlocked -->
     <string name="action_toast_enabled_title">Notificações de ação</string>
     <string name="action_toast_enabled_summary">Ativar/desativar notificação Toast de limpar todos</string>
+    <!-- Recents Scroll Vibration -->
+    <string name="pref_recents_vibration_title">Enable haptic feedback on recents scroll</string>
+    <string name="recents_kill_app">Terminar aplicação</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Procurar no seu telefone</string>
 </resources>

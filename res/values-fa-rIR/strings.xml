@@ -233,7 +233,7 @@
     <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
     <string name="title_missing_notification_access">دسترسی به اعلان نیاز است</string>
     <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-    <string name="msg_missing_notification_access">برای نمایش «نقطه‌های اعلان»، اعلان‌های برنامه را برای &lt;xliff:g id="name" example="My App"&gt; روشن کنید</string>
+    <string name="msg_missing_notification_access">برای نمایش «نقطه‌های اعلان»، اعلان‌های برنامه را برای &lt;xliff:g id=\"name\" example=\"My App\"&gt; روشن کنید</string>
     <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
     <string name="title_change_settings">تغییر تنظیمات</string>
     <!-- Summary for Notification dots setting. Tapping this will link enable/disable notification dots feature on the home screen. [CHAR LIMIT=50] -->
@@ -362,13 +362,4 @@
     <string name="search_pref_screen_title_tablet">Search your tablet</string>
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">ناموفق بود: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
-    <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
-    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
-    <string name="trust_apps_loading">Loading\u2026</string>
-    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
-    <string name="trust_apps_help">Help</string>
-    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
-    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
 </resources>

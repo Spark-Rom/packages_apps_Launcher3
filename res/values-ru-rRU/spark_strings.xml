@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 Spark Android Project
+<!-- Copyright (C) 2019-2023 Spark Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -51,6 +51,15 @@
     <string name="msg_minus_one_on_left">Когда вы проводите вправо от главного домашнего экрана</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Когда вы проводите влево от главного домашнего экрана</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Скрытые &amp; Защищённые приложения</string>
+    <string name="trust_apps_auth_manager">Разблокируйте, для управления скрытыми и защищёнными приложениями</string>
+    <string name="trust_apps_auth_open_app">Авторизуйтесь, для открытия %1$s</string>
+    <string name="trust_apps_loading">Загрузка\u2026</string>
+    <string name="trust_apps_no_lock_error">Пожалуйста, установите блокировку экрана для ограничения доступа к приложениям</string>
+    <string name="trust_apps_help">Помощь</string>
+    <string name="trust_apps_info_hidden">Скрытые приложения и их виджеты скрыты из меню</string>
+    <string name="trust_apps_info_protected">Для открытия защищённых приложений из лаунчера требуется аутентификация</string>
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Двойное нажатие для отключения экрана</string>
     <string name="pref_sleep_gesture_summary">Двойное нажатие по пустому месту для выключения экрана</string>
@@ -104,38 +113,6 @@
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Предложения</string>
     <string name="suggestion_pref_screen_desc">Для всех приложений и предложений на главном экране</string>
-    <!-- Background opacity -->
-    <string name="background_opacity_title">Прозрачность фона</string>
-    <!-- Taskbar -->
-    <string name="pref_allow_phone_taskbar_title">Использовать докбар</string>
-    <string name="pref_allow_phone_taskbar_summary">Для открытия и переключения приложений в любом месте</string>
-    <!-- Recents icons -->
-    <string name="recents_screenshot_title">Снимок экрана</string>
-    <string name="recents_clear_all_title">Очистить все</string>
-    <string name="recents_lens_title">Объектив</string>
-    <string name="recents_lock_title">Закрепить недавние приложения</string>
-    <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Тематические значки</string>
-    <string name="pref_themed_icons_summary">Следовать тематическим значкам, которые используются на главном экране</string>
-    <!-- AppInfo -->
-    <string name="app_info_source">Источник</string>
-    <string name="app_info_source_system">Система</string>
-    <string name="app_info_last_update">Последнее обновление</string>
-    <string name="app_info_version">Версия</string>
-    <string name="app_info_more">Ещё</string>
-    <!-- Icon pack -->
-    <string name="icon_pack_title">Набор иконок</string>
-    <string name="icon_pack_default_label">По умолчанию</string>
-    <string name="icon_pack_add">Установить ещё</string>
-    <string name="icon_pack_no_market">Нет доступного магазина приложений</string>
-    <!-- Kill App recents action shortcut -->
-    <string name="recent_task_option_kill_app">Закрыть</string>
-    <string name="recents_app_killed">Приложение закрыто</string>
-    <!-- Memory info -->
-    <string name="meminfo_text">Доступно: %1$s Гб | Всего: %2$s Гб</string>
-    <string name="recents_meminfo_title">Информация об оперативной памяти</string>
-    <string name="recents_meminfo_position_title">Расположение информации об оперативной памяти</string>
-    <string name="recents_meminfo_position_summary">Изменить расположение информации об оперативной памяти в недавних</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">Самое главное</string>
     <string name="show_quickspace_summary">Показывать в верхней части экрана</string>
@@ -153,7 +130,7 @@
     <!-- QuickSpace: QuickEvent: Ambient Play -->
     <string name="qe_now_playing_unknown_artist">Неизвестный исполнитель</string>
     <string name="qe_now_playing_ext_one">Вы сейчас</string>
-    <string name="qe_now_playing_ext_two">Играет</string>
+    <string name="qe_now_playing_ext_two"></string>
     <string name="qe_now_playing_by">от</string>
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">Сейчас играет</string>
@@ -264,12 +241,55 @@
     <string name="quick_event_ambient_weather_title">Погодные условия</string>
     <string name="quick_event_ambient_weather_summary">Показывать текущие погодные условия и температуру</string>
     <string name="quick_event_ambient_weather_enabled_info">Требуется включение службы погоды</string>
-    <!-- QSB -->
-    <string name="qsb_search_hint">Поиск на телефоне</string>
+    <string name="quick_event_ambient_detailed_weather_title">Детальное состояние погоды</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Показывать текущие погодные условия и температуру</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Прозрачность фона</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar_title">Использовать докбар</string>
+    <string name="pref_allow_phone_taskbar_summary">Для открытия и переключения приложений в любом месте</string>
+    <!-- Recents icons -->
+    <string name="recents_screenshot_title">Снимок экрана</string>
+    <string name="recents_clear_all_title">Очистить все</string>
+    <string name="recents_lens_title">Объектив</string>
+    <string name="recents_lock_title">Закрепить недавние приложения</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Тематические значки</string>
+    <string name="pref_themed_icons_summary">Следовать тематическим значкам, которые используются на главном экране</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">Источник</string>
+    <string name="app_info_source_system">Система</string>
+    <string name="app_info_last_update">Последнее обновление</string>
+    <string name="app_info_version">Версия</string>
+    <string name="app_info_more">Ещё</string>
+    <!-- Force monochrome icons -->
+    <string name="pref_force_monochrome_themed_icons_title">Принудительные тематические значки</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Генерировать тематические значки, если их нет у приложений (требуется переключение тематических значков)</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Набор иконок</string>
+    <string name="icon_pack_default_label">По умолчанию</string>
+    <string name="icon_pack_add">Установить ещё</string>
+    <string name="icon_pack_no_market">Нет доступного магазина приложений</string>
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Закрыть</string>
+    <string name="recents_app_killed">Приложение закрыто</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">Доступно: %1$s Гб | Всего: %2$s Гб</string>
+    <string name="recents_meminfo_title">Информация об оперативной памяти</string>
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Показывать строку поиска</string>
     <string name="drawer_search_summary">Строка поиска в верхней части меню приложений</string>
+    <!-- Restart launcher -->
+    <string name="pref_restart_title">Перезапуск</string>
+    <string name="pref_restart_summary">Перезапуск лаунчера для применения настроек</string>
+    <!-- Shake Clear Recents -->
+    <string name="recents_shake_clear_all_title">Встряхните телефон, чтобы очистить все задачи</string>
     <!-- Toast for Clear All, App Locked n Unlocked -->
     <string name="action_toast_enabled_title">Всплывающие сообщения</string>
     <string name="action_toast_enabled_summary">Включить-отключить тост «Очистить все»</string>
+    <!-- Recents Scroll Vibration -->
+    <string name="pref_recents_vibration_title">Включить вибрацию при прокрутке списка недавних приложений</string>
+    <string name="recents_kill_app">Закрыть приложение</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Поиск на телефоне</string>
 </resources>
