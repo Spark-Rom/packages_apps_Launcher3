@@ -47,7 +47,7 @@
         android:title="@string/gestures_category_title"
         android:summary="@string/gestures_category_summary"
         android:icon="@drawable/ic_settings_gestures"
-        android:layout="@layout/top_level_preference_middle_card">
+        android:layout="@layout/card_about">
     <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
             android:targetPackage="com.android.launcher3"
