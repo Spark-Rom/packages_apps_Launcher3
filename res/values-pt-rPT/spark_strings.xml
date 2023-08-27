@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 Spark Android Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Application name -->
+    <!-- Folder titles -->
+    <!-- General -->
+    <string name="settings_title">Definições de início</string>
+    <!-- Categories -->
+    <string name="home_category_title">Ecrã inicial</string>
+    <string name="home_category_summary">Definir o feed do Google e mais</string>
+    <string name="icons_category_title">Ícones</string>
+    <string name="icons_category_summary">Definir o tamanho dos ícones e mais</string>
+    <string name="app_drawer_category_title">Gaveta de apps</string>
+    <string name="app_drawer_category_summary">Personalizar a sua gaveta de apps</string>
+    <string name="recents_category_title">Recentes</string>
+    <string name="recents_category_summary">Personalizar o ecrã de recentes</string>
+    <string name="misc_category_title">Diversos</string>
+    <string name="misc_category_summary">Outras opções</string>
+    <string name="general_category_title">Geral</string>
+    <string name="interface_category_title">Interface</string>
+    <string name="quickspace_category_title">Espaço rápido</string>
+    <string name="search_bar_category_title">Barra de pesquisa</string>
+    <string name="actions_category_title">Ações rápidas</string>
+    <!-- Developer options -->
+    <string name="dev_options_title">Opções de programador</string>
+    <string name="dev_options_summary">Ativar alguns recursos ocultos por sua conta e risco</string>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Bloquear disposição</string>
+    <string name="settings_lock_layout_summary_on">Ícones e widgets não podem ser adicionados, removidos ou movidos no ecrã inicial</string>
+    <string name="settings_lock_layout_summary_off">Ícones e widgets podem ser adicionados, removidos e movidos no ecrã inicial</string>
+    <string name="settings_edit_widgets_error">Não é possível adicionar widgets ao ecrã inicial</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Mostrar rótulos dos ícones</string>
+    <string name="drawer_show_labels">Mostrar rótulos dos ícones</string>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Aceder ao feed do Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Ao deslizar para a direita no ecrã inicial</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Ao deslizar para a esquerda no ecrã inicial</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Apps ocultas e protegidas</string>
+    <string name="trust_apps_auth_manager">Desbloquear para gerir as apps ocultas e protegidas</string>
+    <string name="trust_apps_auth_open_app">Autenticar para abrir</string>
+    <string name="trust_apps_loading">A carregar...</string>
+    <string name="trust_apps_no_lock_error">Configure um ecrã de bloqueio seguro para restringir o acesso às apps</string>
+    <string name="trust_apps_help">Ajuda</string>
+    <string name="trust_apps_info_hidden">As apps ocultas e os seus widgets estão ocultas da gaveta de apps</string>
+    <string name="trust_apps_info_protected">As apps protegidas requerem autenticação para serem executadas</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Toque duplo para dormir</string>
+    <string name="pref_sleep_gesture_summary">Toque duas vezes num espaço vazio para desligar o ecrã</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">Pausar</string>
+    <string name="pause_apps_dialog_title">Pausar %1$s?</string>
+    <string name="pause_apps_dialog_message">As notificações de %1$s serão pausadas</string>
+    <string name="paused_apps_dialog_title">App pausada</string>
+    <string name="paused_apps_dialog_message">%1$s foi pausada diretamente a partir do launcher</string>
+    <string name="paused_apps_drop_target_label">Pausar app</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">por padrão</string>
+    <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nToque longo para definir</string>
+    <string name="custom_seekbar_default_value_is_set">O valor padrão está definido</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Tamanho dos ícones</string>
+    <!-- Font size -->
+    <string name="font_size_title">Tamanho da fonte</string>
+    <!-- App label - max lines -->
+    <string name="icon_max_lines_title">Máx. de linhas para os rótulos</string>
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Pesquisar</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">Pesquisa por voz</string>
+    <string name="dock_music_search_title">Pesquisa de música Google</string>
+    <string name="dock_music_search_summary">Usar a pesquisa de música do Google em vez do Assistente Google ao pressionar o ícone microfone</string>
+    <string name="dock_search_title">Barra de pesquisa do Google</string>
+    <string name="dock_search_summary">Barra de pesquisa na doca inferior</string>
+    <string name="dock_theme_title">Themed hotseat search bar</string>
+    <string name="dock_theme_summary">Use themed icons style for search bar</string>
+    <string name="search_radius_title">Cantos arredondados</string>
+    <string name="monochrome_search_theme_title">Monochrome search bar theme</string>
+    <string name="monochrome_search_theme_summary">Enable monochrome theme for search bar</string>
+    <!-- Hotseat Background -->
+    <string name="hotseat_bg_title">Fundo da doca</string>
+    <string name="hotseat_bg_summary">Mostrar um fundo translúcido na doca de apps</string>
+    <!-- Wallpaper scrolling -->
+    <string name="allow_wallpaper_scrolling">Rolar papel de parede</string>
+    <string name="allow_wallpaper_scrolling_summary">Efeito de rolagem do papel de parede para vários ecrãs</string>
+    <!-- Wallpaper zooming -->
+    <string name="allow_wallpaper_zooming">Zoom do papel de parede</string>
+    <string name="allow_wallpaper_zooming_summary">Ampliar ou diminuir o papel de parede na gaveta de apps e no ecrã de recentes</string>
+    <!-- Homescreen Statusbar -->
+    <string name="show_statusbar_title">Show status bar</string>
+    <string name="show_statusbar_title_summary">Show/hide the status bar when viewing the home screen</string>
+    <!-- Top shadow -->
+    <string name="show_top_shadow">Enable status bar shadow</string>
+    <string name="show_top_shadow_summary">Add a translucent shadow to the status bar</string>
+    <!-- Row Height -->
+    <string name="row_height_title">Altura das linhas</string>
+    <!-- Background blur -->
+    <string name="background_blur_title">Desfoque do fundo</string>
+    <string name="background_blur_summary">Definir o nível de desfoque para a gaveta de apps e ecrã de recentes</string>
+    <!-- QuickSpace -->
+    <string name="show_quickspace_title">Em resumo</string>
+    <string name="show_quickspace_summary">Mostrado na parte superior do ecrã inicial</string>
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <!-- QuickSpace: QuickEvent: Greetings -->
+    <string name="quickspace_grt_morning">Bom dia.</string>
+    <string name="quickspace_grt_evening">Boa noite.</string>
+    <string name="quickspace_grt_afternoon">Boa tarde.</string>
+    <string name="quickspace_grt_night">Boa noite.</string>
+    <string name="quickspace_grt_midnight">Perfect midnight.</string>
+    <string name="quickspace_grt_general">Bom dia.</string>
+    <string name="quickspace_ext_one">Hoje é</string>
+    <string name="quickspace_ext_two">São</string>
+    <string name="quickspace_ext_three">São</string>
+    <!-- QuickSpace: QuickEvent: Ambient Play -->
+    <string name="qe_now_playing_unknown_artist">Artista desconhecido</string>
+    <string name="qe_now_playing_ext_one">Está agora</string>
+    <string name="qe_now_playing_ext_two"></string>
+    <string name="qe_now_playing_by">Por</string>
+    <!-- Quickspace Now Playing -->
+    <string name="quickspace_now_playing_title">Está agora</string>
+    <string name="quickspace_now_playing_summary">Mostrar a música que está a tocar</string>
+    <!-- Quickspace alternative view -->
+    <string name="quickspace_alternate_style_title">Estilo estendido</string>
+    <string name="quickspace_alternate_style_summary">Mudar para o estilo estendido</string>
+    <!-- Quickspace PSA - Custom messages for the glance -->
+    <string name="quickspace_psa_title">Mensagens aleatórias</string>
+    <string name="quickspace_psa_summary">Uma companhia mais animada com mensagens aleatórias</string>
+    <string-array name="quickspace_psa_morning">
+        <item>Uma pequena caminhada parece boa.</item>
+        <item>Escove os dentes com atenção.</item>
+        <item>Inicie o seu dia hidratado!</item>
+        <item>Faça algum exercício!</item>
+        <item>Alongue as coisas!</item>
+        <item>Começa o dia com positividade.</item>
+        <item>Está uma bela manhã!</item>
+        <item>Verifique sempre o nível da bateria do dispositivo!</item>
+        <item>Não se esqueça de preparar o pequeno-almoço.</item>
+        <item>Verifique o tempo, só por precaução.</item>
+        <item>Não se esqueça de verificar as suas notas!</item>
+        <item>Verifique sempre os seus e-mails/mensagens.</item>
+        <item>Verifique a sua agenda, se tiver uma.</item>
+        <item>Boa sorte hoje!</item>
+        <item>Alternar o interruptor pode corrigir respostas encravadas.</item>
+        <item>Começa o dia com uma bebida quente.</item>
+        <item>Não se esqueça das proteínas.</item>
+        <item>Os ovos são um pequeno-almoço simples e nutritivo.</item>
+        <item>Aproveite o seu pequeno-almoço.</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>Não se esqueça de se manter hidratado!</item>
+        <item>Lembre-se de comer uns petiscos.</item>
+        <item>Os raios UV são mais nocivos à tarde.</item>
+        <item>É tarde neste momento.</item>
+        <item>Verifique sempre o nível da bateria do dispositivo!</item>
+        <item>Lembre-se de verificar o seus e-mail/mensagens.</item>
+        <item>Verifique a sua lista de tarefas, se tiver uma.</item>
+        <item>Não se esqueça de preparar o seu jantar.</item>
+        <item>Aproveite o seu dia.</item>
+        <item>Espera aí! O dia está quase terminado!</item>
+        <item>Divirta-se um pouco.</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>Permaneça sempre hidratado!</item>
+        <item>8 horas de sono é indispensável.</item>
+        <item>É noite neste momento.</item>
+        <item>Lembre-se de me carregar totalmente antes de dormir.</item>
+        <item>Lembre-se de verificar o seus e-mail/mensagens.</item>
+        <item>Verifique a sua lista de tarefas, se tiver uma.</item>
+        <item>Lembre-se de jantar.</item>
+        <item>Verifique sempre as luzes e as tomadas.</item>
+        <item>Aproveite a noite.</item>
+        <item>Ei! Descanse um pouco!</item>
+        <item>Relaxe e descanse um pouco.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Não beba muita água antes de dormir.</item>
+        <item>É noite neste momento.</item>
+        <item>Tente evitar o carregamento durante a noite, se possível.</item>
+        <item>Lembre-se de verificar o seus e-mail/mensagens.</item>
+        <item>Verifique a sua lista de tarefas, se tiver uma.</item>
+        <item>Lembre-se de jantar.</item>
+        <item>8 horas de sono é indispensável.</item>
+        <item>Aproveite a noite.</item>
+        <item>Lugaw é uma boa receita para o jantar.</item>
+        <item>Aproveite o seu sono.</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>Dormir mal é prejudicial para a saúde.</item>
+        <item>Não se esqueça de se manter hidratado.</item>
+        <item>O défice de sono pode afetar a produção de melatonina.</item>
+        <item>Neste momento é meia-noite.</item>
+        <item>Dormir tarde não é saudável.</item>
+        <item>Precisa de ir dormir agora.</item>
+        <item>Não se esqueça de dormir/preparar o pequeno-almoço.</item>
+        <item>Aproveite a meia-noite.</item>
+        <item>O sono deficiente afeta o seu relógio corporal.</item>
+        <item>Por favor, cuide de si próprio.</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>There are easter eggs hidden on this ROM.</item>
+        <item>Há ovos de Páscoa escondidos nesta ROM.</item>
+        <item>Tente verificar as definições do clima.</item>
+        <item>Tente evitar raios UV ao meio-dia.</item>
+        <item>Mantenha-se hidratado!</item>
+        <item>As Pringles não são realmente batatas fritas...</item>
+        <item>Rir pode aumentar o fluxo de sangue.</item>
+        <item>O café contém antioxidantes.</item>
+        <item>O ketchup já foi vendido como remédio.</item>
+        <item>O algodão doce foi inventado por um dentista.</item>
+        <item>Não falhe a sua refeição!</item>
+        <item>Lembre-se de verificar o nível da bateria do dispositivo!</item>
+        <item>Verifique o seu e-mail/mensagens.</item>
+        <item>Verifique a sua lista de tarefas, se tiver uma.</item>
+        <item>Pode desativar o espaço rápido nas definições do ecrã inicial.</item>
+        <item>É hora de comprar arroz!</item>
+        <item>É hora de almoçar!</item>
+        <item>Kalamay é feito com arroz glutinoso.</item>
+        <item>Quer um refrigerante?</item>
+    </string-array>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Sugestões</string>
+    <string name="suggestion_pref_screen_desc">Para a gaveta de apps e ecrã inicial</string>
+    <!-- QuickSpace: QuickEvent: Weather -->
+    <string name="quick_event_ambient_weather_title">Condições meteorológicas</string>
+    <string name="quick_event_ambient_weather_summary">Exibir as condições meteorológicas atuais</string>
+    <string name="quick_event_ambient_weather_enabled_info">Requer que o serviço meteorológico esteja ativado</string>
+    <string name="quick_event_ambient_detailed_weather_title">Condição meteorológica detalhada</string>
+    <string name="quick_event_ambient_detailed_weather_summary">Exibir condições meteorológicas e temperatura detalhadas</string>
+    <string name="pref_quickspace_city_title">Current City</string>
+    <string name="pref_quickspace_city_summary">Display current city</string>
+    <string name="cloudy">Mostly cloudy</string>
+    <string name="rainy">Mostly rainy</string>
+    <string name="sunny">Mostly sunny</string>
+    <string name="stormy">Mostly stormy</string>
+    <string name="snowy">Mostly snowy</string>
+    <string name="windy">Mostly windy</string>
+    <string name="misty">Mostly misty</string>
+    <string name="today">Today</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Opacidade do fundo</string>
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar_title">Usar barra de tarefas</string>
+    <string name="pref_allow_phone_taskbar_summary">Para abrir e trocar apps em qualquer lugar</string>
+    <!-- Recents icons -->
+    <string name="recents_screenshot_title">Captura de ecrã</string>
+    <string name="recents_clear_all_title">Limpar tudo</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="recents_lock_title">Bloquear apps recentes</string>
+    <string name="recents_split_title">Split app</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Apply themed icons to app drawer</string>
+    <string name="pref_themed_icons_summary">Seguir ícones temáticos usados no ecrã inicial</string>
+    <!-- AppInfo -->
+    <string name="app_info_source">Origem</string>
+    <string name="app_info_source_system">Sistema</string>
+    <string name="app_info_last_update">Última atualização</string>
+    <string name="app_info_version">Versão</string>
+    <string name="app_info_more">Mais</string>
+    <!-- Force monochrome icons -->
+    <string name="pref_force_monochrome_themed_icons_title">Forçar ícones com tema monocromático</string>
+    <string name="pref_force_monochrome_themed_icons_summary">Gerar ícones monocromáticos se não for fornecido pela aplicação (requer re-alternância de ícones temáticos)</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Pacote de ícones</string>
+    <string name="icon_pack_default_label">Padrão</string>
+    <string name="icon_pack_add">Instalar mais</string>
+    <string name="icon_pack_no_market">Não há nenhuma loja de apps disponível</string>
+    <string name="icon_pack_no_browser">There\'s no available browser</string>
+    <string name="themed_icons_category_title">Themed Icons</string>
+    <string name="themed_icon_pack_disabled">Desativado</string>
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Encerrar</string>
+    <string name="recents_app_killed">App encerrada</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s available | %2$s</string>
+    <string name="recents_meminfo_title">Informações da memória</string>
+    <!-- App drawer searchbar -->
+    <string name="drawer_search_title">Barra de pesquisa de apps</string>
+    <string name="drawer_search_summary">Barra de pesquisa no topo da gaveta de apps</string>
+    <!-- Restart launcher -->
+    <string name="pref_restart_title">Reiniciar</string>
+    <string name="pref_restart_summary">Reinicie o launcher manualmente para aplicar qualquer configuração pendente</string>
+    <string name="restarting_launcher">Restarting launcher...</string>
+    <string name="restarting_launcher_changes">Restarting launcher to apply changes...</string>
+    <string name="updating_launcher_components">Restarting launcher to update launcher components...</string>
+    <!-- Shake Clear Recents -->
+    <string name="recents_shake_clear_all_title">Agite o telefone para limpar todas as tarefas</string>
+    <!-- Parallax -->
+    <string name="short_parallax_title">Allow short parallax</string>
+    <string name="short_parallax_summary">Enable full wallpaper scroll effect on smaller numbers of pages instead of cropping the wallpaper</string>
+    <string name="single_page_center_title">Single page center</string>
+    <string name="single_page_center_summary">Center wallpaper if only using a single page</string>
+    <!-- Launcher Vibration -->
+    <string name="pref_recents_vibration_title">Ativar feedback tátil na rolagem dos aplicativos recentes</string>
+    <string name="pref_vib_intensity_title">Launcher vibration intensity</string>
+    <string name="recents_kill_app">Terminar aplicação</string>
+    <!-- Toast for Clear All, App Locked n Unlocked -->
+    <string name="action_toast_enabled_title">Notificações de ação</string>
+    <string name="action_toast_enabled_summary">Ativar/desativar notificação Toast de limpar todos</string>
+    <!-- QSB -->
+    <string name="qsb_search_hint">Procurar no seu telefone</string>
+    <!-- Gestures -->
+    <string name="gestures_category_title">Gestures settings</string>
+    <string name="gestures_category_summary">Configure shake gesture settings</string>
+    <string name="shake_clear_summary">Or Shake phone to clear recents</string>
+    <string name="shake_clear_intensity_title">Shake phone to clear recents intensity</string>
+    <string name="shake_gesture_actions_title">Shake gesture actions</string>
+    <string name="shake_gesture_actions_intensity_title">Shake gestures Intensity</string>
+    <string name="shake_gestures_disabled">Shake gestures disabled</string>
+    <string name="shake_gestures_volume_panel">Shake device to show volume panel</string>
+    <string name="shake_gestures_torch">Shake device to enable/disable torch</string>
+    <string name="shake_gestures_music">Shake device to play/pause/skip music (depends on playback device)</string>
+    <string name="intent_no_app_clock_found">Unable to find calendar or clock activity</string>
+</resources>
