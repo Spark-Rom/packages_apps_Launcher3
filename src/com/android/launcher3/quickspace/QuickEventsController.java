@@ -135,7 +135,7 @@ public class QuickEventsController {
         } else {
             mEventTitle = mContext.getResources().getString(R.string.quick_event_rom_intro_welcome);
         }
-        mEventTitleSub = mContext.getResources().getStringArray(R.array.welcome_message_variants)[getLuckyNumber(0,6)];
+        mEventTitleSub = mContext.getResources().getStringArray(R.array.welcome_message_variants)[getLuckyNumber(0,5)];
         mGreetings = mContext.getResources().getString(R.string.quickspace_grt_general);
         mClockExt = mContext.getResources().getString(R.string.quickspace_ext_three);
         mEventSubIcon = R.drawable.ic_quickspace_spark;
