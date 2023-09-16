@@ -318,9 +318,7 @@ public interface TaskShortcutFactory {
         }
 
         private boolean isAvailable(BaseDraggingActivity activity, int displayId) {
-            return ActivityManagerWrapper.getInstance().supportsFreeformMultiWindow(activity)
-                    && !SystemProperties.getBoolean("persist.wm.debug.desktop_mode", false)
-                    && !SystemProperties.getBoolean("persist.wm.debug.desktop_mode_2", false);
+            return ActivityManagerWrapper.getInstance().supportsFreeformMultiWindow(activity);
         }
     };
 
