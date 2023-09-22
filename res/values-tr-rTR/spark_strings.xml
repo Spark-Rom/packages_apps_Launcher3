@@ -263,7 +263,7 @@
     <string name="recents_clear_all_title">Tümünü temizle</string>
     <string name="recents_lens_title">Lens</string>
     <string name="recents_lock_title">Son uygulamaları kilitle</string>
-    <string name="recents_split_title">Split app</string>
+    <string name="recents_split_title">Uygulamayı böl</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Uygulama çekmecesine temalı simgeler uygula</string>
     <string name="pref_themed_icons_summary">Ana ekranda kullanılan temalı simgeleri takip edin</string>
