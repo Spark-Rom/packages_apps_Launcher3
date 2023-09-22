@@ -263,7 +263,7 @@
     <string name="recents_clear_all_title">Wyczyść wszystko</string>
     <string name="recents_lens_title">Soczewka</string>
     <string name="recents_lock_title">Zablokuj ostatnie aplikacje</string>
-    <string name="recents_split_title">Split app</string>
+    <string name="recents_split_title">Podziel aplikację</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Apply themed icons to app drawer</string>
     <string name="pref_themed_icons_summary">Obserwuj ikony motywu używane na ekranie głównym</string>

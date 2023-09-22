@@ -89,11 +89,11 @@
     <string name="dock_music_search_summary">Використовувати пошук музики замість натиснутого на значок мікрофону</string>
     <string name="dock_search_title">Панель пошуку Google</string>
     <string name="dock_search_summary">Рядок пошуку у нижній панелі</string>
-    <string name="dock_theme_title">Themed hotseat search bar</string>
-    <string name="dock_theme_summary">Use themed icons style for search bar</string>
+    <string name="dock_theme_title">Тематична панель пошуку Hotseat</string>
+    <string name="dock_theme_summary">Використовувати тематичні іконки для панелі пошуку</string>
     <string name="search_radius_title">Закруглення кута</string>
-    <string name="monochrome_search_theme_title">Monochrome search bar theme</string>
-    <string name="monochrome_search_theme_summary">Enable monochrome theme for search bar</string>
+    <string name="monochrome_search_theme_title">Монохромна тема поля пошуку</string>
+    <string name="monochrome_search_theme_summary">Увімкнути монохромну тему для панелі пошуку</string>
     <!-- Hotseat Background -->
     <string name="hotseat_bg_title">Фон віджета</string>
     <string name="hotseat_bg_summary">Додати напівпрозоре тло до панелі додатків</string>
@@ -104,11 +104,11 @@
     <string name="allow_wallpaper_zooming">Масштабування шпалерів</string>
     <string name="allow_wallpaper_zooming_summary">Збільшувати або зменшувати масштаб шпалер при використанні Меню додатків або Диспетчера нещодавніх завдань</string>
     <!-- Homescreen Statusbar -->
-    <string name="show_statusbar_title">Show status bar</string>
-    <string name="show_statusbar_title_summary">Show/hide the status bar when viewing the home screen</string>
+    <string name="show_statusbar_title">Показувати рядок стану</string>
+    <string name="show_statusbar_title_summary">Показати/приховати рядок стану при перегляді головного екрану</string>
     <!-- Top shadow -->
-    <string name="show_top_shadow">Enable status bar shadow</string>
-    <string name="show_top_shadow_summary">Add a translucent shadow to the status bar</string>
+    <string name="show_top_shadow">Увімкнути тінь рядку стану</string>
+    <string name="show_top_shadow_summary">Додати напівпрозору тінь до рядка стану</string>
     <!-- Row Height -->
     <string name="row_height_title">Висота рядку</string>
     <!-- Background blur -->
@@ -123,7 +123,7 @@
     <string name="quickspace_grt_evening">Доброго вечора.</string>
     <string name="quickspace_grt_afternoon">Доброго дня.</string>
     <string name="quickspace_grt_night">Спокійної ночі.</string>
-    <string name="quickspace_grt_midnight">Perfect midnight.</string>
+    <string name="quickspace_grt_midnight">Чудово півночі.</string>
     <string name="quickspace_grt_general">Гарного дня.</string>
     <string name="quickspace_ext_one">Сьогодні</string>
     <string name="quickspace_ext_two">Це</string>
@@ -214,7 +214,7 @@
         <item>Будь ласка, бережіть себе.</item>
     </string-array>
     <string-array name="quickspace_psa_random">
-        <item>There are easter eggs hidden on this ROM.</item>
+        <item>В цій прошивці ховаються пасхалки.</item>
         <item>Спробуйте перевірити налаштування погоди.</item>
         <item>Спробуйте уникнути УФ-променів у полудні.</item>
         <item>Уникайте зневоднення</item>
@@ -243,16 +243,16 @@
     <string name="quick_event_ambient_weather_enabled_info">Потрібно ввімкнути службу погоди</string>
     <string name="quick_event_ambient_detailed_weather_title">Детальні погодні умови</string>
     <string name="quick_event_ambient_detailed_weather_summary">Відображення докладної погоди і температури</string>
-    <string name="pref_quickspace_city_title">Current City</string>
-    <string name="pref_quickspace_city_summary">Display current city</string>
-    <string name="cloudy">Mostly cloudy</string>
-    <string name="rainy">Mostly rainy</string>
-    <string name="sunny">Mostly sunny</string>
-    <string name="stormy">Mostly stormy</string>
-    <string name="snowy">Mostly snowy</string>
-    <string name="windy">Mostly windy</string>
-    <string name="misty">Mostly misty</string>
-    <string name="today">Today</string>
+    <string name="pref_quickspace_city_title">Поточне місто</string>
+    <string name="pref_quickspace_city_summary">Відобразити поточне місто</string>
+    <string name="cloudy">Переважно хмарно</string>
+    <string name="rainy">Неймовірний дощ</string>
+    <string name="sunny">Здебільшого сонячно</string>
+    <string name="stormy">Сильний шторм</string>
+    <string name="snowy">Неймовірний сніг</string>
+    <string name="windy">Переважно вітряно</string>
+    <string name="misty">Здебільшого туманно</string>
+    <string name="today">Сьогодні</string>
     <!-- Background opacity -->
     <string name="background_opacity_title">Прозорість фону</string>
     <!-- Taskbar -->
@@ -263,9 +263,9 @@
     <string name="recents_clear_all_title">Очистити все</string>
     <string name="recents_lens_title">Об\'єктив</string>
     <string name="recents_lock_title">Закріпити додаток</string>
-    <string name="recents_split_title">Split app</string>
+    <string name="recents_split_title">Розділити додаток</string>
     <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Apply themed icons to app drawer</string>
+    <string name="pref_themed_icons_title">Застосувати тематичні іконки до меню додатків</string>
     <string name="pref_themed_icons_summary">Повторювати тематичні піктограми, які використовуються на головному екрані</string>
     <!-- AppInfo -->
     <string name="app_info_source">Джерело</string>
@@ -281,14 +281,14 @@
     <string name="icon_pack_default_label">За замовчуванням</string>
     <string name="icon_pack_add">Встановити ще</string>
     <string name="icon_pack_no_market">Немає доступного магазину додатків</string>
-    <string name="icon_pack_no_browser">There\'s no available browser</string>
-    <string name="themed_icons_category_title">Themed Icons</string>
+    <string name="icon_pack_no_browser">Немає доступного браузера</string>
+    <string name="themed_icons_category_title">Тематичні іконки</string>
     <string name="themed_icon_pack_disabled">Відключено</string>
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">Закрити</string>
     <string name="recents_app_killed">Додаток закрито</string>
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s available | %2$s</string>
+    <string name="meminfo_text">%1$s Доступно | %2$s Загалом</string>
     <string name="recents_meminfo_title">Інформація про пам\'ять</string>
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">Панель пошуку додатків</string>
@@ -296,8 +296,8 @@
     <!-- Restart launcher -->
     <string name="pref_restart_title">Перезавантажити</string>
     <string name="pref_restart_summary">Перезапустіть лаунчер для застосування будь-яких налаштувань</string>
-    <string name="restarting_launcher">Restarting launcher...</string>
-    <string name="restarting_launcher_changes">Restarting launcher to apply changes...</string>
+    <string name="restarting_launcher">Перезавантаження оболонки...</string>
+    <string name="restarting_launcher_changes">Перезапуск оболонки для застосування змін...</string>
     <string name="updating_launcher_components">Restarting launcher to update launcher components...</string>
     <!-- Shake Clear Recents -->
     <string name="recents_shake_clear_all_title">Струсніть телефон, щоб очистити всі завдання</string>

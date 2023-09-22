@@ -263,7 +263,7 @@
     <string name="recents_clear_all_title">Borrar todo</string>
     <string name="recents_lens_title">Lens</string>
     <string name="recents_lock_title">Bloquear aplicaciones recientes</string>
-    <string name="recents_split_title">Split app</string>
+    <string name="recents_split_title">Dividir pantalla</string>
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">Aplicar iconos tematizados en el cajón de aplicaciones</string>
     <string name="pref_themed_icons_summary">Seguir iconos temáticos usados en la pantalla de inicio</string>
